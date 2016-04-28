@@ -1,0 +1,37 @@
+\chapter{Introdução} \label{introducao}
+A visão computacional é uma área que possui como objetivo extrair informações significativas a partir de imagens, e assim possibilitar o processamento dessas informações como objetos para fins específicos como o reconhecimento de um ambiente, detecção de movimento entre outros \cite{ballard&brown}. Um dos principais desafios desta área é a reconstrução de objetos 3D a partir de imagens, desafio este que é de grande utilidade, como ferramenta, para outras áreas do conhecimento. Isso é mostrado nos trabalhos de Matsushigue \etal~\cite{matsushigue}, que abordou o uso de reconstrução de tomografias 3D para melhoria de diagnostico de fraturas na região do úmero, e como o trabalho de Andrade \etal~\cite{beatriz}, que usou métodos de reconstrução 3D para a preservação digital de obras de arte.
+
+
+Outro exemplo de aplicação da reconstrução 3D a partir de imagens foi apresentada no método proposto por Argawal \etal~\cite{agarwal}. O método proposto aborda a reconstrução 3D sobre a escala de cidades utilizando-se de fotos disponíveis na Internet, que por sua vez, foram capturadas por pessoas aleatórias. Para isto foi usada como objeto de estudo a cidade de Roma que, por se tratar de uma cidade turística, possui milhares fotos disponíveis na Internet. Como resultado do trabalho, foi feita a reconstrução 3D do monumento do Coliseu de Roma.
+
+
+De maneira geral, grande parte das técnicas de reconstrução 3D funcionam com base no mapeamento de pontos singulares existentes em diferentes imagens, denominados pontos de interesse. Com o uso de conjuntos de pontos de interesse comuns entre as imagens é possível estimar a posição deles em relação a um sistema de coordenadas tridimensional, gerando assim uma nuvem de pontos 3D.
+
+
+Com base na revisão de literatura feita neste trabalho sobre obtenção de nuvem de pontos 3D a partir de imagens, evidenciou-se que grande parte dos métodos existentes utiliza-se de imagens com baixa faixa dinâmica (em inglês, Low Dynamic Range - LDR), que possuem uma resolução limitada de cores. Por outro lado existem também as imagens com alta faixa dinâmica (em inglês, High Dynamic Range - HDR), que possuem maior resolução de cores.
+
+Sob o ponto de vista de acessibilidade, o uso de imagens LDR é explicado pelo fato de que câmeras com sesores capazes de capturar imagens HDR serem muito caras e assim pouco acessíveis. Porém sob o ponto de vista de qualidade, as imagens HDR possuem maior quantidade de informações do cenário em relação a uma imagem LDR. Um exemplo disso, seria um cenário de uma sala pouco iluminada, que possui uma janela ao fundo a qual mostra o céu de um dia ensolarado. Ao capturar uma imagem deste ambiente com uma câmera LDR, o fotógrafo terá que ajustar as configurações da câmera, para escolher qual parte da cena será melhor registrada (os móveis da sala ou o céu ensolarado). Já para uma câmera HDR todas as partes da imagem seriam propriamente registradas, uma vez que esta possui uma maior faixa de representação de cores.
+
+
+Trabalhos publicados na literatura, propoem métodos para união de um conjunto imagens LDR em uma imagem HDR. O uso destas técnicas se mostra uma alternativa economicamente viável para obter imagens de boa qualidade, com alta faixa dinâmica.
+
+
+Assim como no trabalho feito por Kontogianni~\etal~\cite{hdr3d}, o trabalho descrito neste documento possui como hipótese a ideia que um conjunto de imagens HDR têm o potencial de identificar mais pontos de interesse que um conjunto de imagens LDR, tendo em vista que o primeiro possui mais informação do ambiente que o segundo. Neste contexto, este trabalho visa verificar a viabilidade de implementação de um método para obtenção de nuvem de pontos a partir de imagens HDR. Espera-se que com isso seja possível extrair mais pontos de interesse e reconstruir nuvens de pontos com maior resolução de maneira acessível. Para que este processo possa ser realizado com um baixo custo em relação ao equipamento utilizado, se faz necessário o uso das técnicas de união de imagens LDR para geração de imagens HDR.
+
+\section{Objetivo} \label{introducaoObjetivo}
+
+O objetivo deste trabalho é verificar se o uso de imagens HDR, obtidas utilizando conjuntos de imagens LDR, gera nuvens de pontos mais densas em relação às nuvens de pontos geradas a partir de imagens LDR.
+
+\section{Metodologia} \label{introducaoMetodo}
+
+Para que seja possível alcançar o objetivo, este trabalho é dividido em duas etapas:
+
+\begin{itemize}
+\item Geração de imagem HDR:
+
+Nesta etapa métodos de geração de imagens HDR são estudados, implementados e comparados para que sejam determinados os métodos que serão utilizados na próxima etapa.
+\item Geração de nuvem de pontos:
+
+Nesta etapa são utilizados métodos para geração de nuvem de pontos a partir de imagens, para que assim sejam realizadas as comparações inicialmente propostas.
+\end{itemize}
+	

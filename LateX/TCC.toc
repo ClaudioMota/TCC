@@ -1,0 +1,45 @@
+\select@language {english}
+\select@language {brazil}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
+\contentsline {section}{\numberline {1.1}Objetivo}{3}
+\contentsline {section}{\numberline {1.2}Metodologia}{3}
+\contentsline {chapter}{\numberline {2}Conceitos B\IeC {\'a}sicos}{4}
+\contentsline {section}{\numberline {2.1}Faixa Din\IeC {\^a}mica}{4}
+\contentsline {section}{\numberline {2.2}Fun\IeC {\c c}\IeC {\~a}o Resposta de uma C\IeC {\^a}mera}{5}
+\contentsline {section}{\numberline {2.3}Eixo Logar\IeC {\'\i }tmico}{6}
+\contentsline {section}{\numberline {2.4}Similaridade Bidirecional}{8}
+\contentsline {section}{\numberline {2.5}Relaxa\IeC {\c c}\IeC {\~a}o de Gauss-Seidel}{8}
+\contentsline {section}{\numberline {2.6}Spline C\IeC {\'u}bica}{8}
+\contentsline {chapter}{\numberline {3}Obten\IeC {\c c}\IeC {\~a}o de Imagens HDR a Partir de Imagens LDR}{10}
+\contentsline {section}{\numberline {3.1}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{10}
+\contentsline {section}{\numberline {3.2}M\IeC {\'e}todos HDR Selecionados}{12}
+\contentsline {subsection}{\numberline {3.2.1}Base de Imagens e Visualiza\IeC {\c c}\IeC {\~a}o}{12}
+\contentsline {subsubsection}{Cena da Did\IeC {\'a}tica}{13}
+\contentsline {subsubsection}{Cena do Porquinho}{14}
+\contentsline {subsubsection}{Cena dos Olhinhos}{15}
+\contentsline {subsubsection}{Software para Visualiza\IeC {\c c}\IeC {\~a}o de Imagens HDR}{16}
+\contentsline {subsection}{\numberline {3.2.2}Mann e Picard}{16}
+\contentsline {subsubsection}{Algoritmo para Inferir a Fun\IeC {\c c}\IeC {\~a}o Resposta}{16}
+\contentsline {subsubsection}{Gera\IeC {\c c}\IeC {\~a}o da Imagem HDR}{17}
+\contentsline {subsubsection}{Resultados e Discuss\IeC {\~o}es}{18}
+\contentsline {subsection}{\numberline {3.2.3}M\IeC {\'e}todo Robertson}{21}
+\contentsline {subsubsection}{Gera\IeC {\c c}\IeC {\~a}o da Imagem HDR}{22}
+\contentsline {subsubsection}{Algoritmo para Inferir a Fun\IeC {\c c}\IeC {\~a}o Resposta}{23}
+\contentsline {subsubsection}{Resultados e Discuss\IeC {\~o}es}{25}
+\contentsline {subsection}{\numberline {3.2.4}M\IeC {\'e}todo Sen}{29}
+\contentsline {subsubsection}{Modelagem do Problema}{30}
+\contentsline {subsubsection}{Especificidades de Implementa\IeC {\c c}\IeC {\~a}o}{32}
+\contentsline {subsubsection}{Resultados e Discuss\IeC {\~o}es}{33}
+\contentsline {section}{\numberline {3.3}Discuss\IeC {\~o}es}{36}
+\contentsline {subsection}{\numberline {3.3.1}M\IeC {\'e}todo Mann}{36}
+\contentsline {subsubsection}{Vantagens}{36}
+\contentsline {subsubsection}{Desvantagens}{36}
+\contentsline {subsection}{\numberline {3.3.2}M\IeC {\'e}todo Robertson}{36}
+\contentsline {subsubsection}{Vantagens}{36}
+\contentsline {subsubsection}{Desvantagens}{36}
+\contentsline {subsection}{\numberline {3.3.3}M\IeC {\'e}todo Sen}{37}
+\contentsline {subsubsection}{Vantagens}{37}
+\contentsline {subsubsection}{Desvantagens}{37}
+\contentsline {chapter}{\numberline {4}Obten\IeC {\c c}\IeC {\~a}o de Nuvem de Pontos a Partir de Imagens HDR}{38}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{39}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{39}

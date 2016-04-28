@@ -1,0 +1,988 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  28 APR 2016 11:02
+entering extended mode
+**./TCC.tex
+(TCC.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+(procc.cls
+Document Class: procc 1996/10/07 v1.0 Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2016/01/08 3.9n The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf"
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2016/01/08 3.9n Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(procc.sty
+\headrulewidth=\dimen104
+\footrulewidth=\dimen105
+\plainheadrulewidth=\dimen106
+\plainfootrulewidth=\dimen107
+\headwidth=\dimen108
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen109
+\Gin@req@width=\dimen110
+)
+\epsfxsize=\dimen111
+\epsfysize=\dimen112
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read1
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count90
+\calc@Bcount=\count91
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count92
+\calc@Cskip=\skip45
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen115
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen116
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks18
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks19
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks20
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count105
+\l_MT_multwidth_dim=\dimen124
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen125
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen126
+\l_MT_above_intertext_sep=\dimen127
+\l_MT_below_intertext_sep=\dimen128
+\l_MT_above_shortintertext_sep=\dimen129
+\l_MT_below_shortintertext_sep=\dimen130
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip50
+\thm@postskip=\skip51
+\thm@headsep=\skip52
+\dth@everypar=\toks27
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\ucs.sty"
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-global.def"
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count106
+\uc@combtoks=\toks28
+\uc@combtoksb=\toks29
+\uc@temptokena=\toks30
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen131
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count107
+\float@exts=\toks33
+\float@box=\box28
+\@float@everytoks=\toks34
+\@floatcapt=\box29
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen132
+\captionmargin@=\dimen133
+\captionwidth=\dimen134
+\caption@tempdima=\dimen135
+\caption@indent=\dimen136
+\caption@parindent=\dimen137
+\caption@hangindent=\dimen138
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \sbox \@tempboxa {#1: #2}\ifdim \wd \@tempboxa >\hsize #1: #2\par \else \glob
+al \@minipagefalse \hbox to\hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \bel
+owcaptionskip .
+\c@ContinuedFloat=\count108
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count109
+\sf@farskip=\skip53
+\sf@captopadj=\dimen139
+\sf@capskip=\skip54
+\sf@nearskip=\skip55
+\c@subfigure=\count110
+\c@subfigure@save=\count111
+\c@lofdepth=\count112
+\c@subtable=\count113
+\c@subtable@save=\count114
+\c@lotdepth=\count115
+\sf@top=\skip56
+\sf@bottom=\skip57
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip58
+\LTright=\skip59
+\LTpre=\skip60
+\LTpost=\skip61
+\LTchunksize=\count116
+\LTcapwidth=\dimen140
+\LT@head=\box30
+\LT@firsthead=\box31
+\LT@foot=\box32
+\LT@lastfoot=\box33
+\LT@cols=\count117
+\LT@rows=\count118
+\c@LT@tables=\count119
+\c@LT@chunks=\count120
+\LT@p@ftn=\toks35
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count121
+\lst@gtempboxa=\box34
+\lst@token=\toks36
+\lst@length=\count122
+\lst@currlwidth=\dimen141
+\lst@column=\count123
+\lst@pos=\count124
+\lst@lostspace=\dimen142
+\lst@width=\dimen143
+\lst@newlines=\count125
+\lst@lineno=\count126
+\lst@maxwidth=\dimen144
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count127
+\lst@skipnumbers=\count128
+\lst@framebox=\box35
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+ (TCC.aux
+
+LaTeX Warning: Label `metodos' multiply defined.
+
+
+LaTeX Warning: Label `introducao' multiply defined.
+
+)
+\openout1 = `TCC.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 64.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen145
+\scratchbox=\box36
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen146
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks38
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count135
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
+ [1
+
+
+{C:/Users/Nanio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 1642) in paragraph at lines 85--85
+[]\T1/ptm/m/n/12 Trabalho ap-re-sen-tado ao De-par-ta-mento de Com-
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 85--85
+\T1/ptm/m/n/12 putação (DCOMP) da Uni-ver-si-dade Fed-eral de
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1]
+(Documentos/Resumo.tex) [1
+
+
+
+] (Documentos/Abstract.tex) [2
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 139.
+ (TCC.lof)
+\tf@lof=\write3
+\openout3 = `TCC.lof'.
+
+ [3
+
+
+]
+(TCC.lot)
+\tf@lot=\write4
+\openout4 = `TCC.lot'.
+
+ [4
+
+] (TCC.toc [5
+
+])
+\tf@toc=\write5
+\openout5 = `TCC.toc'.
+
+ [6] (Documentos/Introducao.tex
+Cap\'{\i }tulo 1.
+[1
+
+
+]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[2]) (Documentos/ConceitosBasicos.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[3]
+Cap\'{\i }tulo 2.
+[4
+
+]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[5] <Figuras/Fr-linear-azul.png, id=51, 383.93437pt x 295.85532pt>
+File: Figuras/Fr-linear-azul.png Graphic file (type png)
+
+<use Figuras/Fr-linear-azul.png>
+Package pdftex.def Info: Figuras/Fr-linear-azul.png used on input line 70.
+(pdftex.def)             Requested size: 221.54556pt x 170.71652pt.
+
+<Figuras/Fr-log-azul.png, id=53, 380.92313pt x 295.85532pt>
+File: Figuras/Fr-log-azul.png Graphic file (type png)
+
+<use Figuras/Fr-log-azul.png>
+Package pdftex.def Info: Figuras/Fr-log-azul.png used on input line 76.
+(pdftex.def)             Requested size: 219.80795pt x 170.71652pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[6]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[7 <./Figuras/Fr-linear-azul.png> <./Figuras/Fr-log-azul.png>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[8]) (Documentos/HDR/ParteHDR.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[9]
+Cap\'{\i }tulo 3.
+) (Documentos/HDR/RevisaoBibliografica.tex [10
+
+]) (Documentos/HDR/Metodos.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[11]) (Documentos/HDR/MetodosBaseImagens.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[12] <Figuras/CenaDidatica/1.jpg, id=80, 1606.0pt x 1204.5pt>
+File: Figuras/CenaDidatica/1.jpg Graphic file (type jpg)
+
+<use Figuras/CenaDidatica/1.jpg>
+Package pdftex.def Info: Figuras/CenaDidatica/1.jpg used on input line 14.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/CenaDidatica/2.jpg, id=81, 1606.0pt x 1204.5pt>
+File: Figuras/CenaDidatica/2.jpg Graphic file (type jpg)
+
+<use Figuras/CenaDidatica/2.jpg>
+Package pdftex.def Info: Figuras/CenaDidatica/2.jpg used on input line 20.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/CenaDidatica/3.jpg, id=82, 1606.0pt x 1204.5pt>
+File: Figuras/CenaDidatica/3.jpg Graphic file (type jpg)
+
+<use Figuras/CenaDidatica/3.jpg>
+Package pdftex.def Info: Figuras/CenaDidatica/3.jpg used on input line 26.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/CenaDidatica/4.jpg, id=83, 1606.0pt x 1204.5pt>
+File: Figuras/CenaDidatica/4.jpg Graphic file (type jpg)
+
+<use Figuras/CenaDidatica/4.jpg>
+Package pdftex.def Info: Figuras/CenaDidatica/4.jpg used on input line 32.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/CenaDidatica/5.jpg, id=84, 1606.0pt x 1204.5pt>
+File: Figuras/CenaDidatica/5.jpg Graphic file (type jpg)
+
+<use Figuras/CenaDidatica/5.jpg>
+Package pdftex.def Info: Figuras/CenaDidatica/5.jpg used on input line 38.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--39
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--39
+[] []
+ []
+
+<Figuras/CenaPorquinho/1.jpg, id=85, 1606.0pt x 1204.5pt>
+File: Figuras/CenaPorquinho/1.jpg Graphic file (type jpg)
+
+<use Figuras/CenaPorquinho/1.jpg>
+Package pdftex.def Info: Figuras/CenaPorquinho/1.jpg used on input line 51.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/CenaPorquinho/2.jpg, id=86, 1606.0pt x 1204.5pt>
+File: Figuras/CenaPorquinho/2.jpg Graphic file (type jpg)
+
+<use Figuras/CenaPorquinho/2.jpg>
+Package pdftex.def Info: Figuras/CenaPorquinho/2.jpg used on input line 57.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/CenaPorquinho/3.jpg, id=87, 1606.0pt x 1204.5pt>
+File: Figuras/CenaPorquinho/3.jpg Graphic file (type jpg)
+
+<use Figuras/CenaPorquinho/3.jpg>
+Package pdftex.def Info: Figuras/CenaPorquinho/3.jpg used on input line 63.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/CenaPorquinho/4.jpg, id=88, 1606.0pt x 1204.5pt>
+File: Figuras/CenaPorquinho/4.jpg Graphic file (type jpg)
+
+<use Figuras/CenaPorquinho/4.jpg>
+Package pdftex.def Info: Figuras/CenaPorquinho/4.jpg used on input line 69.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--70
+[][] []
+ []
+
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[13 <./Figuras/CenaDidatica/1.jpg> <./Figuras/CenaDidatica/2.jpg> <./Figuras/Ce
+naDidatica/3.jpg> <./Figuras/CenaDidatica/4.jpg> <./Figuras/CenaDidatica/5.jpg>
+] <Figuras/CenaOlhinhos/1.jpg, id=94, 1606.0pt x 1204.5pt>
+File: Figuras/CenaOlhinhos/1.jpg Graphic file (type jpg)
+
+<use Figuras/CenaOlhinhos/1.jpg>
+Package pdftex.def Info: Figuras/CenaOlhinhos/1.jpg used on input line 82.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/CenaOlhinhos/2.jpg, id=95, 1606.0pt x 1204.5pt>
+File: Figuras/CenaOlhinhos/2.jpg Graphic file (type jpg)
+
+<use Figuras/CenaOlhinhos/2.jpg>
+Package pdftex.def Info: Figuras/CenaOlhinhos/2.jpg used on input line 88.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/CenaOlhinhos/3.jpg, id=96, 1606.0pt x 1204.5pt>
+File: Figuras/CenaOlhinhos/3.jpg Graphic file (type jpg)
+
+<use Figuras/CenaOlhinhos/3.jpg>
+Package pdftex.def Info: Figuras/CenaOlhinhos/3.jpg used on input line 94.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/CenaOlhinhos/4.jpg, id=97, 1606.0pt x 1204.5pt>
+File: Figuras/CenaOlhinhos/4.jpg Graphic file (type jpg)
+
+<use Figuras/CenaOlhinhos/4.jpg>
+Package pdftex.def Info: Figuras/CenaOlhinhos/4.jpg used on input line 100.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/CenaOlhinhos/5.jpg, id=98, 1606.0pt x 1204.5pt>
+File: Figuras/CenaOlhinhos/5.jpg Graphic file (type jpg)
+
+<use Figuras/CenaOlhinhos/5.jpg>
+Package pdftex.def Info: Figuras/CenaOlhinhos/5.jpg used on input line 106.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--107
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--107
+[] []
+ []
+
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[14 <./Figuras/CenaPorquinho/1.jpg> <./Figuras/CenaPorquinho/2.jpg> <./Figuras/
+CenaPorquinho/3.jpg> <./Figuras/CenaPorquinho/4.jpg>])
+(Documentos/HDR/MetodoMann.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[15 <./Figuras/CenaOlhinhos/1.jpg> <./Figuras/CenaOlhinhos/2.jpg> <./Figuras/Ce
+naOlhinhos/3.jpg> <./Figuras/CenaOlhinhos/4.jpg> <./Figuras/CenaOlhinhos/5.jpg>
+]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[]\T1/ptm/m/n/12 Ao apli-car a ló-gica do passo an-te-rior su-ces-si-va-mente p
+ara os pon-tos
+ []
+
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[17] <Figuras/Mann/Ruin.png, id=112, 250.68657pt x 186.6975pt>
+File: Figuras/Mann/Ruin.png Graphic file (type png)
+
+<use Figuras/Mann/Ruin.png>
+Package pdftex.def Info: Figuras/Mann/Ruin.png used on input line 46.
+(pdftex.def)             Requested size: 229.23824pt x 170.71652pt.
+
+<Figuras/Mann/didaticaLow.png, id=113, 504.38437pt x 376.40625pt>
+File: Figuras/Mann/didaticaLow.png Graphic file (type png)
+
+<use Figuras/Mann/didaticaLow.png>
+Package pdftex.def Info: Figuras/Mann/didaticaLow.png used on input line 59.
+(pdftex.def)             Requested size: 228.7641pt x 170.71652pt.
+
+<Figuras/Mann/didaticaAlto.png, id=114, 503.63156pt x 378.66469pt>
+File: Figuras/Mann/didaticaAlto.png Graphic file (type png)
+
+<use Figuras/Mann/didaticaAlto.png>
+Package pdftex.def Info: Figuras/Mann/didaticaAlto.png used on input line 65.
+(pdftex.def)             Requested size: 227.05476pt x 170.71652pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[18 <./Figuras/Mann/Ruin.png>]
+<Figuras/Mann/porquinhoLow.png, id=122, 502.87875pt x 376.40625pt>
+File: Figuras/Mann/porquinhoLow.png Graphic file (type png)
+
+<use Figuras/Mann/porquinhoLow.png>
+Package pdftex.def Info: Figuras/Mann/porquinhoLow.png used on input line 76.
+(pdftex.def)             Requested size: 228.08122pt x 170.71652pt.
+
+<Figuras/Mann/porquinhoMedio.png, id=123, 505.89pt x 378.66469pt>
+File: Figuras/Mann/porquinhoMedio.png Graphic file (type png)
+
+<use Figuras/Mann/porquinhoMedio.png>
+Package pdftex.def Info: Figuras/Mann/porquinhoMedio.png used on input line 82.
+
+(pdftex.def)             Requested size: 228.07294pt x 170.71652pt.
+
+<Figuras/Mann/porquinhoAlto.png, id=124, 504.38437pt x 380.92313pt>
+File: Figuras/Mann/porquinhoAlto.png Graphic file (type png)
+
+<use Figuras/Mann/porquinhoAlto.png>
+Package pdftex.def Info: Figuras/Mann/porquinhoAlto.png used on input line 88.
+(pdftex.def)             Requested size: 226.0473pt x 170.71652pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[19 <./Figuras/Mann/didaticaLow.png> <./Figuras/Mann/didaticaAlto.png>]
+<Figuras/Mann/Fr-linear-total.png, id=130, 380.17032pt x 297.36093pt>
+File: Figuras/Mann/Fr-linear-total.png Graphic file (type png)
+
+<use Figuras/Mann/Fr-linear-total.png>
+Package pdftex.def Info: Figuras/Mann/Fr-linear-total.png used on input line 10
+1.
+(pdftex.def)             Requested size: 218.25398pt x 170.71652pt.
+
+<Figuras/Mann/Fr-log-total.png, id=131, 387.69844pt x 299.61937pt>
+File: Figuras/Mann/Fr-log-total.png Graphic file (type png)
+
+<use Figuras/Mann/Fr-log-total.png>
+Package pdftex.def Info: Figuras/Mann/Fr-log-total.png used on input line 107.
+(pdftex.def)             Requested size: 220.90758pt x 170.71652pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[20 <./Figuras/Mann/porquinhoLow.png> <./Figuras/Mann/porquinhoMedio.png> <./Fi
+guras/Mann/porquinhoAlto.png>]) (Documentos/HDR/MetodoRobertson.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[21 <./Figuras/Mann/Fr-linear-total.png> <./Figuras/Mann/Fr-log-total.png>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[22]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[23] <Figuras/Robertson/Pontos.png, id=150, 383.93437pt x 295.85532pt>
+File: Figuras/Robertson/Pontos.png Graphic file (type png)
+
+<use Figuras/Robertson/Pontos.png>
+Package pdftex.def Info: Figuras/Robertson/Pontos.png used on input line 86.
+(pdftex.def)             Requested size: 221.54556pt x 170.71652pt.
+
+<Figuras/Robertson/fr-linear-azul.png, id=151, 383.93437pt x 295.85532pt>
+File: Figuras/Robertson/fr-linear-azul.png Graphic file (type png)
+
+<use Figuras/Robertson/fr-linear-azul.png>
+Package pdftex.def Info: Figuras/Robertson/fr-linear-azul.png used on input lin
+e 92.
+(pdftex.def)             Requested size: 221.54556pt x 170.71652pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[24] <Figuras/Robertson/OlhinhosLow.png, id=155, 500.62032pt x 374.90062pt>
+File: Figuras/Robertson/OlhinhosLow.png Graphic file (type png)
+
+<use Figuras/Robertson/OlhinhosLow.png>
+Package pdftex.def Info: Figuras/Robertson/OlhinhosLow.png used on input line 1
+07.
+(pdftex.def)             Requested size: 227.96593pt x 170.71652pt.
+
+<Figuras/Robertson/OlhinhosMedio.png, id=156, 497.60907pt x 371.88937pt>
+File: Figuras/Robertson/OlhinhosMedio.png Graphic file (type png)
+
+<use Figuras/Robertson/OlhinhosMedio.png>
+Package pdftex.def Info: Figuras/Robertson/OlhinhosMedio.png used on input line
+ 113.
+(pdftex.def)             Requested size: 228.43219pt x 170.71652pt.
+
+<Figuras/Robertson/OlhinhosAlto.png, id=157, 496.85625pt x 368.1253pt>
+File: Figuras/Robertson/OlhinhosAlto.png Graphic file (type png)
+
+<use Figuras/Robertson/OlhinhosAlto.png>
+Package pdftex.def Info: Figuras/Robertson/OlhinhosAlto.png used on input line 
+119.
+(pdftex.def)             Requested size: 230.42166pt x 170.71652pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[25 <./Figuras/Robertson/Pontos.png> <./Figuras/Robertson/fr-linear-azul.png>]
+<Figuras/Robertson/PorquinhoBaixo.png, id=163, 503.63156pt x 376.40625pt>
+File: Figuras/Robertson/PorquinhoBaixo.png Graphic file (type png)
+
+<use Figuras/Robertson/PorquinhoBaixo.png>
+Package pdftex.def Info: Figuras/Robertson/PorquinhoBaixo.png used on input lin
+e 130.
+(pdftex.def)             Requested size: 228.42265pt x 170.71652pt.
+
+<Figuras/Robertson/PorquinhoAlto.png, id=164, 503.63156pt x 371.88937pt>
+File: Figuras/Robertson/PorquinhoAlto.png Graphic file (type png)
+
+<use Figuras/Robertson/PorquinhoAlto.png>
+Package pdftex.def Info: Figuras/Robertson/PorquinhoAlto.png used on input line
+ 136.
+(pdftex.def)             Requested size: 231.19687pt x 170.71652pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[26 <./Figuras/Robertson/OlhinhosLow.png> <./Figuras/Robertson/OlhinhosMedio.pn
+g> <./Figuras/Robertson/OlhinhosAlto.png>]
+<Figuras/Robertson/Sala.png, id=171, 500.62032pt x 375.65344pt>
+File: Figuras/Robertson/Sala.png Graphic file (type png)
+
+<use Figuras/Robertson/Sala.png>
+Package pdftex.def Info: Figuras/Robertson/Sala.png used on input line 147.
+(pdftex.def)             Requested size: 227.5076pt x 170.71652pt.
+
+<Figuras/Robertson/Ruido.png, id=172, 556.32843pt x 361.35pt>
+File: Figuras/Robertson/Ruido.png Graphic file (type png)
+
+<use Figuras/Robertson/Ruido.png>
+Package pdftex.def Info: Figuras/Robertson/Ruido.png used on input line 153.
+(pdftex.def)             Requested size: 262.83261pt x 170.71652pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[27 <./Figuras/Robertson/PorquinhoBaixo.png> <./Figuras/Robertson/PorquinhoAlto
+.png>] <Figuras/Robertson/fr-linear-total.png, id=178, 377.15906pt x 289.08pt>
+File: Figuras/Robertson/fr-linear-total.png Graphic file (type png)
+
+<use Figuras/Robertson/fr-linear-total.png>
+Package pdftex.def Info: Figuras/Robertson/fr-linear-total.png used on input li
+ne 166.
+(pdftex.def)             Requested size: 222.7291pt x 170.71652pt.
+
+<Figuras/Robertson/fr-log-total.png, id=179, 381.67593pt x 301.8778pt>
+File: Figuras/Robertson/fr-log-total.png Graphic file (type png)
+
+<use Figuras/Robertson/fr-log-total.png>
+Package pdftex.def Info: Figuras/Robertson/fr-log-total.png used on input line 
+172.
+(pdftex.def)             Requested size: 215.8395pt x 170.71652pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[28 <./Figuras/Robertson/Sala.png> <./Figuras/Robertson/Ruido.png>])
+(Documentos/HDR/MetodoSen.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[29 <./Figuras/Robertson/fr-linear-total.png> <./Figuras/Robertson/fr-log-total
+.png>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[30]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[31]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[32] <Figuras/Sen/SalaLow.png, id=200, 499.8675pt x 374.90062pt>
+File: Figuras/Sen/SalaLow.png Graphic file (type png)
+
+<use Figuras/Sen/SalaLow.png>
+Package pdftex.def Info: Figuras/Sen/SalaLow.png used on input line 87.
+(pdftex.def)             Requested size: 227.62312pt x 170.71652pt.
+
+<Figuras/Sen/SalaMedio.png, id=201, 501.37312pt x 372.64218pt>
+File: Figuras/Sen/SalaMedio.png Graphic file (type png)
+
+<use Figuras/Sen/SalaMedio.png>
+Package pdftex.def Info: Figuras/Sen/SalaMedio.png used on input line 93.
+(pdftex.def)             Requested size: 229.68579pt x 170.71652pt.
+
+<Figuras/Sen/SalaHigh.png, id=202, 499.8675pt x 372.64218pt>
+File: Figuras/Sen/SalaHigh.png Graphic file (type png)
+
+<use Figuras/Sen/SalaHigh.png>
+Package pdftex.def Info: Figuras/Sen/SalaHigh.png used on input line 99.
+(pdftex.def)             Requested size: 228.99605pt x 170.71652pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[33] <Figuras/Sen/PorquinhoLow.png, id=206, 497.60907pt x 373.395pt>
+File: Figuras/Sen/PorquinhoLow.png Graphic file (type png)
+
+<use Figuras/Sen/PorquinhoLow.png>
+Package pdftex.def Info: Figuras/Sen/PorquinhoLow.png used on input line 110.
+(pdftex.def)             Requested size: 227.50584pt x 170.71652pt.
+
+<Figuras/Sen/Porquinho.png, id=207, 501.37312pt x 375.65344pt>
+File: Figuras/Sen/Porquinho.png Graphic file (type png)
+
+<use Figuras/Sen/Porquinho.png>
+Package pdftex.def Info: Figuras/Sen/Porquinho.png used on input line 116.
+(pdftex.def)             Requested size: 227.8497pt x 170.71652pt.
+
+<Figuras/Sen/PorquinhoHigh.png, id=208, 500.62032pt x 375.65344pt>
+File: Figuras/Sen/PorquinhoHigh.png Graphic file (type png)
+
+<use Figuras/Sen/PorquinhoHigh.png>
+Package pdftex.def Info: Figuras/Sen/PorquinhoHigh.png used on input line 122.
+(pdftex.def)             Requested size: 227.5076pt x 170.71652pt.
+) (Documentos/HDR/Discussoes.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[34 <./Figuras/Sen/SalaLow.png> <./Figuras/Sen/SalaMedio.png> <./Figuras/Sen/Sa
+laHigh.png>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[35 <./Figuras/Sen/PorquinhoLow.png> <./Figuras/Sen/Porquinho.png> <./Figuras/S
+en/PorquinhoHigh.png>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[36]) (Documentos/Pontos/ObtencaoPontos.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[37]
+Cap\'{\i }tulo 4.
+) (Documentos/ConsideracoesFinais.tex [38
+
+]
+Cap\'{\i }tulo 5.
+) (TCC.bbl [39
+
+] [40
+
+])
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[41] (TCC.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7522 strings out of 493634
+ 110009 string characters out of 3141315
+ 176466 words of memory out of 3000000
+ 10686 multiletter control sequences out of 15000+200000
+ 43431 words of font info for 64 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 44i,21n,49p,1067b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
+s/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on TCC.pdf (49 pages, 30674905 bytes).
+PDF statistics:
+ 291 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+

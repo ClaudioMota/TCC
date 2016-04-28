@@ -1,0 +1,20 @@
+\section{Revisão Bibliográfica} \label{revisao}
+Atualmente existem diversos métodos para geração de imagens HDR a partir de imagens LDR na literartura. Neste capítulo é feita uma revisão sobre alguns dos trabalhos que abordam este assunto, incluindo os métodos que foram trabalhados neste documento.
+
+
+Com base no levantamento bibliográfico realizado, o primeiro método de geração de imagens HDR a partir de um conjunto de imagens LDR foi proposto por Mann e Picard \cite{mann}. O trabalho deles proprõe que dado um conjunto de imagens de uma mesma cena, que diferem apenas quanto ao tempo de exposição, é possível estimar o valor de luminosidade que gerou o pixel das imagens com base na operação inversa da função resposta da câmera. Os autores propõem primeiramente um método para estimar a função resposta da câmera a partir de um conjunto de imagens LDR. Uma vez com a função resposta, o valor de luminosidade relativo a cada pixel é estimado por meio de uma média ponderada com base na derivada da função resposta em relação à exposição em escala logarítmica.
+
+
+Outro método foi proposto por Mitsunaga e Nayar \cite{mitsunaga}, que trata a questão da exposição dos sensores da câmera sob a ótica do tempo e da variação do diâmetro de abertura do obturador da câmera. Os autores também propõem um método para estimar a função resposta da câmera, que leva em conta o ruído presente nas imagens. Para a geração da imagem HDR, o método assume como peso para os pixels a razão de sinal-ruído presente nas imagens LDR.
+
+
+Robertson \etal~\cite{robertson} propuseram um método estatístico para inferência tanto da função resposta quanto dos valores de luminosidade, de forma que, os pixels que possuem valores próximos dos extremos da faixa dinâmica possuem menor peso que pixels mais centralizados. Os autores justificam o método pelo pressuposto que os pixels com valores próximos aos extremos são mais suscetíveis a ruído.
+
+
+Ali e Mann \cite{ali}, propuseram uma metodologia para reconstrução de imagens HDR utilizando a função resposta comparamétrica da câmera, a qual os autores definem como sendo uma matriz bidimensional que, dadas duas imagens, mapeia qualquer combinação de valores de pixels entre elas, para um pixel que possua informações significativas de ambas imagens. A geração da imagem HDR é feita por meio da combinação sucessiva de pares de imagens. Os autores justificam o método pois, segundos eles, apresenta um resultado mais rápido que os métodos convencionais, podendo ser utilizado em aplicações em tempo real como filmagens.
+
+
+Granados \etal~\cite{granados}, propôs um método de geração que visa encontrar os pesos ótimos para cada pixel na geração de imagens HDR. Para isso, utiliza-se de uma modelagem da câmera que trata vários tipos de ruídos, tanto espaciais como temporais.
+
+
+Sen \etal~\cite{hdrMovimento} propôs um método iterativo que busca robustez em relação ao movimento da câmera, baseado em técnicas de minização de energia. O método proposto escolhe uma imagem de referência no conjunto de imagens LDR de entrada. A partir disso processa todas as outra imagens, buscando inferir detalhes de iluminação da imagem referência fazendo comparações entre os fragmentos das imagens. Isto faz com que sejam geradas versões da imagem referência em diferentes tempos de exposição, que não existiam ateriormente. Possuindo imagens identicas que diferem apenas no tempo de exposição, é aplicado um método para estimar a iluminação que gerou cada pixel das imagens, obtendo uma imagem HDR.

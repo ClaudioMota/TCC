@@ -1,0 +1,207 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Modelo DCOMP/PROCC da Universidade Federal de Sergipe %%
+%%%%%%%%%1%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,titlepage]{procc}
+
+\newcommand{\etal}{et~al.}
+
+\usepackage[brazil,english]{babel}
+\usepackage{procc,epsfig}
+\usepackage{times}
+\usepackage{verbatim}
+\usepackage{mathtools}
+\usepackage{amsmath,amsfonts,amsthm}
+
+%-------------------------- Para usar acentuacaoo em sistemas ISO8859-1 ------------------------------------
+% Se estiver usando o Microsoft Windows ou linux com essa codificacao, descomente essa linhas abaixo
+% e comente as linhas referentes ao UTF8
+%\usepackage[latin1]{inputenc} 
+% Usar acentuacao em sistemas ISO8859-1, comentar a linha com  \usepackage[utf8x]{inputenc}
+%-----------------------------------------------------------------------------------------------------
+
+%-------------------------- Para usar acentuacao em sistemas UTF8 ------------------------------------
+% Para a maior parte das distribuicoes linux, usar a opcao utf8x (lembrar de comentar as linha referente a ISO8859-1 acima)
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+%\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%-----------------------------------------------------------------------------------------------------
+
+% usado nas tabelas
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{graphicx,url}
+\usepackage{subfig}
+\graphicspath{{Figuras/}}
+\usepackage{longtable} %tabelas longas, para tabelas que ultrapassam uma pagina
+%\input{psfig.sty}
+
+
+\usepackage{amssymb} %% Usando nas formulas matematicas
+
+
+% ----------------- Para inserir codigo fonte de linguagens de programacao no documento -------------
+\usepackage{listings}
+\lstset{numbers=left,
+stepnumber=1
+firstnumber=1,
+%numberstyle=\tiny,
+extendedchars=true,
+breaklines=true,
+frame=tb,
+basicstyle=\footnotesize,
+stringstyle=\ttfamily,
+showstringspaces=false
+}
+\renewcommand{\lstlistingname}{C\'odigo Fonte}
+\renewcommand{\lstlistlistingname}{Lista de C\'odigos Fonte}
+% ---------------------------------------------------------------------------------------------------
+
+%\selectlanguage{portuges}
+\sloppy
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Informacoes para a Pagina de Rosto
+%%
+\Titulo{GERAÇÃO DE NUVEM DE PONTOS A PARTIR DE IMAGENS HDR} %\Titulo{Métodos de geração de imagens HDR}
+\Autor{CLAUDIO MOTA OLIVEIRA}
+\Data{\today} % Data da Defesa por extenso
+\Ano{2016}
+\Orientador{Prof.ª Dr.ª Beatriz Trinchão Andrade}
+\UniverOrientador{Universidade Federal de Sergipe (UFS)}
+\CoOrientador{Prof. Dr. Nome do Co-Orientador}
+\UniverCoOrientador{Universidade Federal de Campina Grande (UFCG)}
+\priAvaliador{Prof. Dr. Nome do primeiro Avaliador}
+\UniverpriAvaliador{Universidade Federal de Sergipe (UFS)}
+\segAvaliador{Prof. Dr. Nome do segundo Avaliador}
+\UniversegAvaliador{Universidade Federal de Sergipe (UFS)}
+
+\newpage
+\cleardoublepage
+
+\PaginadeRosto
+
+\newpage
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Dedicatoria
+%% Na dissertação retire o simbolo % do bloco abaixo e crie o arquivo dedicatoria.tex 
+%%
+%\begin{dedicatoria}
+%\input{dedicatoria.tex}
+%\end{dedicatoria}
+
+\newpage
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Agradecimentos
+%% Na dissertação retire o simbolo % do bloco abaixo e crie o arquivo agradecimentos.tex 
+%%
+%\begin{agradecimentos}
+%\input{agradecimentos.tex}
+%\end{agradecimentos}
+
+\newpage
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Resumo
+%% Na dissertação retire o simbolo % do bloco abaixo e crie o arquivo resumo.tex 
+%%
+\begin{resumo} 
+\input{Documentos/Resumo}
+\end{resumo}
+
+\newpage
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Abstract
+%% Na dissertação retire o simbolo % do bloco abaixo e crie o arquivo abstract.tex 
+%%
+\begin{abstract}
+\input{Documentos/Abstract}
+\end{abstract}
+
+\newpage
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Lista de Figuras, Lista de Tabelas, Lista de Siglas e Sumario
+%%
+\selectlanguage{brazil}
+
+\listoffigures
+\listoftables
+\ListadeSiglas
+%\lstlistoflistings %lista de codigos fonte - Para inserir a listagem de codigos fonte
+\renewcommand{\contentsname}{Sumário}
+\Sumario
+
+\Introducao
+
+\newpage
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Definicao do cabecalho: secao do lado esquerdo e numero da pagina do lado direito
+\pagestyle{fancy}
+\addtolength{\headwidth}{\marginparsep}\addtolength{\headwidth}{\marginparwidth}\headwidth = \textwidth
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}\lhead[\fancyplain{}{\bfseries\thepage}]%
+	     {\fancyplain{}{\emph{\rightmark}}}\rhead[\fancyplain{}{\bfseries\leftmark}]%
+             {\fancyplain{}{\bfseries\thepage}}\cfoot{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Hifenizacao - Colocar lista de palavras que nao devem ser separadas e que 
+% nao estao no dicionario portugues.
+% As palavras do dicionario portugues ja sao separadas corretamente pelo lateX
+%
+\hyphenation{ Hardware Software }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Capitulos da Dissertacao/Proposta
+%% Da seguinte maneira:
+%%
+\input{Documentos/Introducao}
+\input{Documentos/ConceitosBasicos}
+
+\input{Documentos/HDR/ParteHDR}
+\input{Documentos/HDR/RevisaoBibliografica}
+\input{Documentos/HDR/Metodos}
+\input{Documentos/HDR/MetodosBaseImagens}
+\input{Documentos/HDR/MetodoMann}
+\input{Documentos/HDR/MetodoRobertson}
+\input{Documentos/HDR/MetodoSen}
+\input{Documentos/HDR/Discussoes}
+
+\input{Documentos/Pontos/ObtencaoPontos}
+
+\input{Documentos/ConsideracoesFinais}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Troca do termo Bibliografia para Referencia.
+%% Adicao da pagina da Referencia no Sumario
+\addcontentsline{toc}{chapter}{Referências}
+\renewcommand{\bibname}{REFERÊNCIAS} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliografia
+%% Coloque suas referencias no arquivo referencias.bib
+\bibliographystyle{plain} % estilo de bibliografia   plain,unsrt,alpha,abbrv.
+%\nocite{*} %coloca todas as referências
+\bibliography{Documentos/Referencias} % arquivos com as entradas bib.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Apendice
+%% Caso seja necessario algum apendice, descomente a linha abaixo e crie o arquivo apendices.tex.
+\appendix
+%\input{apendices}
+
+\end{document}

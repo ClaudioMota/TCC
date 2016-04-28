@@ -1,0 +1,62 @@
+\select@language {english}
+\select@language {brazil}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Fun\IeC {\c c}\IeC {\~o}es resposta e suas representa\IeC {\c c}\IeC {\~o}es em diferentes eixos.\relax }}{7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Linear}}}{7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logar\IeC {\'\i }tmico}}}{7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Note que a parte interna da sala possui uma baixa ilumina\IeC {\c c}\IeC {\~a}o e \IeC {\'e} perdida nas imagens com menor tempo de exposi\IeC {\c c}\IeC {\~a}o. Enquanto a parte externa possui alta ilumina\IeC {\c c}\IeC {\~a}o e \IeC {\'e} perdida nas imagens com maior tempo de exposi\IeC {\c c}\IeC {\~a}o.\relax }}{13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.002s$}}}{13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.005s$}}}{13}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.0167s$}}}{13}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.04s$}}}{13}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.067s$}}}{13}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Note que partes da cena s\IeC {\~a}o perdidas em algumas figuras. Por\IeC {\'e}m estas mesmas partes est\IeC {\~a}o bem representadas em outras.\relax }}{14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.077s$}}}{14}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.25s$}}}{14}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.6s$}}}{14}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $1.3s$}}}{14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Note que partes da cena s\IeC {\~a}o perdidas em algumas figuras. Por\IeC {\'e}m estas mesmas partes s\IeC {\~a}o bem representadas em outras figuras.\relax }}{15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.02s$}}}{15}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.067s$}}}{15}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.2s$}}}{15}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.6s$}}}{15}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $2.0s$}}}{15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Imagem HDR com diferen\IeC {\c c}a de escala entre os canais.\relax }}{18}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Imagem HDR obtida utilizando o m\IeC {\'e}todo de Mann e Picard.\relax }}{19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Imagem visualizada com baixo ganho.}}}{19}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Imagem visualizada com alto ganho.}}}{19}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Imagem HDR obtida utilizando o m\IeC {\'e}todo de Mann e Picard.\relax }}{20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Imagem visualizada com baixo ganho.}}}{20}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Imagem visualizada com m\IeC {\'e}dio ganho.}}}{20}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Imagem visualizada com alto ganho.}}}{20}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Fun\IeC {\c c}\IeC {\~o}es resposta da c\IeC {\^a}mera no eixo linear (a) e no eixo logar\IeC {\'\i }tmico (b), referentes aos canais vermelho, verde e azul, obtidos com o m\IeC {\'e}todo de Mann e Picard.\relax }}{21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Linear}}}{21}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logaritmica}}}{21}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Interpola\IeC {\c c}\IeC {\~a}o da fun\IeC {\c c}\IeC {\~a}o resposta do canal azul da c\IeC {\^a}mera, utilizando o m\IeC {\'e}todo da Spline c\IeC {\'u}bica.\relax }}{25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ilustra\IeC {\c c}\IeC {\~a}o dos pontos utilizados na interpola\IeC {\c c}\IeC {\~a}o}}}{25}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fun\IeC {\c c}\IeC {\~a}o resposta obtida com a interpola\IeC {\c c}\IeC {\~a}o}}}{25}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Imagem HDR gerada utilizando o m\IeC {\'e}todo de Robertson~et~al..\relax }}{26}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Imagem visualizada com baixo ganho}}}{26}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Imagem visualizada com m\IeC {\'e}dio ganho}}}{26}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Imagem visualizada com alto ganho}}}{26}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Imagem HDR gerada utilizando o m\IeC {\'e}todo de Robertson~et~al..\relax }}{27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Imagem visualizada com baixo ganho}}}{27}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Imagem visualizada com alto ganho}}}{27}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Imagem HDR gerada utilizando o m\IeC {\'e}todo de Robertson~et~al., que apresentou ru\IeC {\'\i }do em partes com muita irradia\IeC {\c c}\IeC {\~a}o de luz.\relax }}{28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Imagem HDR gerada}}}{28}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {A aproxima\IeC {\c c}\IeC {\~a}o mostrou a presen\IeC {\c c}a de ru\IeC {\'\i }do na imagem}}}{28}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Fun\IeC {\c c}\IeC {\~o}es resposta da c\IeC {\^a}mera relativas aos diferentes canais de cores.\relax }}{29}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Eixo linear}}}{29}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Eixo logar\IeC {\'\i }tmico}}}{29}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Imagem HDR gerada utilizando o m\IeC {\'e}todo de Sen~et~al..\relax }}{34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Imagem visualizada com baixo ganho}}}{34}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Imagem visualizada com m\IeC {\'e}dio ganho}}}{34}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Imagem visualizada com alto ganho}}}{34}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Imagem HDR gerada utilizando o m\IeC {\'e}todo de Sen~et~al..\relax }}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Imagem visualizada com baixo ganho}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Imagem visualizada com m\IeC {\'e}dio ganho}}}{35}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Imagem visualizada com alto ganho}}}{35}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

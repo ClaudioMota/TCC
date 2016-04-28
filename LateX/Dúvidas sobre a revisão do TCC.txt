@@ -1,0 +1,11 @@
+O ultimo paragrafo da introdução entra no objetivo?
+Na metodologia, eu devo utilizar o passado ou o presente?
+2.1: Eu já não posso usar este termo não?
+2.2: A dúvida do pixel é engraçada... Mas é sério? (Debater)
+2.2: Corrente de escuro é um dos ruídos presentes na conversão de sinal analógico para digital. Acha melhor tirar estes exemplos?
+3: Perguntar se ela entende agora o que quis dizer no método Sen. E perguntar: Sen et. al (propôs ou propuseram)
+4.1: Não teve jeito de colocar a referência de Mann na legenda.
+4.2: Verificar se a frase de geração de imagem hdr ficou menos confusa
+4.2: Como assim falar como foi implementada a Spline Cúbica?
+4.3: Perguntar se ficou melhor escrito o parágrafo que explica o ciclo iterativo.
+4.3.1: Coloquei um ponto ao invés.

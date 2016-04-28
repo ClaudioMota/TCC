@@ -1,0 +1,42 @@
+\section{Discussões} \label{discussoes}
+
+Com os resultados alcançados, notou-se que todos os métodos atingiram os resultados esperados (geração de imagens HDR), cada qual com suas vantagens e desvantagens. Nesta seção serão abordadas as questões referentes a cada método de geração de imagens HDR abordado neste documento.
+
+\subsection{Método Mann} \label{discussaoMann}
+\subsubsection{Vantagens}
+\begin{itemize}
+	\item Possui a inferência da função resposta mais rápida.
+	\item Em alguns casos mostrou resultado mais consistente que o método de Robertson \etal \cite{robertson}.
+\end{itemize}
+\subsubsection{Desvantagens}
+\begin{itemize}
+	\item As imagens de entrada não devem apresentar movimento entre suas capturas.
+	\item A inferência da função resposta leva em conta apenas alguns pixels e não todos.
+	\item A inferência da função resposta leva em conta apenas 2 imagens.
+	\item A falta de especificação da escala na inferência da função resposta leva, em alguns casos, à incoerência na união dos canais de cores.
+\end{itemize}
+
+
+\subsection{Método Robertson} \label{discussaoRobertson}
+\subsubsection{Vantagens}
+\begin{itemize}
+	\item A inferência da função resposta leva em conta todas as imagens.
+	\item A inferência da função resposta leva em conta todos os pixels da imagem.
+\end{itemize}
+\subsubsection{Desvantagens}
+\begin{itemize}
+	\item Na implementação feita algumas imagens HDR apresentaram ruído.
+	\item As imagens de entrada não devem apresentar movimento entre suas capturas.
+\end{itemize}
+
+\subsection{Método Sen} \label{discussaoSen}
+\subsubsection{Vantagens}
+\begin{itemize}
+	\item Robustez quanto ao movimento nas imagens.
+\end{itemize}
+\subsubsection{Desvantagens}
+\begin{itemize}
+	\item Necessita de função resposta.
+	\item Método mais lento de obtenção de imagens HDR.
+	\item Não suporta imagens em alta resolução.
+\end{itemize}

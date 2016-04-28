@@ -1,0 +1,96 @@
+\begin{thebibliography}{10}
+
+\bibitem{picturenaut}
+[online] picturenaut. disponível em: http://www.hdrlabs.com/picturenaut/.
+  acesso em 14/04/2016.
+
+\bibitem{agarwal}
+Sameer Agarwal, Yasutaka Furukawa, Noah Snavely, Ian Simon, Brian Curless,
+  Steven~M. Seitz, and Richard Szeliski.
+\newblock Building rome in a day.
+\newblock {\em Commun. ACM}, 54(10):105--112, October 2011.
+
+\bibitem{ali}
+Mir~Adnan Ali and Steve Mann.
+\newblock Comparametric image compositing: Computationally efficient high
+  dynamic range imaging.
+\newblock In {\em Acoustics, Speech and Signal Processing (ICASSP), 2012 IEEE
+  International Conference on}, pages 913--916. IEEE, 2012.
+
+\bibitem{beatriz}
+Beatriz~Trinchão Andrade, Caroline~Mazetto Mendes, Jurandir de~Oliveira
+  Santos~Jr., Olga Regina~Pereira Bellon, and Luciano Silva.
+\newblock 3{D} preserving {XVIII} century barroque masterpiece: Challenges and
+  results on the digital preservation of {A}leijadinho's sculpture of the
+  {P}rophet {J}oel.
+\newblock {\em Journal of Cultural Heritage}, 13(2):210 -- 214, 2012.
+
+\bibitem{ballard&brown}
+Dana~Harry Ballard and Christopher~M. Brown.
+\newblock {\em Computer Vision}.
+\newblock Prentice Hall Professional Technical Reference, 1st edition, 1982.
+
+\bibitem{granados}
+M.~Granados, B.~Ajdin, M.~Wand, C.~Theobalt, H.-P. Seidel, and H.~Lensch.
+\newblock Optimal hdr reconstruction with linear digital cameras.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2010 IEEE
+  Conference on}, pages 215--222, June 2010.
+
+\bibitem{hdr3d}
+G.~Kontogianni, E.~K. Stathopoulou, A.~Georgopoulos, and A.~Doulamis.
+\newblock Hdr imaging for feature detection on detailed architectural scenes.
+\newblock {\em ISPRS - International Archives of the Photogrammetry, Remote
+  Sensing and Spatial Information Sciences}, XL-5/W4:325--330, 2015.
+
+\bibitem{mann}
+S.~Mann and R.W. Picard.
+\newblock Being 'undigital' with digital cameras: Extending dynamic range by
+  combining differently exposed pictures.
+\newblock Technical Report 323, M.I.T. Media Lab Perceptual Computing Section,
+  Boston, Massachusetts, 1994.
+
+\bibitem{matsushigue}
+Thaís Matsushigue, Valmir~Pagliaro Franco, Rafael Pierami, Marcel Jun~Sugawara
+  Tamaoki, Nicola~Archetti Netto, and Marcelo~Hide Matsumoto.
+\newblock A tomografia computadorizada e sua reconstrução 3d aumentam a
+  reprodutibilidade das classificações das fraturas da extremidade proximal
+  do úmero?
+\newblock {\em Revista Brasileira de Ortopedia}, pages 174--177, 2014.
+
+\bibitem{mitsunaga}
+T.~Mitsunaga and S.K. Nayar.
+\newblock {R}adiometric {S}elf {C}alibration.
+\newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, volume~1, pages 374--380, Jun 1999.
+
+\bibitem{robertson2}
+{Mark A.} Robertson, Sean Borman, and {Robert L.} Stevenson.
+\newblock Dynamic range improvement through multiple exposures.
+\newblock In {\em Proceedings of the IEEE International Conference on Image
+  Processing}, volume~3, pages 159--163, Kobe, Japan, October 1999. IEEE.
+
+\bibitem{robertson}
+{Mark A.} Robertson, Sean Borman, and {Robert L.} Stevenson.
+\newblock Estimation-theoretic approach to dynamic range enhancement using
+  multiple exposures.
+\newblock {\em Journal of Electronic Imaging 12(2), 219 228 (April 2003).},
+  12(2):219--228, April 2003.
+
+\bibitem{livroCalculoNumerico}
+Marcia A.~Gomes Ruggiero and Vera Lúcia da Rocha~Lopes Lopes.
+\newblock {\em Cálculo Numérico: Aspectos teóricos e computacionais}.
+\newblock Makron Books, 2nd edition, 1996.
+
+\bibitem{hdrMovimento}
+Pradeep Sen, Nima~Khademi Kalantari, Maziar Yaesoubi, Soheil Darabi, Dan~B.
+  Goldman, and Eli Shechtman.
+\newblock Robust patch-based hdr reconstruction of dynamic scenes.
+\newblock {\em ACM Trans. Graph.}, 31(6):203:1--203:11, November 2012.
+
+\bibitem{simakov}
+D.~Simakov, Y.~Caspi, E.~Shechtman, and M.~Irani.
+\newblock Summarizing visual data using bidirectional similarity.
+\newblock In {\em Computer Vision and Pattern Recognition, 2008. CVPR 2008.
+  IEEE Conference on}, pages 1--8, June 2008.
+
+\end{thebibliography}

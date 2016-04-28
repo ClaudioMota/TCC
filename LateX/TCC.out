@@ -1,0 +1,41 @@
+\BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Objetivo}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Metodologia}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{Conceitos B\341sicos}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Faixa Din\342mica}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{Fun\347\343o Resposta de uma C\342mera}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{Eixo Logar\355tmico}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{Similaridade Bidirecional}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.5}{Relaxa\347\343o de Gauss-Seidel}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.6}{Spline C\372bica}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Revis\343o Bibliogr\341fica}{}% 11
+\BOOKMARK [0][-]{chapter.4}{M\351todos HDR}{}% 12
+\BOOKMARK [1][-]{section.4.1}{Base de Imagens e Visualiza\347\343o}{chapter.4}% 13
+\BOOKMARK [2][-]{subsection.4.1.1}{Cena da Did\341tica}{section.4.1}% 14
+\BOOKMARK [2][-]{subsection.4.1.2}{Cena do Porquinho}{section.4.1}% 15
+\BOOKMARK [2][-]{subsection.4.1.3}{Cena dos Olhinhos}{section.4.1}% 16
+\BOOKMARK [2][-]{subsection.4.1.4}{Software para visualiza\347\343o de imagens HDR}{section.4.1}% 17
+\BOOKMARK [1][-]{section.4.2}{M\351todo Mann e Picard}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.2.1}{Algoritmo para Inferir a Fun\347\343o Resposta}{section.4.2}% 19
+\BOOKMARK [2][-]{subsection.4.2.2}{Gera\347\343o da Imagem HDR}{section.4.2}% 20
+\BOOKMARK [2][-]{subsection.4.2.3}{Resultados e Discuss\365es}{section.4.2}% 21
+\BOOKMARK [1][-]{section.4.3}{M\351todo Robertson}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.3.1}{Gera\347\343o da Imagem HDR}{section.4.3}% 23
+\BOOKMARK [2][-]{subsection.4.3.2}{Algoritmo para Inferir a Fun\347\343o Resposta}{section.4.3}% 24
+\BOOKMARK [2][-]{subsection.4.3.3}{Resultados e Discuss\365es}{section.4.3}% 25
+\BOOKMARK [1][-]{section.4.4}{M\351todo Sen}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.4.1}{Modelagem do Problema}{section.4.4}% 27
+\BOOKMARK [2][-]{subsection.4.4.2}{Especificidades de Implementa\347\343o}{section.4.4}% 28
+\BOOKMARK [2][-]{subsection.4.4.3}{Resultados e Discuss\365es}{section.4.4}% 29
+\BOOKMARK [0][-]{chapter.5}{Discuss\365es}{}% 30
+\BOOKMARK [1][-]{section.5.1}{M\351todo Mann}{chapter.5}% 31
+\BOOKMARK [2][-]{subsection.5.1.1}{Vantagens}{section.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.1.2}{Desvantagens}{section.5.1}% 33
+\BOOKMARK [1][-]{section.5.2}{M\351todo Robertson}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.2.1}{Vantagens}{section.5.2}% 35
+\BOOKMARK [2][-]{subsection.5.2.2}{Desvantagens}{section.5.2}% 36
+\BOOKMARK [1][-]{section.5.3}{M\351todo Sen}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.3.1}{Vantagens}{section.5.3}% 38
+\BOOKMARK [2][-]{subsection.5.3.2}{Desvantagens}{section.5.3}% 39
+\BOOKMARK [0][-]{chapter.6}{Considera\347\365es Finais}{}% 40
+\BOOKMARK [0][-]{chapter.6}{Refer\352ncias}{}% 41
