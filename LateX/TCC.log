@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  28 APR 2016 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  1 MAY 2016 19:06
 entering extended mode
 **./TCC.tex
 (TCC.tex
@@ -343,10 +343,7 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
  (TCC.aux
 
-LaTeX Warning: Label `metodos' multiply defined.
-
-
-LaTeX Warning: Label `introducao' multiply defined.
+LaTeX Warning: Label `pontosProcesso' multiply defined.
 
 )
 \openout1 = `TCC.aux'.
@@ -939,28 +936,45 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 [37]
 Cap\'{\i }tulo 4.
-) (Documentos/ConsideracoesFinais.tex [38
-
-]
-Cap\'{\i }tulo 5.
-) (TCC.bbl [39
-
-] [40
+) (Documentos/Pontos/RevisaoBibliografica.tex [38
 
 ])
+(Documentos/Pontos/SoftwaresUtilizados.tex) (Documentos/Pontos/BaseImagens.tex)
+(Documentos/Pontos/ProcessoObtencaoNuvem.tex) (Documentos/Pontos/Proposta.tex)
+(Documentos/Pontos/Resultados.tex) (Documentos/ConsideracoesFinais.tex
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[41] (TCC.aux)
+[39]
+Cap\'{\i }tulo 5.
+) (TCC.bbl [40
+
+] [41
+
+]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+[]\T1/ptm/m/n/12 [Online] Vi-su-alSFM. Dis-po-ní-vel em: <http://ccwu.me/vsfm/>
+. Acesso em:
+ []
+
+)
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[43] (TCC.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7522 strings out of 493634
- 110009 string characters out of 3141315
- 176466 words of memory out of 3000000
- 10686 multiletter control sequences out of 15000+200000
+ 7550 strings out of 493634
+ 110673 string characters out of 3141315
+ 176561 words of memory out of 3000000
+ 10697 multiletter control sequences out of 15000+200000
  43431 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,21n,49p,1067b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -980,9 +994,9 @@ type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on TCC.pdf (49 pages, 30674905 bytes).
+Output written on TCC.pdf (51 pages, 30679453 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
+ 297 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,12 @@
+\section{Revisão Bibliográfica} \label{revisaoPontos}
+
+Dentre os principais assuntos que se relacionam ao tema deste capítulo, pode-se destacar a obtenção de pontos de interesse de imagens HDR e a geração de nuvens de pontos. Nesta seção serão abordados trabalhos da literatura que se relacionam com estes temas.
+
+Kontogianni~\etal~\cite{hdr3d} apresentaram um estudo sobre a diferença entre imagens LDR e HDR na obtenção de pontos de interesse. A motivação do trabalho foi importância da preservação da herança cutural e arquitetural que pode ser feita através da recontrução 3D, e com isso a necessidade de alta precisão e preservação dos detalhes no processo. A hipótese foi que o uso das imagens HDR implicaria num maior número de pontos de interesse, que por sua vez agregariam mais informação para a recontrução 3D das cenas. Na implementação foram geradas imagens HDR a partir de conjuntos de imagens LDR, seguida pelo \textit{tone mapping} da imagem HDR gerada, para assim passá-la como entrada dos algoritmos de obtenção de pontos de interesse. Os resultados mostraram que o uso das imagens processadas obteve um aumento significativo do número de pontos de interesse encontrados em relação às imagens LDR.
+
+P\v{r}ibyl~\etal~\cite{hdr3d2} também apresentaran um trabalho que verifica a serventia de técnicas HDR para obtenção de pontos de interesse em condições extremas de iluminação, i.e, que possui áreas bem muito iluminadas e áreas pouco iluminadas. Assim como Kontogianni~\etal~\cite{hdr3d}, utilizou-se de técnicas de \textit{tone mapping} sobre as imagens HDR para então usá-las como entrada de métodos de obtenção de pontos de interesse. Seus resultados mostraram que o uso das imagens processadas aumentou a taxa de repitibilidade dos pontos de interesse significativamente.
+
+%Lowe~\cite{sift} introduziu um método para detecção, descrição e extração de pontos de interesse %denominado SIFT(textit{Scale Invariant Feature Transformation}). Os pontos de interesse extraídos %por este método são invariantes a escala, rotação e parcialmente a mudança de iluminação.
+%
+O trabalho mostrado por Wu \cite{visualSFMBA} introduz uma nova técnica de reconstrução 3D a partir de múltiplas imagens. A partir desta foi possível diminuir a complexidade da obtenção de pontos 3D. Este algoritmo é utilizado como parte do software VisualSFM~\cite{visualSFM} que será utilizado neste trabalho.
+
