@@ -59,4 +59,9 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Imagem visualizada com m\IeC {\'e}dio ganho}}}{35}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Imagem visualizada com alto ganho}}}{35}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Exemplo de execu\IeC {\c c}\IeC {\~a}o do VisualSFM para a gera\IeC {\c c}\IeC {\~a}o de nuvem de pontos a partir de imagens LDR.\relax }}{40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Carrega as imagens LDR.}}}{40}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Encontra a correspond\IeC {\^e}ncia entre as imagens.}}}{40}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Gera a nuvem de pontos.}}}{40}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Exemplo de imagem HDR tonemapped.\relax }}{41}
 \addvspace {10\p@ }
