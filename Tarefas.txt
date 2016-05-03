@@ -1,0 +1,37 @@
+//Cronograma minimalista do TCC-----------------------------------------------------------------------------
+[Terça/Quarta]              ->Fazer modificações do TCC segundo a revisão de Beatriz. +-ok
+[Quinta/Sexta/              ->Escrever a parte da malha.
+ Sábado/Domingo                    -Escrever sobre os softwares (Quais softwares existem para reconstrução 3D? Por que esse foi escolhido? Por que aquele não?);
+ /Segunda]             		   -Escrever sobre o SIFT;
+                    		   -Escrever sobre o ~CSMV;
+[Segunda/Terça]             ->Estudar um método de tonemapping.
+[Quarta/Quinta/Sexta/Sabado]->HDR-LDR: Usar um método de tonemapping para obter a imagem final e usar o método do Curry para realçar bordas.
+[Domingo/Segunda/Terça]     ->Escrever sobre o método de HDR-LDR.
+[Quarta]                    ->Tirar fotos base para montar a casca final e fazer a verificação do método proposto.
+[Quarta/Quinta/Sexta]       ->Escrever sobre a base de fotos e os resultados obtidos.
+[Sábado/Domingo]            ->Revisar o TCC e corrigir erros/ completar assuntos que estão vagos.(Verificar erros de português, concordância entre outros)
+[Segunda]                   ->Terminar revisão e enviar a versão para Beatriz analisar.
+--Dead line máximo para o envio da versão não revisada 26/04
+[Data Revisao]              <- Beatriz me entrega a revisão
+[Próximos 4 dias]           -> Realizar revisão e ao fim enviar a versão revisada.
+
+--NAO APAGAR, COLOCAR OK--
+
+FALAR DE TONEMAPPING NOS CONCEITOS BASICOS
+LEMBRAR DE DAR UMA SEGUNDA PASSADA
+SEARCH AND VOTE FALAR SOBRE (SEN)
+TODO SOMATÒRIO QUE TIVER VOCE TEM QUE VERIFICAR
+CORRIGIR CITAÇÔES DAS IMAGENS
+PONTOS DE INTERESSE NOS CONCEITOS BÁSICOS
+CORRIGIR O GANHO
+VERIFICAR SE TODAS AS LEGENDAS TEM PONTO FINAL
+VERIFICAR TAMBEM PRA ITEMIZES
+FAZER AS IMAGENS DE TESTE SEREM PADRÕES PARA TODOS OS MÉTODOS
+COLOCAR AS REFERENCIAS DOS CONCEITOS BÁSICOS E MELHORAR OS TEXTOS DOS MESMOS
+ATUALIZAR O RESUMO E O ABSTRACT
+ATUALIZAR AS CONSIDERAÇÕES FINAIS
+VERIFICAR ERROS DE PORTUGUÊS E CONCORDANCIA
+CONCERTAR A CITAÇÂO DO PICTURENAUT -> MISC, E FALAR MAIS SOBRE ELE NA SEÇÃO DE BASE DE DADOS
+VERIFICAR LETRAS MAIUSCULAS NAS REFERENCIAS
+VERIFICAR AS PALAVRAS EM INGLES EM ITÁLICO
+VERIFICAR AS CITAçÔES E A ORGANIZAÇÂO DAS REFERÊNCIAS (ABNT 6023)
