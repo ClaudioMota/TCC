@@ -15,8 +15,8 @@
 \contentsline {section}{\numberline {3.2}M\IeC {\'e}todos HDR Selecionados}{12}
 \contentsline {subsection}{\numberline {3.2.1}Base de Imagens e Visualiza\IeC {\c c}\IeC {\~a}o}{12}
 \contentsline {subsubsection}{Cena da Did\IeC {\'a}tica}{13}
-\contentsline {subsubsection}{Cena do Porquinho}{14}
-\contentsline {subsubsection}{Cena dos Olhinhos}{15}
+\contentsline {subsubsection}{Cena da Sala de Estar}{14}
+\contentsline {subsubsection}{Cena dos Livros}{15}
 \contentsline {subsubsection}{Software para Visualiza\IeC {\c c}\IeC {\~a}o de Imagens HDR}{16}
 \contentsline {subsection}{\numberline {3.2.2}Mann e Picard}{16}
 \contentsline {subsubsection}{Algoritmo para Inferir a Fun\IeC {\c c}\IeC {\~a}o Resposta}{16}
@@ -45,8 +45,8 @@
 \contentsline {section}{\numberline {4.2}Software Utilizado}{39}
 \contentsline {section}{\numberline {4.3}Introduzindo as Imagens HDR ao Processo}{41}
 \contentsline {subsection}{\numberline {4.3.1}M\IeC {\'e}todo de Tone Mapping}{41}
-\contentsline {section}{\numberline {4.4}Proposta para Melhoria na Aquisi\IeC {\c c}\IeC {\~a}o dos Pontos de Interesse}{42}
-\contentsline {section}{\numberline {4.5}Base de Imagens}{42}
-\contentsline {section}{\numberline {4.6}Resultados e Discuss\IeC {\~o}es}{42}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{43}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{43}
+\contentsline {section}{\numberline {4.4}Proposta para Melhoria na Aquisi\IeC {\c c}\IeC {\~a}o da Nuvem de Pontos}{42}
+\contentsline {section}{\numberline {4.5}Base de Imagens}{43}
+\contentsline {section}{\numberline {4.6}Resultados e Discuss\IeC {\~o}es}{43}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{44}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{44}

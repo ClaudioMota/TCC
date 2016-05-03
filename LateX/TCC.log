@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  2 MAY 2016 00:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  3 MAY 2016 11:08
 entering extended mode
 **./TCC.tex
 (TCC.tex
@@ -341,11 +341,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (TCC.aux
-
-LaTeX Warning: Label `figExemploSFM' multiply defined.
-
-)
+ (TCC.aux)
 \openout1 = `TCC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -981,27 +977,42 @@ Overfull \hbox (2.08524pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-) (Documentos/Pontos/Proposta.tex) (Documentos/Pontos/BaseImagens.tex)
-(Documentos/Pontos/Resultados.tex) (Documentos/ConsideracoesFinais.tex
+) (Documentos/Pontos/Proposta.tex
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
 [41 <./Figuras/salaToneMapped.png>]
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 17.
+
+
+<Figuras/matrizLaplace.png, id=252, 110.66344pt x 109.91063pt>
+File: Figuras/matrizLaplace.png Graphic file (type png)
+
+<use Figuras/matrizLaplace.png>
+Package pdftex.def Info: Figuras/matrizLaplace.png used on input line 21.
+(pdftex.def)             Requested size: 85.94562pt x 85.35826pt.
+
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[42]
-Cap\'{\i }tulo 5.
-) (TCC.bbl [43
+[42 <./Figuras/matrizLaplace.png>]) (Documentos/Pontos/BaseImagens.tex)
+(Documentos/Pontos/Resultados.tex) (Documentos/ConsideracoesFinais.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
-] [44
+
+[43]
+Cap\'{\i }tulo 5.
+) (TCC.bbl [44
+
+] [45
 
 ]
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[45]
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
 []\T1/ptm/m/n/12 [Online] Vi-su-alSFM. Dis-po-ní-vel em: <http://ccwu.me/vsfm/>
 . Acesso em:
  []
@@ -1010,38 +1021,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--112
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[46] (TCC.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[47] (TCC.aux) ) 
 Here is how much of TeX's memory you used:
- 7581 strings out of 493634
- 111425 string characters out of 3141315
- 176667 words of memory out of 3000000
- 10722 multiletter control sequences out of 15000+200000
+ 7592 strings out of 493634
+ 111673 string characters out of 3141315
+ 176688 words of memory out of 3000000
+ 10732 multiletter control sequences out of 15000+200000
  43431 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,21n,49p,1067b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
-s/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
-fb>
-Output written on TCC.pdf (55 pages, 31637294 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
+enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on TCC.pdf (56 pages, 31642732 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
+ 323 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

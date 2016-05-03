@@ -26,6 +26,11 @@ Dana~Harry Ballard and Christopher~M. Brown.
 \newblock {\em Computer Vision}.
 \newblock Prentice Hall Professional Technical Reference, 1st edition, 1982.
 
+\bibitem{gonzalez}
+Rafael~C. Gonzalez and Richard~E. Woods.
+\newblock {\em Digital Image Processing (2nd Ed)}.
+\newblock Prentice Hall, 2002.
+
 \bibitem{granados}
 M.~Granados, B.~Ajdin, M.~Wand, C.~Theobalt, H.-P. Seidel, and H.~Lensch.
 \newblock Optimal hdr reconstruction with linear digital cameras.
