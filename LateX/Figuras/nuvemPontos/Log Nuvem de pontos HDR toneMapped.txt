@@ -1,0 +1,134 @@
+0: PontosBaixo
+image_size:	2000x1500
+1: PontosCima
+image_size:	2000x1500
+2: PontosDireita
+image_size:	2000x1500
+3: PontosEsquerda
+image_size:	2000x1500
+4: PontosFrente
+image_size:	2000x1500
+Loading image pixel data ...done in 1s
+
+Compute Missing Pairwise Matching, begin...
+********* WARNING ***********
+More than 274MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0000, 2000x1500, 	4108, 4.46sec
+SIFT: 0001, 2000x1500, 	5426, 0.40sec
+SIFT: 0002, 2000x1500, 	5211, 0.46sec
+SIFT: 0003, 2000x1500, 	3188, 0.47sec
+SIFT: 0004, 2000x1500, 	4975, 0.48sec
+
+###########-------timing------#########
+5 Feature Detection finished, 7 sec used
+#############################
+
+10 pairs to compute match
+NOTE: using 2 matching workers
+0000 and 0002: 84 matches, 0.35sec, #1
+0000 and 0002: [54/84], H[38], 0.01sec
+0001 and 0002: 39 matches, 0.23sec, #1
+0001 and 0002: [20/39], H[7], 0.02sec
+0000 and 0003: 79 matches, 0.12sec, #1
+0000 and 0003: [49/79], H[23], 0.01sec
+0001 and 0003: 19 matches, 0.14sec, #1
+0000 and 0001: 253 matches, 1.03sec, #0
+0000 and 0001: [212/253], H[174], 0.00sec
+0002 and 0003: 68 matches, 0.14sec, #1
+0002 and 0003: [47/68], H[30], 0.00sec
+0002 and 0004: 219 matches, 0.23sec, #1
+0002 and 0004: [178/219], H[170], 0.00sec
+0003 and 0004: 118 matches, 0.13sec, #1
+0003 and 0004: [92/118], H[52], 0.00sec
+0000 and 0004: 500 matches, 0.61sec, #0
+0000 and 0004: [465/500], H[440], 0.01sec
+0001 and 0004: 202 matches, 0.79sec, #0
+0001 and 0004: [137/202], H[112], 0.01sec
+
+###########-------timing------#########
+10 Image Match finished, 2 sec used
+#############################
+
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 9.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+5 pairs have two-view models
+9 pairs have fundamental matrices
+Initialize with Pon..uerda and Pon..rente
+92 3D points initialized from two images
+PBA library version = 105
+PBA: 92 3D pts, 2 cams and 184 projs...
+PBA: 0.812 -> 0.240 (3 LMs in 0.03sec)
+Focal Length : [2400.000]->[2328.740]
+Focal Length : [2400.000]->[2441.685]
+
+#############################
+#3: [Pon..Baixo] sees 39 (+465) 3D points
+Estimated Focal Length [1059][0.53W]
+# 29 projs (0 pts and 0 merges)
+PBA: 92 3D pts, 3 cams and 213 projs...
+PBA: 6.098 -> 0.334 (100 LMs in 1.05sec)
+
+**************************************
+#3/3:  899 projs and 435 pts added.
+PBA: 525 3D pts, 3 cams and 1079 projs...
+PBA: 2.256 -> 0.380 (50 LMs in 0.62sec)
+PBA: 525 3D pts, 3 cams and 1079 projs...
+PBA: 0.380 -> 0.247 (10 LMs in 0.14sec)
+Focal Length : [1058.801]->[1309.467]
+Radial Distortion : [-0.070 -> -41]
+
+#############################
+#4: [PontosCima] sees 72 (+266) 3D points
+Estimated Focal Length [1971][0.99N]
+# 58 projs (0 pts and 0 merges)
+PBA: 525 3D pts, 4 cams and 1137 projs...
+PBA: 0.473 -> 0.249 (5 LMs in 0.08sec)
+Focal Length : [1971.286]->[1637.089]
+Radial Distortion : [-0.025 -> -10]
+
+#############################
+#5: [Pon..reita] sees 103 (+198) 3D points
+Estimated Focal Length [1604][0.80N]
+# 450 projs (185 pts and 4 merges)
+PBA: 705 3D pts, 5 cams and 1585 projs...
+PBA: 3.451 -> 0.274 (20 LMs in 0.25sec)
+
+**************************************
+#5/5:  940 projs and 417 pts added.
+PBA: 936 3D pts, 5 cams and 2073 projs...
+PBA: 0.301 -> 0.263 (27 LMs in 0.28sec)
+PBA: 936 3D pts, 5 cams and 2073 projs...
+PBA: 0.263 -> 0.263 (6 LMs in 0.05sec)
+Focal Length : [1603.560]->[1506.635]
+Radial Distortion : [0.020 -> 8]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 2 sec used
+
+---------------------------------------------------
+5 cams, 937 pts (3+: 168)
+2073 projections (3+: 537)
+---------------------------------------------------
+1 model(s) reconstructed from 5 images;
+5 modeled; 0 reused; 0 EXIF; 
+0MB(0) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 3 sec used
+2.5(2.5) seconds on Bundle Adjustment (+)
+2.5(2.5) seconds on Bundle Adjustment (*)
+#############################
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 3.000 seconds used

@@ -5,7 +5,7 @@
  /Segunda]             		   -Escrever sobre o SIFT;
                     		   -Escrever sobre o ~CSMV;
 [Segunda/Terça]             ->Estudar um método de tonemapping.
-[Quarta/Quinta/Sexta/Sabado]->HDR-LDR: Usar um método de tonemapping para obter a imagem final e usar o método do Curry para realçar bordas.
+[Quarta/Quinta/Sexta/Sabado]->HDR-LDR: Usar um método de tonemapping para obter a imagem final e usar o método do Canny para realçar bordas.
 [Domingo/Segunda/Terça]     ->Escrever sobre o método de HDR-LDR.
 [Quarta]                    ->Tirar fotos base para montar a casca final e fazer a verificação do método proposto.
 [Quarta/Quinta/Sexta]       ->Escrever sobre a base de fotos e os resultados obtidos.
@@ -18,6 +18,7 @@
 --NAO APAGAR, COLOCAR OK--
 
 FALAR DE TONEMAPPING NOS CONCEITOS BASICOS
+FALAR DO BOOST NUM SEI O QUE NA HORA DO FILTRO DE REFORÇO
 LEMBRAR DE DAR UMA SEGUNDA PASSADA
 SEARCH AND VOTE FALAR SOBRE (SEN)
 TODO SOMATÒRIO QUE TIVER VOCE TEM QUE VERIFICAR
@@ -35,3 +36,5 @@ CONCERTAR A CITAÇÂO DO PICTURENAUT -> MISC, E FALAR MAIS SOBRE ELE NA SEÇÃO DE B
 VERIFICAR LETRAS MAIUSCULAS NAS REFERENCIAS
 VERIFICAR AS PALAVRAS EM INGLES EM ITÁLICO
 VERIFICAR AS CITAçÔES E A ORGANIZAÇÂO DAS REFERÊNCIAS (ABNT 6023)
+USAR VIRGULA EM NÚMEROS DECIMAIS
+VERIFICAR A CAPA E OUTROS PRE-TEXTOS

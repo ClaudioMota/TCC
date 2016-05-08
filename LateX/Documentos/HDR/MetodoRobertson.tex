@@ -79,13 +79,13 @@ Ao final do método, possui-se um conjunto de valores $\{I_{p_{ij}}\}$ que repre
 
 \begin{figure}[H]
   \centering
-  \subfloat[Ilustração dos pontos utilizados na interpolação]
+  \subfloat[Ilustração dos pontos utilizados na interpolação.]
   {
     \includegraphics[height=6cm]{Robertson/Pontos}
     \label{figRobertsonPontosA}
   }
   \quad %espaco separador
-  \subfloat[Função resposta obtida com a interpolação]
+  \subfloat[Função resposta obtida com a interpolação.]
   {
     \includegraphics[height=6cm]{Robertson/fr-linear-azul}
     \label{figRobertsonPontosB}
@@ -96,47 +96,72 @@ Ao final do método, possui-se um conjunto de valores $\{I_{p_{ij}}\}$ que repre
 
 \subsubsection{Resultados e Discussões} \label{metodoRobertsonResultado}
 
-O método em questão foi implementado na linguagem de programação C++, assim como o método de interpolação por spline cúbica. Os resultados são mostrados nas Figuras \ref{figRobertsonOlhinhos} e \ref{figRobertsonPorquinho}.
+O método em questão foi implementado na linguagem de programação C++, assim como o método de interpolação por spline cúbica. Os resultados são mostrados nas Figuras \ref{figRobertsonDidatica}, \ref{figRobertsonPorquinho} e \ref{figRobertsonOlhinhos}.
 
 \begin{figure}[H]
   \centering
-  \subfloat[Imagem visualizada com baixo ganho]
+  \subfloat[Imagem visualizada com ganho de -11,0EV.]
   {
-    \includegraphics[height=6cm]{Robertson/OlhinhosLow}
-    \label{figRobertsonOlhinhosA}
+    \includegraphics[height=6cm]{Robertson/robertsonSala-11,0EV}
+    \label{figRobertsonDidaticaA}
   }
   \quad %espaco separador
-  \subfloat[Imagem visualizada com médio ganho]
+  \subfloat[Imagem visualizada com de ganho -4,3EV.]
   {
-    \includegraphics[height=6cm]{Robertson/OlhinhosMedio}
-    \label{figRobertsonOlhinhosB}
+    \includegraphics[height=6cm]{Robertson/robertsonSala-4,3EV}
+    \label{figRobertsonDidaticaB}
   }
-  \quad %espaco separador
-  \subfloat[Imagem visualizada com alto ganho]
-  {
-    \includegraphics[height=6cm]{Robertson/OlhinhosAlto}
-    \label{figRobertsonOlhinhosC}
-  }
-  \caption{Imagem HDR gerada utilizando o método de Robertson~\etal.}
-  \label{figRobertsonOlhinhos}
+  \caption{Imagem HDR gerada utilizando o método de Robertson~\etal~\protect\cite{robertson}.}
+  \label{figRobertsonDidatica}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \subfloat[Imagem visualizada com baixo ganho]
+  \subfloat[Imagem visualizada com ganho de -4,3EV.]
   {
-    \includegraphics[height=6cm]{Robertson/PorquinhoBaixo}
+    \includegraphics[height=6cm]{Robertson/robertsonOtima-4,3EV}
     \label{figRobertsonPorquinhoA}
   }
   \quad %espaco separador
-  \subfloat[Imagem visualizada com alto ganho]
+  \subfloat[Imagem visualizada com ganho de -2,0EV.]
   {
-    \includegraphics[height=6cm]{Robertson/PorquinhoAlto}
+    \includegraphics[height=6cm]{Robertson/robertsonOtima-2,0EV}
     \label{figRobertsonPorquinhoB}
   }
-  \caption{Imagem HDR gerada utilizando o método de Robertson~\etal.}
+  \quad %espaco separador
+  \subfloat[Imagem visualizada com ganho de 0EV.]
+  {
+    \includegraphics[height=6cm]{Robertson/robertsonOtima0,0EV}
+    \label{figRobertsonPorquinhoC}
+  }
+  \caption{Imagem HDR gerada utilizando o método de Robertson~\etal~\protect\cite{robertson}.}
   \label{figRobertsonPorquinho}
 \end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \subfloat[Imagem visualizada com ganho de -4,3EV.]
+  {
+    \includegraphics[height=6cm]{Robertson/robertsonOlhinhos-4,3EV}
+    \label{figRobertsonOlhinhosA}
+  }
+  \quad %espaco separador
+  \subfloat[Imagem visualizada com ganho de -2,7EV.]
+  {
+    \includegraphics[height=6cm]{Robertson/robertsonOlhinhos-2,7EV}
+    \label{figRobertsonOlhinhosB}
+  }
+  \quad %espaco separador
+  \subfloat[Imagem visualizada com ganho de -0,4EV.]
+  {
+    \includegraphics[height=6cm]{Robertson/robertsonOlhinhos-0,4EV}
+    \label{figRobertsonOlhinhosC}
+  }
+  \caption{Imagem HDR gerada utilizando o método de Robertson~\etal~\protect\cite{robertson}.}
+  \label{figRobertsonOlhinhos}
+\end{figure}
+
 
 \begin{figure}[H]
   \centering
@@ -151,7 +176,7 @@ O método em questão foi implementado na linguagem de programação C++, assim 
     \includegraphics[height=6cm]{Robertson/Ruido}
     \label{figRobertsonSalaB}
   }
-  \caption{Imagem HDR gerada utilizando o método de Robertson~\etal, que apresentou ruído em partes com muita irradiação de luz.}
+  \caption{Imagem HDR gerada utilizando o método de Robertson~\etal~\protect\cite{robertson}, que apresentou ruído em partes com muita irradiação de luz.}
   \label{figRobertsonSala}
 \end{figure}
 

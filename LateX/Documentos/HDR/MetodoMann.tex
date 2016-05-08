@@ -48,63 +48,74 @@ O método em questão foi implementado na linguagem de programação C++, e foi 
   \label{figMannFigErr}
 \end{figure}
 
-Para solução deste problema foi utilizada a mesma solução proposta por Robertson \etal~\cite{robertson}, que estabelece que a função resposta deve sempre mapear o pixel com valor intermediário (128 para pixels com 8 bits) para o valor de uma unidade de luminosidade irradiada. Com essa modificação foi possível obter resultados satisfatórios na união dos canais HDR, conforme mostrado nas Figuras \ref{figMann1} e \ref{figMann2}.
+Para solução deste problema foi utilizada a mesma solução proposta por Robertson \etal~\cite{robertson}, que estabelece que a função resposta deve sempre mapear o pixel com valor intermediário (128 para pixels com 8 bits) para o valor de uma unidade de luminosidade irradiada. Com essa modificação foi possível obter resultados satisfatórios na união dos canais HDR, conforme mostrado nas Figuras \ref{figMann1}, \ref{figMann2} e \ref{figMann3}.
 
 \begin{figure}[H]
   \centering
-  \subfloat[Imagem visualizada com baixo ganho.]
+  \subfloat[Imagem visualizada com ganho de -9,5EV.]
   {
-    \includegraphics[height=6cm]{Mann/didaticaLow}
+    \includegraphics[height=6cm]{Mann/manSala-9,5EV}
     \label{figMann1A}
   }
   \quad %espaco separador
-  \subfloat[Imagem visualizada com alto ganho.]
+  \subfloat[Imagem visualizada com ganho de -4,8EV.]
   {
-    \includegraphics[height=6cm]{Mann/didaticaAlto}
+    \includegraphics[height=6cm]{Mann/manSala-4,8EV}
     \label{figMann1B}
   }
-  \caption{Imagem HDR obtida utilizando o método de Mann e Picard.}
+  \caption{Imagem HDR obtida utilizando o método de Mann e Picard~\protect\cite{mann}.}
   \label{figMann1}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \subfloat[Imagem visualizada com baixo ganho.]
+  \subfloat[Imagem visualizada com ganho de -3,6EV.]
   {
-    \includegraphics[height=6cm]{Mann/porquinhoLow}
+    \includegraphics[height=6cm]{Mann/manPorquinho-3,6EV}
     \label{figMann2A}
   }
   \quad %espaco separador
-  \subfloat[Imagem visualizada com médio ganho.]
+  \subfloat[Imagem visualizada com ganho de -0,4EV.]
   {
-    \includegraphics[height=6cm]{Mann/porquinhoMedio}
+    \includegraphics[height=6cm]{Mann/manPorquinho-0,4EV}
     \label{figMann2B}
   }
-  \quad %espaco separador  
-  \subfloat[Imagem visualizada com alto ganho.]
-  {
-    \includegraphics[height=6cm]{Mann/porquinhoAlto}
-    \label{figMann2C}
-  }
-  \caption{Imagem HDR obtida utilizando o método de Mann e Picard.}
+  \caption{Imagem HDR obtida utilizando o método de Mann e Picard~\protect\cite{mann}.}
   \label{figMann2}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \subfloat[Imagem visualizada com ganho de -2,9EV.]
+  {
+    \includegraphics[height=6cm]{Mann/manOlhinhos-2,9EV}
+    \label{figMann3A}
+  }  
+  \quad %espaco separador
+  \subfloat[Imagem visualizada com ganho de 0EV.]
+  {
+    \includegraphics[height=6cm]{Mann/manOlhinhos0EV}
+    \label{figMann3B}
+  }
+  \caption{Imagem HDR obtida utilizando o método de Mann e Picard~\protect\cite{mann}.}
+  \label{figMann3}
 \end{figure}
 
 A Figura \ref{figMannFR} mostra as funções resposta dos três canais obtidas utilizando o método proposto.
 
 \begin{figure}[H]
   \centering
-  \subfloat[Linear]
+  \subfloat[Linear.]
   {
     \includegraphics[height=6cm]{Mann/Fr-linear-total}
     \label{figMannFRA}
   }
   \quad %espaco separador
-  \subfloat[Logaritmica]
+  \subfloat[Logaritmica.]
   {
     \includegraphics[height=6cm]{Mann/Fr-log-total}
     \label{figMannFRB}
   }
-  \caption{Funções resposta da câmera no eixo linear (a) e no eixo logarítmico (b), referentes aos canais vermelho, verde e azul, obtidos com o método de Mann e Picard.}
+  \caption{Funções resposta da câmera no eixo linear (a) e no eixo logarítmico (b), referentes aos canais vermelho, verde e azul, obtidos com o método de Mann e Picard~\protect\cite{mann}.}
   \label{figMannFR}
 \end{figure}

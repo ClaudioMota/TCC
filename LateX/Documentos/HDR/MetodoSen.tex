@@ -76,50 +76,61 @@ Outra otimização feita é a implementação de fases do algoritmo relativas a 
 
 Notou-se que ao utilizar imagens com alta resolução o processamento era longo e com consumo de memória excessivo. Para o caso em que foi testado, num computador com memória RAM de 4GB, utilizando imagens de 4000x3000 pixels, não foi possível a execução do método pois a mémoria era isuficiente para o processo, sendo assim necessário o redimensionamento das imagens para 2000x1500 pixels.
 
-O método foi testado utilizando um conjunto de imagens. Os resultados são mostrados nas Figuras \ref{figSenSala} e \ref{figSenPorquinho}. Apesar da ausência de fantasmas nas imagens, algumas delas, conforme mostrado na Figura \ref{figSenSalaC}, possuíram artefatos que se assemelham a uma quatização das cores quando o ganho é relativamente alto.
+O método foi testado utilizando o conjunto de imagens mostrado na seção \ref{metodoBaseImg}. Os resultados são mostrados nas Figuras \ref{figSenSala}, \ref{figSenPorquinho} e \ref{figSenOlhinhos}. Apesar da ausência de fantasmas nas imagens, algumas delas, conforme mostrado na Figura \ref{figSenSalaB}, possuíram artefatos que se assemelham a uma quatização das cores quando o ganho é relativamente alto.
 
 \begin{figure}[H]
   \centering
-  \subfloat[Imagem visualizada com baixo ganho]
+  \subfloat[Imagem visualizada com ganho de $-9,8$EV.]
   {
-    \includegraphics[height=6cm]{Sen/SalaLow}
+    \includegraphics[height=6cm]{Sen/senSala-9,8EV}
     \label{figSenSalaA}
   }
   \quad %espaco separador
-  \subfloat[Imagem visualizada com médio ganho]
+  \subfloat[Imagem visualizada com ganho de $-1,1$EV.]
   {
-    \includegraphics[height=6cm]{Sen/SalaMedio}
+    \includegraphics[height=6cm]{Sen/senSala-1,1EV}
     \label{figSenSalaB}
   }
-  \quad %espaco separador
-  \subfloat[Imagem visualizada com alto ganho]
-  {
-    \includegraphics[height=6cm]{Sen/SalaHigh}
-    \label{figSenSalaC}
-  }
-  \caption{Imagem HDR gerada utilizando o método de Sen~\etal.}
+  \caption{Imagem HDR gerada utilizando o método de Sen~\etal~\protect\cite{hdrMovimento}.}
   \label{figSenSala}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \subfloat[Imagem visualizada com baixo ganho]
+  \subfloat[Imagem visualizada com ganho de $-1,3$EV.]
   {
-    \includegraphics[height=6cm]{Sen/PorquinhoLow}
+    \includegraphics[height=6cm]{Sen/senPorquinho-1,3EV}
     \label{figSenPorquinhoA}
   }
   \quad %espaco separador
-  \subfloat[Imagem visualizada com médio ganho]
+  \subfloat[Imagem visualizada com ganho de $2,5$EV.]
   {
-    \includegraphics[height=6cm]{Sen/Porquinho}
+    \includegraphics[height=6cm]{Sen/senPorquinho2,5EV}
     \label{figSenPorquinhoB}
   }
-  \quad %espaco separador
-  \subfloat[Imagem visualizada com alto ganho]
-  {
-    \includegraphics[height=6cm]{Sen/PorquinhoHigh}
-    \label{figSenPorquinhoC}
-  }
-  \caption{Imagem HDR gerada utilizando o método de Sen~\etal.}
+  \caption{Imagem HDR gerada utilizando o método de Sen~\etal~\protect\cite{hdrMovimento}.}
   \label{figSenPorquinho}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \subfloat[Imagem visualizada com ganho de $-0,6$EV.]
+  {
+    \includegraphics[height=6cm]{Sen/senOlhinhos-0,6EV}
+    \label{figSenOlhinhosA}
+  }
+  \quad %espaco separador
+  \subfloat[Imagem visualizada com ganho de $-3,4$EV.]
+  {
+    \includegraphics[height=6cm]{Sen/senOlhinhos-3,4EV}
+    \label{figSenOlhinhosB}
+  }
+  \quad %espaco separador
+  \subfloat[Imagem visualizada com ganho de $3,6$EV.]
+  {
+    \includegraphics[height=6cm]{Sen/senOlhinhos3,6EV}
+    \label{figSenOlhinhosC}
+  }
+  \caption{Imagem HDR gerada utilizando o método de Sen~\etal~\protect\cite{hdrMovimento}.}
+  \label{figSenOlhinhos}
 \end{figure}

@@ -22,31 +22,31 @@
 \contentsline {subsubsection}{Algoritmo para Inferir a Fun\IeC {\c c}\IeC {\~a}o Resposta}{16}
 \contentsline {subsubsection}{Gera\IeC {\c c}\IeC {\~a}o da Imagem HDR}{17}
 \contentsline {subsubsection}{Resultados e Discuss\IeC {\~o}es}{18}
-\contentsline {subsection}{\numberline {3.2.3}M\IeC {\'e}todo Robertson}{21}
-\contentsline {subsubsection}{Gera\IeC {\c c}\IeC {\~a}o da Imagem HDR}{22}
-\contentsline {subsubsection}{Algoritmo para Inferir a Fun\IeC {\c c}\IeC {\~a}o Resposta}{23}
-\contentsline {subsubsection}{Resultados e Discuss\IeC {\~o}es}{25}
-\contentsline {subsection}{\numberline {3.2.4}M\IeC {\'e}todo Sen}{29}
-\contentsline {subsubsection}{Modelagem do Problema}{30}
-\contentsline {subsubsection}{Especificidades de Implementa\IeC {\c c}\IeC {\~a}o}{32}
-\contentsline {subsubsection}{Resultados e Discuss\IeC {\~o}es}{33}
-\contentsline {section}{\numberline {3.3}Discuss\IeC {\~o}es}{36}
-\contentsline {subsection}{\numberline {3.3.1}M\IeC {\'e}todo Mann}{36}
-\contentsline {subsubsection}{Vantagens}{36}
-\contentsline {subsubsection}{Desvantagens}{36}
-\contentsline {subsection}{\numberline {3.3.2}M\IeC {\'e}todo Robertson}{36}
-\contentsline {subsubsection}{Vantagens}{36}
-\contentsline {subsubsection}{Desvantagens}{36}
-\contentsline {subsection}{\numberline {3.3.3}M\IeC {\'e}todo Sen}{37}
-\contentsline {subsubsection}{Vantagens}{37}
-\contentsline {subsubsection}{Desvantagens}{37}
-\contentsline {chapter}{\numberline {4}Obten\IeC {\c c}\IeC {\~a}o de Nuvem de Pontos a Partir de Imagens HDR}{38}
-\contentsline {section}{\numberline {4.1}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{38}
-\contentsline {section}{\numberline {4.2}Software Utilizado}{39}
-\contentsline {section}{\numberline {4.3}Introduzindo as Imagens HDR ao Processo}{41}
-\contentsline {subsection}{\numberline {4.3.1}M\IeC {\'e}todo de Tone Mapping}{41}
-\contentsline {section}{\numberline {4.4}Proposta para Melhoria na Aquisi\IeC {\c c}\IeC {\~a}o da Nuvem de Pontos}{42}
-\contentsline {section}{\numberline {4.5}Base de Imagens}{43}
-\contentsline {section}{\numberline {4.6}Resultados e Discuss\IeC {\~o}es}{43}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{44}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{44}
+\contentsline {subsection}{\numberline {3.2.3}M\IeC {\'e}todo Robertson}{22}
+\contentsline {subsubsection}{Gera\IeC {\c c}\IeC {\~a}o da Imagem HDR}{23}
+\contentsline {subsubsection}{Algoritmo para Inferir a Fun\IeC {\c c}\IeC {\~a}o Resposta}{24}
+\contentsline {subsubsection}{Resultados e Discuss\IeC {\~o}es}{26}
+\contentsline {subsection}{\numberline {3.2.4}M\IeC {\'e}todo Sen}{31}
+\contentsline {subsubsection}{Modelagem do Problema}{32}
+\contentsline {subsubsection}{Especificidades de Implementa\IeC {\c c}\IeC {\~a}o}{34}
+\contentsline {subsubsection}{Resultados e Discuss\IeC {\~o}es}{35}
+\contentsline {section}{\numberline {3.3}Discuss\IeC {\~o}es}{39}
+\contentsline {subsection}{\numberline {3.3.1}M\IeC {\'e}todo Mann}{39}
+\contentsline {subsubsection}{Vantagens}{39}
+\contentsline {subsubsection}{Desvantagens}{39}
+\contentsline {subsection}{\numberline {3.3.2}M\IeC {\'e}todo Robertson}{39}
+\contentsline {subsubsection}{Vantagens}{39}
+\contentsline {subsubsection}{Desvantagens}{39}
+\contentsline {subsection}{\numberline {3.3.3}M\IeC {\'e}todo Sen}{40}
+\contentsline {subsubsection}{Vantagens}{40}
+\contentsline {subsubsection}{Desvantagens}{40}
+\contentsline {chapter}{\numberline {4}Obten\IeC {\c c}\IeC {\~a}o de Nuvem de Pontos a Partir de Imagens HDR}{41}
+\contentsline {section}{\numberline {4.1}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{41}
+\contentsline {section}{\numberline {4.2}Software Utilizado}{42}
+\contentsline {section}{\numberline {4.3}Introduzindo as Imagens HDR ao Processo}{44}
+\contentsline {subsection}{\numberline {4.3.1}M\IeC {\'e}todo de Tone Mapping}{44}
+\contentsline {section}{\numberline {4.4}Proposta para Melhoria na Aquisi\IeC {\c c}\IeC {\~a}o da Nuvem de Pontos}{45}
+\contentsline {section}{\numberline {4.5}Base de Imagens}{46}
+\contentsline {section}{\numberline {4.6}Resultados e Discuss\IeC {\~o}es}{49}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{52}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{52}
