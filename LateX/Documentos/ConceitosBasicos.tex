@@ -2,16 +2,16 @@
 	Este capítulo aborda conceitos fundamentais para a compreensão dos métodos de geração de imagens HDR e obtenção de nuvem de pontos, que serão abordados nos capítulos posteriores.
 	
 \section{Faixa Dinâmica} \label{conceitoFaixa}
-    Cada imagem digital possui uma certa quantidade de bits para representação das cores de cada um de seus pixels. A maior parte das câmeras convencionais do mercado geram imagens com pixels que são representados por 8 bits em cada canal de cor, o que resulta numa faixa de 256 valores possíveis. Quando uma imagem possui esta faixa de representação de cores esta é chamada de imagem com baixa faixa dinâmica (em inglês, Low Dynamic Range - LDR) por possuir uma faixa relativamente curta de cores para representar a cena. Quando uma imagem possui uma faixa maior de representação de cores é denominada imagen com alta faixa dinâmica (em inglês, High Dynamic Range - HDR). As imagens HDR geralmente representam as cores em ponto flutuante o que diminui a deterioração cumulativa ao efetuar operações sobre a imagem sucessivamente. Além disso, conseguem representar melhor as cenas capturadas em relação a uma imagem LDR, por possuir mais bits para representação das cores.
+    Cada imagem digital possui uma certa quantidade de bits para representação das cores de cada um de seus pixels. A maior parte das câmeras convencionais do mercado geram imagens com pixels que são representados por 8 bits em cada canal de cor, o que resulta numa faixa de 256 valores possíveis. Quando uma imagem possui esta faixa de representação de cores esta é chamada de imagem com baixa faixa dinâmica (em inglês, Low Dynamic Range - LDR) por possuir um intervalo relativamente curto de valores para representar as cores capturadas em uma cena. Quando uma imagem possui uma faixa maior de valores para representação de cores é denominada imagem com alta faixa dinâmica (em inglês, High Dynamic Range - HDR). As imagens HDR geralmente representam as cores em ponto flutuante, o que diminui a deterioração cumulativa ao efetuar operações sucessivas sobre a imagem. Além disso, estas imagens conseguem representar melhor as cenas capturadas em relação a uma imagem LDR, por possuírem mais bits para representação das cores.
     
     Supondo uma cena com áreas bem iluminadas, outras com iluminação moderada e outras com baixa iluminação, ao captar uma imagem LDR desta cena muito provavelmente informações das áreas com extremos de iluminação (pouco/muito iluminadas) serão perdidas. Isto acontece devido ao fato da imagem não ter uma faixa de valores suficiente para representar tanto os níveis altos como os níveis baixos de iluminação desta cena. Por outro lado, ao captar uma imagem HDR desta mesma cena mais detalhes das zonas claras e escuras serão registrados sem perdas significativas.
 	
 \section{Função Resposta de uma Câmera} \label{conceitoFR}
-	Uma câmera digital é composta de uma matriz de elementos sensores de luz. No processo de captura de uma imagem, cada sensor pode ser considerado uma função $f$ que recebe como entradas $x$ e $t$. $x$ representa o valor de irradiação de luz que incide sobre o sensor, e $t$ representa o período de tempo que esta incidência persiste. Esta função tem como saída um valor geralmente inteiro $p$, que é o valor do pixel. $f$ é chamada de função resposta da câmera e idealmente ela pode ser descrita pela seguinte equação:
+	Uma câmera digital é composta de uma matriz de elementos sensores de luz. No processo de captura de uma imagem, cada sensor pode ser considerado uma função $f$ que recebe como entradas $x$ e $t$. A entrada $x$ representa o valor de irradiação de luz que incide sobre o sensor, e $t$ representa o período de tempo que esta incidência persiste. Esta função tem como saída um valor geralmente inteiro $p$, que é o valor do pixel. $f$ é chamada de função resposta da câmera e idealmente ela pode ser descrita pela seguinte equação:
 	
 	
 \begin{align} \label{eqConceitoFR1}
-          f_{(x,t)} &= p
+          f(x,t) &= p
 \end{align}
 
 	Porém, no mundo real há a presença de ruídos, advindos de diversas fontes, que distorcem os sinais tanto de entrada quanto de saída da câmera. Devido a isso, a equação \ref{eqConceitoFR1} pode ser modificada para a seguinte equação que discrimina os ruídos:
@@ -22,8 +22,8 @@
 
 Onde
 \begin{itemize}
-	\item $R_a$ é a abstração dos ruídos advindos do meio, como ruído termico entre outros.
-	\item $R_b$ é a abstração dos ruídos gerados na conversão de analógico para digital, como corrente de escuro entre outros.
+	\item $R_a$ é a abstração dos ruídos advindos do meio, como ruído térmico.
+	\item $R_b$ é a abstração dos ruídos gerados na conversão do sinal analógico para digital, como corrente de escuro.
 \end{itemize} 
 		
 	Vale atentar que o valor de iluminação $x$ também é influenciado pela abertura do obturador, mas este trabalho considera que a abertura do obturador irá permanecer constante, pois qualquer mudança da abertura do obturador influenciará no foco da câmera. 
@@ -34,9 +34,9 @@ Onde
 	g(p, t) = x^*
 \end{align}
 	
-	Um dos problemas em relação a esta abordagem é que a confiabilidade dos pixels varia de acordo com o tempo de exposição, além disso, cada pixel $p$ possui um ruído agregado a ele. Assim, cada método de geração de imagens HDR trata estes problemas de maneira singular.
+	Um dos problemas em relação a esta abordagem é que a confiabilidade dos pixels varia de acordo com o tempo de exposição \cite{robertson}, além disso, cada pixel $p$ possui um ruído agregado a ele. Assim, cada método de geração de imagens HDR trata estes problemas de maneira específica.
 	
-	Outro problema é que na prática o usuário da câmera geralmente não possui nenhuma informação sobre a função resposta da câmera que está utilizando. Devido a isso alguns autores dos métodos de geração de imagens HDR também propõem métodos de inferência da função resposta da câmera a partir das imagens que são passadas como entrada.
+	Outro problema é que, na prática, o usuário da câmera geralmente não possui nenhuma informação sobre a função resposta da câmera que está utilizando. Devido a isso alguns autores dos métodos de geração de imagens HDR também propõem métodos de inferência da função resposta de uma câmera a partir das imagens capturadas por ela.
 
 \section{Eixo Logarítmico} \label{conceitoGaussiana}
 
@@ -78,7 +78,7 @@ Onde
   \label{figConceitoEixo}
 \end{figure}
 
-	A importância do eixo logarítmico para os métodos de geração de imagens HDR se dá por conta de uma suposição assumida por alguns dos autores. Segundo Mann \cite{mann} e Robertson \cite{robertson} a derivada da função resposta da câmera num eixo logarítmico possui relação direta com a confiabilidade que um pixel possui, i.e, quanto maior o valor de confiabilidade menor o ruído associado ao pixel. O cálculo da derivada do ponto de uma função em relação ao eixo logarítmico é dado pela seguinte equação:
+	A importância do eixo logarítmico para os métodos de geração de imagens HDR se dá por conta de uma suposição assumida por alguns dos autores. Segundo Mann~\cite{mann} e Robertson~\cite{robertson}, a derivada da função resposta da câmera num eixo logarítmico possui relação direta com a confiabilidade que um pixel possui, i.e, quanto maior o valor de confiabilidade menor o ruído associado ao pixel. O cálculo da derivada do ponto de uma função em relação ao eixo logarítmico é dado pela seguinte equação:
 	
 \begin{align} \label{eqConceitoLog1}
           y^,_{log}(x) = \frac{dy}{dx}.\frac{x}{log(e)}
@@ -103,12 +103,12 @@ Onde
 	
 
  \section{Relaxação de Gauss-Seidel} \label{conceitoGauss-Seidel}
-	Consiste num método para resolução de sistemas de equações com múltiplas variáveis simultaneamente de forma iterativa. O método consiste em, a partir de valores especulados iniciais, inferir o valor de uma variável e com este valor encontrado, encontrar o valor da próxima variável. E assim prosseguir no método iterativo para todas as variáveis de maneira cíclica até atingir uma determinada condição de convergência. Mais informações sobre o método estão disponíveis na Referência \cite{livroCalculoNumerico}.
+	Consiste num método para resolução de sistemas de equações com múltiplas variáveis simultaneamente de forma iterativa. O método consiste em, a partir de valores iniciais especulados, inferir o valor de uma variável e, com este valor encontrado, estimar o valor da próxima variável. O processo é repetido iterativamente para todas as variáveis de maneira cíclica até atingir uma determinada condição de convergência. Mais informações sobre o método estão disponíveis no livro de Ruggiero e Lopes~\cite{livroCalculoNumerico}.
 	
 
 \section{Spline Cúbica} \label{conceitoSpline}
 
-	Spline cúbica é um método de interpolação que possui como principal característica a geração de uma função contínua, com primeira e segunda derivadas também contínuas. A interpolação consiste em, dado um conjunto de pontos $S$ = $\{(x_i,y_i)\}$, obter uma função $y(x)$ que contenha todos estes pontos. Para isso considera-se que cada intervalo entre dois pontos consecutivos são funções polinomiais de terceiro grau. E a partir de premissas definidas em relação ao primeiro e ultimo ponto, é descoberto os valores das fuções de cada intervalo. Mais informações estão disponíveis na Referência \cite{livroCalculoNumerico}.
+	Spline cúbica é um método de interpolação que possui como principal característica a geração de uma função contínua, com primeira e segunda derivadas também contínuas. A interpolação consiste em, dado um conjunto de pontos $S$ = $\{(x_i,y_i)\}$, obter uma função $y(x)$ que contenha todos estes pontos. Para isso considera-se que cada intervalo entre dois pontos consecutivos são funções polinomiais de terceiro grau. A partir de premissas definidas em relação ao primeiro e último ponto, são descobertos os valores das funções de cada intervalo. Mais informações sobre o funcionamento deste método podem ser encontradas no livro de Ruggiero e Lopes~\cite{livroCalculoNumerico}.
 	
 	
 	

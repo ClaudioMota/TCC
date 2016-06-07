@@ -1,0 +1,79 @@
+
+pmvs2
+Y:\ND\UFS\Trabalho de Conclusao de Curso\Documentos\LateX\Figuras\Base1\ToneMap\denso.nvm.cmvs\00\
+option-0000--------------------------------------------------
+--- Summary of specified options ---
+# of timages: 4 (enumeration)
+# of oimages: 0 (enumeration)
+level: 1  csize: 2
+threshold: 0.7  wsize: 7
+minImageNum: 3  CPU: 4
+useVisData: 1  sequence: -1
+--------------------------------------------------
+Reading images: ****
+0 1 2 Harris running ...3Harris running ... Harris running ...Harris running ...2033 harris done
+DoG running...2174 harris done
+DoG running...2107 harris done
+2119 harris done
+DoG running...DoG running...2977 dog done
+2991 dog done
+2980 dog done
+2989 dog done
+done
+adding seeds 
+(3,75)(2,70)(0,59)(1,73)done
+---- Initial: 0 secs ----
+Total pass fail0 fail1 refinepatch: 31661 360 30642 659 1019
+Total pass fail0 fail1 refinepatch: 100 1.13705 96.7815 2.08143 3.21847
+Expanding patches...
+---- EXPANSION: 15 secs ----
+Total pass fail0 fail1 refinepatch: 21873 12435 7286 2152 14587
+Total pass fail0 fail1 refinepatch: 100 56.8509 33.3105 9.83861 66.6895
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.65523 0.26171
+12709 -> 12634 (99.4099%)	0 secs
+Filter Exact: ****
+12634 -> 10112 (80.038%)	0 secs
+FilterNeighbor:	10112 -> 6161 (60.9276%)	0 secs
+FilterGroups:	20
+6161 -> 4215 (68.4142%)	0 secs
+STATUS: 263 0 15343 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 18 secs ----
+Total pass fail0 fail1 refinepatch: 20834 8879 6257 5698 14577
+Total pass fail0 fail1 refinepatch: 100 42.6178 30.0326 27.3495 69.9674
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.758374 0.315719
+13094 -> 12998 (99.2668%)	0 secs
+Filter Exact: ****
+12998 -> 10072 (77.4888%)	0 secs
+FilterNeighbor:	10072 -> 8121 (80.6295%)	0 secs
+FilterGroups:	20
+8121 -> 6744 (83.044%)	0 secs
+STATUS: 579 0 29604 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 15 secs ----
+Total pass fail0 fail1 refinepatch: 17825 7260 5577 4988 12248
+Total pass fail0 fail1 refinepatch: 100 40.7293 31.2875 27.9832 68.7125
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.884432 0.360124
+14004 -> 13918 (99.3859%)	0 secs
+Filter Exact: ****
+13918 -> 10957 (78.7254%)	0 secs
+FilterNeighbor:	10957 -> 9182 (83.8003%)	0 secs
+FilterGroups:	20
+9182 -> 7866 (85.6676%)	0 secs
+STATUS: 821 0 41610 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+---- Total: 0 secs ----

@@ -1,6 +1,6 @@
 \section{Software Utilizado} \label{pontosSoftware}
 
-Existe uma gama razoável de softwares que são capazes de obter nuvem de pontos a partir de imagens. Dentre eles pode-se citar o Free-D, Insight3D, PhotoModeler e o VisualSFM. Para este trabalho foi utilizado o VisualSFM~\cite{visualSFM} por ser um software gratuito, de fácil uso, correspondência automática das imagens e resultados satisfatórios. As desvantagens dos outros softwares citados são as seguintes:
+Existe uma gama razoável de softwares que são capazes de obter nuvem de pontos a partir de imagens. Dentre eles pode-se citar o Free-D, Insight3D, PhotoModeler e o VisualSFM. Para este trabalho foi utilizado o VisualSFM~\cite{visualSFM} por ser um software gratuito, de fácil uso, e que efetua a correspondência automática de imagens obtendo resultados satisfatórios. As desvantagens dos outros softwares citados, em relação ao selecionado, são as seguintes:
 
 \begin{itemize}
 \item Free-D: A correspondência das imagens é feita manualmente.
@@ -8,9 +8,9 @@ Existe uma gama razoável de softwares que são capazes de obter nuvem de pontos
 \item PhotoModeler: Ferramenta paga.
 \end{itemize}
 
-O VisualSFM recebe como entrada um conjunto de imagens LDR, extrai os pontos de interesse destas imagens e então faz as correspondências entre elas. Uma vez com a correspondência feita, inicializa-se a etapa de recontrução 3D. Nesta etapa são estimados parâmetros da câmera como: distância focal, e distorção radial, além de estimar, para cada imagem, a posição da câmera.
+O VisualSFM recebe como entrada um conjunto de imagens LDR, extrai os pontos de interesse destas imagens e então faz as correspondências entre elas. Uma vez com a correspondência feita, inicializa-se a etapa de recontrução 3D. Nesta etapa são estimados parâmetros da câmera como distância focal e distorção radial, além de estimar a posição da câmera em cada imagem de entrada.
 
-Uma vez com os parâmetros e posições definidas, estima-se as posições dos pontos de interesse que possuem correspondência nas imagens, finalizando a geração da nuvem de pontos. As Figuras \ref{figExemploSFM} mostram um exemplo de geração de nuvem de pontos a partir de imagens LDR.
+Uma vez com os parâmetros e posições definidas, são estimadas as posições dos pontos de interesse que possuem correspondência nas imagens, finalizando a geração da nuvem de pontos. A Figura \ref{figExemploSFM} mostra um exemplo de geração de nuvem de pontos a partir de imagens LDR.
 
 \begin{figure}[H]
   \centering

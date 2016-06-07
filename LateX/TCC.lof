@@ -6,18 +6,18 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Linear}}}{7}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logar\IeC {\'\i }tmico}}}{7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Note que a parte interna da sala possui uma baixa ilumina\IeC {\c c}\IeC {\~a}o e \IeC {\'e} perdida nas imagens com menor tempo de exposi\IeC {\c c}\IeC {\~a}o. Enquanto a parte externa possui alta ilumina\IeC {\c c}\IeC {\~a}o e \IeC {\'e} perdida nas imagens com maior tempo de exposi\IeC {\c c}\IeC {\~a}o.\relax }}{13}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A parte interna da sala possui baixa ilumina\IeC {\c c}\IeC {\~a}o e \IeC {\'e} perdida nas imagens com menor tempo de exposi\IeC {\c c}\IeC {\~a}o. A parte externa possui alta ilumina\IeC {\c c}\IeC {\~a}o e \IeC {\'e} perdida nas imagens com maior tempo de exposi\IeC {\c c}\IeC {\~a}o.\relax }}{13}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.002s$.}}}{13}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.005s$.}}}{13}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.0167s$.}}}{13}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.04s$.}}}{13}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.067s$.}}}{13}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Note que partes da cena s\IeC {\~a}o perdidas em algumas figuras. Por\IeC {\'e}m estas mesmas partes est\IeC {\~a}o bem representadas em outras.\relax }}{14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Partes da cena s\IeC {\~a}o perdidas em algumas figuras. Por\IeC {\'e}m estas mesmas partes est\IeC {\~a}o bem representadas em outras.\relax }}{14}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.077s$.}}}{14}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.25s$.}}}{14}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.6s$.}}}{14}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $1.3s$.}}}{14}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Note que partes da cena s\IeC {\~a}o perdidas em algumas figuras. Por\IeC {\'e}m estas mesmas partes s\IeC {\~a}o bem representadas em outras figuras.\relax }}{15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Partes da cena s\IeC {\~a}o perdidas em algumas figuras. Por\IeC {\'e}m estas mesmas partes s\IeC {\~a}o bem representadas em outras figuras.\relax }}{15}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.02s$.}}}{15}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.067s$.}}}{15}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0.2s$.}}}{15}
@@ -71,39 +71,74 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Carrega as imagens LDR.}}}{43}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Encontra a correspond\IeC {\^e}ncia entre as imagens.}}}{43}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Gera a nuvem de pontos.}}}{43}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Exemplo de imagem HDR tonemapped.\relax }}{44}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Exemplo de imagem HDR \textit {tonemapped}.\relax }}{44}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Filtro de Laplace.\relax }}{45}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o da frente do objeto.\relax }}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $5.10^{-4}s$.}}}{47}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $8.10^{-3}s$.}}}{47}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,025s$.}}}{47}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,1s$.}}}{47}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o da esquerda do objeto.\relax }}{47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de ${1,56}.10^{-3}s$.}}}{47}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $2,5.10^{-3}s$.}}}{47}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $6,25.10^{-3}s$.}}}{47}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,033s$.}}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $2ms$.}}}{47}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $4ms$.}}}{47}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $8ms$.}}}{47}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $17ms$.}}}{47}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o da esquerda do objeto.\relax }}{48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $2ms$.}}}{48}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $4ms$.}}}{48}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $8ms$.}}}{48}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $17ms$.}}}{48}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o da direita do objeto.\relax }}{48}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de ${1,56}.10^{-3}s$.}}}{48}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $5.10^{-3}s$.}}}{48}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,016s$.}}}{48}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,05s$.}}}{48}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o da parte de cima do objeto.\relax }}{48}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de ${2,5}.10^{-3}s$.}}}{48}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,01s$.}}}{48}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,04s$.}}}{48}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o do objeto visto por baixo.\relax }}{49}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de ${2,5}.10^{-3}s$.}}}{49}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $6,25.10^{-3}s$.}}}{49}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,02s$.}}}{49}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,1s$.}}}{49}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Imagens HDR \textit {tonemapped} da base de dados.\relax }}{50}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Objeto visto de frente.}}}{50}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Objeto visto por baixo.}}}{50}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Objeto visto por cima.}}}{50}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Objeto visto pela direita.}}}{50}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Objeto visto pela esquerda.}}}{50}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Nuvens de pontos obtidas utilizando o software VisualSFM.\relax }}{51}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Obtida utilizando imagens LDR convencionais.}}}{51}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Obtida utilizando as imagens \textit {tonemapped} geradas.}}}{51}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $1,25ms$.}}}{48}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $3,13ms$.}}}{48}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $6,25ms$.}}}{48}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $12,5ms$.}}}{48}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o da parte de cima do objeto.\relax }}{49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $1,25ms$.}}}{49}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $3,13ms$.}}}{49}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $6,25ms$.}}}{49}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $12,5ms$.}}}{49}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o da frente do objeto.\relax }}{50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $1,25ms$.}}}{50}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $8ms$.}}}{50}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $20ms$.}}}{50}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $100ms$.}}}{50}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o da esquerda do objeto.\relax }}{50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,8ms$.}}}{50}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $5ms$.}}}{50}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $33,3ms$.}}}{50}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $125ms$.}}}{50}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o da direita do objeto.\relax }}{51}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $0,8ms$.}}}{51}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $6,25ms$.}}}{51}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $25ms$.}}}{51}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $125ms$.}}}{51}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Registro em diferentes tempos de exposi\IeC {\c c}\IeC {\~a}o da parte de cima do objeto.\relax }}{51}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $1,56ms$.}}}{51}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $16,7ms$.}}}{51}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $40ms$.}}}{51}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Tempo de exposi\IeC {\c c}\IeC {\~a}o de $166,7ms$.}}}{51}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Imagens HDR \textit {tonemapped} da base de dados controlada (Se\IeC {\c c}\IeC {\~a}o~\ref {pontosBControl}).\relax }}{53}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Objeto visto de frente.}}}{53}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Objeto visto pela esquerda.}}}{53}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Objeto visto por cima.}}}{53}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Objeto visto pela direita.}}}{53}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Imagens HDR \textit {tonemapped} da base de dados registrada manualmente (Se\IeC {\c c}\IeC {\~a}o~\ref {pontosBLivre}).\relax }}{54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Objeto visto de frente.}}}{54}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Objeto visto pela esquerda.}}}{54}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Objeto visto por cima.}}}{54}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Objeto visto pela direita.}}}{54}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Imagens HDR \textit {tonemapped} real\IeC {\c c}adas da base de dados controlada (Se\IeC {\c c}\IeC {\~a}o~\ref {pontosBControl}).\relax }}{55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Objeto visto de frente.}}}{55}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Objeto visto pela esquerda.}}}{55}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Objeto visto por cima.}}}{55}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Objeto visto pela direita.}}}{55}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Imagens HDR \textit {tonemapped} real\IeC {\c c}adas da base de dados registrada manualmente (Se\IeC {\c c}\IeC {\~a}o~\ref {pontosBLivre}).\relax }}{56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Objeto visto de frente.}}}{56}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Objeto visto pela esquerda.}}}{56}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Objeto visto por cima.}}}{56}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Objeto visto pela direita.}}}{56}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Nuvens de pontos obtidas utilizando o software VisualSFM.\relax }}{58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Obtida utilizando imagens LDR convencionais.}}}{58}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Obtida utilizando as imagens \textit {tonemapped} geradas.}}}{58}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Obtida utilizando as imagens \textit {tonemapped} com realce de contornos.}}}{58}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Nuvens de pontos obtidas utilizando o software VisualSFM.\relax }}{59}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Obtida utilizando imagens LDR convencionais.}}}{59}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Obtida utilizando as imagens \textit {tonemapped} geradas.}}}{59}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Obtida utilizando as imagens \textit {tonemapped} com realce de contornos.}}}{59}
 \addvspace {10\p@ }

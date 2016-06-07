@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  8 MAY 2016 18:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  1 JUN 2016 15:26
 entering extended mode
 **./TCC.tex
 (TCC.tex
@@ -386,20 +386,20 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count135
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
  [1
 
 
-{C:/Users/Nanio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Users/Nanio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 1642) in paragraph at lines 85--85
 []\T1/ptm/m/n/12 Trabalho ap-re-sen-tado ao De-par-ta-mento de Com-
  []
@@ -417,7 +417,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 85.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1] [2]
+) [1] [1]
 (Documentos/Resumo.tex) [1
 
 
@@ -468,14 +468,14 @@ Cap\'{\i }tulo 2.
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[5] <Figuras/Fr-linear-azul.png, id=60, 383.93437pt x 295.85532pt>
+[5] <Figuras/Fr-linear-azul.png, id=56, 383.93437pt x 295.85532pt>
 File: Figuras/Fr-linear-azul.png Graphic file (type png)
 
 <use Figuras/Fr-linear-azul.png>
 Package pdftex.def Info: Figuras/Fr-linear-azul.png used on input line 70.
 (pdftex.def)             Requested size: 221.54556pt x 170.71652pt.
 
-<Figuras/Fr-log-azul.png, id=62, 380.92313pt x 295.85532pt>
+<Figuras/Fr-log-azul.png, id=58, 380.92313pt x 295.85532pt>
 File: Figuras/Fr-log-azul.png Graphic file (type png)
 
 <use Figuras/Fr-log-azul.png>
@@ -512,35 +512,35 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[12] <Figuras/CenaDidatica/1.jpg, id=89, 1606.0pt x 1204.5pt>
+[12] <Figuras/CenaDidatica/1.jpg, id=85, 1606.0pt x 1204.5pt>
 File: Figuras/CenaDidatica/1.jpg Graphic file (type jpg)
 
 <use Figuras/CenaDidatica/1.jpg>
 Package pdftex.def Info: Figuras/CenaDidatica/1.jpg used on input line 14.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/CenaDidatica/2.jpg, id=90, 1606.0pt x 1204.5pt>
+<Figuras/CenaDidatica/2.jpg, id=86, 1606.0pt x 1204.5pt>
 File: Figuras/CenaDidatica/2.jpg Graphic file (type jpg)
 
 <use Figuras/CenaDidatica/2.jpg>
 Package pdftex.def Info: Figuras/CenaDidatica/2.jpg used on input line 20.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/CenaDidatica/3.jpg, id=91, 1606.0pt x 1204.5pt>
+<Figuras/CenaDidatica/3.jpg, id=87, 1606.0pt x 1204.5pt>
 File: Figuras/CenaDidatica/3.jpg Graphic file (type jpg)
 
 <use Figuras/CenaDidatica/3.jpg>
 Package pdftex.def Info: Figuras/CenaDidatica/3.jpg used on input line 26.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/CenaDidatica/4.jpg, id=92, 1606.0pt x 1204.5pt>
+<Figuras/CenaDidatica/4.jpg, id=88, 1606.0pt x 1204.5pt>
 File: Figuras/CenaDidatica/4.jpg Graphic file (type jpg)
 
 <use Figuras/CenaDidatica/4.jpg>
 Package pdftex.def Info: Figuras/CenaDidatica/4.jpg used on input line 32.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/CenaDidatica/5.jpg, id=93, 1606.0pt x 1204.5pt>
+<Figuras/CenaDidatica/5.jpg, id=89, 1606.0pt x 1204.5pt>
 File: Figuras/CenaDidatica/5.jpg Graphic file (type jpg)
 
 <use Figuras/CenaDidatica/5.jpg>
@@ -556,28 +556,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--39
 [] []
  []
 
-<Figuras/CenaPorquinho/1.jpg, id=94, 1606.0pt x 1204.5pt>
+<Figuras/CenaPorquinho/1.jpg, id=90, 1606.0pt x 1204.5pt>
 File: Figuras/CenaPorquinho/1.jpg Graphic file (type jpg)
 
 <use Figuras/CenaPorquinho/1.jpg>
 Package pdftex.def Info: Figuras/CenaPorquinho/1.jpg used on input line 51.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/CenaPorquinho/2.jpg, id=95, 1606.0pt x 1204.5pt>
+<Figuras/CenaPorquinho/2.jpg, id=91, 1606.0pt x 1204.5pt>
 File: Figuras/CenaPorquinho/2.jpg Graphic file (type jpg)
 
 <use Figuras/CenaPorquinho/2.jpg>
 Package pdftex.def Info: Figuras/CenaPorquinho/2.jpg used on input line 57.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/CenaPorquinho/3.jpg, id=96, 1606.0pt x 1204.5pt>
+<Figuras/CenaPorquinho/3.jpg, id=92, 1606.0pt x 1204.5pt>
 File: Figuras/CenaPorquinho/3.jpg Graphic file (type jpg)
 
 <use Figuras/CenaPorquinho/3.jpg>
 Package pdftex.def Info: Figuras/CenaPorquinho/3.jpg used on input line 63.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/CenaPorquinho/4.jpg, id=97, 1606.0pt x 1204.5pt>
+<Figuras/CenaPorquinho/4.jpg, id=93, 1606.0pt x 1204.5pt>
 File: Figuras/CenaPorquinho/4.jpg Graphic file (type jpg)
 
 <use Figuras/CenaPorquinho/4.jpg>
@@ -594,35 +594,35 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 [13 <./Figuras/CenaDidatica/1.jpg> <./Figuras/CenaDidatica/2.jpg> <./Figuras/Ce
 naDidatica/3.jpg> <./Figuras/CenaDidatica/4.jpg> <./Figuras/CenaDidatica/5.jpg>
-] <Figuras/CenaOlhinhos/1.jpg, id=103, 1606.0pt x 1204.5pt>
+] <Figuras/CenaOlhinhos/1.jpg, id=99, 1606.0pt x 1204.5pt>
 File: Figuras/CenaOlhinhos/1.jpg Graphic file (type jpg)
 
 <use Figuras/CenaOlhinhos/1.jpg>
 Package pdftex.def Info: Figuras/CenaOlhinhos/1.jpg used on input line 82.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/CenaOlhinhos/2.jpg, id=104, 1606.0pt x 1204.5pt>
+<Figuras/CenaOlhinhos/2.jpg, id=100, 1606.0pt x 1204.5pt>
 File: Figuras/CenaOlhinhos/2.jpg Graphic file (type jpg)
 
 <use Figuras/CenaOlhinhos/2.jpg>
 Package pdftex.def Info: Figuras/CenaOlhinhos/2.jpg used on input line 88.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/CenaOlhinhos/3.jpg, id=105, 1606.0pt x 1204.5pt>
+<Figuras/CenaOlhinhos/3.jpg, id=101, 1606.0pt x 1204.5pt>
 File: Figuras/CenaOlhinhos/3.jpg Graphic file (type jpg)
 
 <use Figuras/CenaOlhinhos/3.jpg>
 Package pdftex.def Info: Figuras/CenaOlhinhos/3.jpg used on input line 94.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/CenaOlhinhos/4.jpg, id=106, 1606.0pt x 1204.5pt>
+<Figuras/CenaOlhinhos/4.jpg, id=102, 1606.0pt x 1204.5pt>
 File: Figuras/CenaOlhinhos/4.jpg Graphic file (type jpg)
 
 <use Figuras/CenaOlhinhos/4.jpg>
 Package pdftex.def Info: Figuras/CenaOlhinhos/4.jpg used on input line 100.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/CenaOlhinhos/5.jpg, id=107, 1606.0pt x 1204.5pt>
+<Figuras/CenaOlhinhos/5.jpg, id=103, 1606.0pt x 1204.5pt>
 File: Figuras/CenaOlhinhos/5.jpg Graphic file (type jpg)
 
 <use Figuras/CenaOlhinhos/5.jpg>
@@ -664,21 +664,21 @@ ara os pon-tos
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[17] <Figuras/Mann/Ruin.png, id=121, 250.68657pt x 186.6975pt>
+[17] <Figuras/Mann/Ruin.png, id=118, 250.68657pt x 186.6975pt>
 File: Figuras/Mann/Ruin.png Graphic file (type png)
 
 <use Figuras/Mann/Ruin.png>
 Package pdftex.def Info: Figuras/Mann/Ruin.png used on input line 46.
 (pdftex.def)             Requested size: 229.23824pt x 170.71652pt.
 
-<Figuras/Mann/manSala-9,5EV.png, id=122, 499.8675pt x 374.14781pt>
+<Figuras/Mann/manSala-9,5EV.png, id=119, 499.8675pt x 374.14781pt>
 File: Figuras/Mann/manSala-9,5EV.png Graphic file (type png)
 
 <use Figuras/Mann/manSala-9,5EV.png>
 Package pdftex.def Info: Figuras/Mann/manSala-9,5EV.png used on input line 59.
 (pdftex.def)             Requested size: 228.08076pt x 170.71652pt.
 
-<Figuras/Mann/manSala-4,8EV.png, id=123, 499.11469pt x 373.395pt>
+<Figuras/Mann/manSala-4,8EV.png, id=120, 499.11469pt x 373.395pt>
 File: Figuras/Mann/manSala-4,8EV.png Graphic file (type png)
 
 <use Figuras/Mann/manSala-4,8EV.png>
@@ -689,7 +689,7 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
 [18 <./Figuras/Mann/Ruin.png>]
-<Figuras/Mann/manPorquinho-3,6EV.png, id=131, 498.36188pt x 372.64218pt>
+<Figuras/Mann/manPorquinho-3,6EV.png, id=128, 498.36188pt x 372.64218pt>
 File: Figuras/Mann/manPorquinho-3,6EV.png Graphic file (type png)
 
 <use Figuras/Mann/manPorquinho-3,6EV.png>
@@ -697,7 +697,7 @@ Package pdftex.def Info: Figuras/Mann/manPorquinho-3,6EV.png used on input line
  76.
 (pdftex.def)             Requested size: 228.30629pt x 170.71652pt.
 
-<Figuras/Mann/manPorquinho-0,4EV.png, id=132, 500.62032pt x 375.65344pt>
+<Figuras/Mann/manPorquinho-0,4EV.png, id=129, 500.62032pt x 375.65344pt>
 File: Figuras/Mann/manPorquinho-0,4EV.png Graphic file (type png)
 
 <use Figuras/Mann/manPorquinho-0,4EV.png>
@@ -709,7 +709,7 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
 [19 <./Figuras/Mann/manSala-9,5EV.png> <./Figuras/Mann/manSala-4,8EV.png>]
-<Figuras/Mann/manOlhinhos-2,9EV.png, id=138, 375.65344pt x 280.79906pt>
+<Figuras/Mann/manOlhinhos-2,9EV.png, id=135, 375.65344pt x 280.79906pt>
 File: Figuras/Mann/manOlhinhos-2,9EV.png Graphic file (type png)
 
 <use Figuras/Mann/manOlhinhos-2,9EV.png>
@@ -717,7 +717,7 @@ Package pdftex.def Info: Figuras/Mann/manOlhinhos-2,9EV.png used on input line
 93.
 (pdftex.def)             Requested size: 228.3859pt x 170.71652pt.
 
-<Figuras/Mann/manOlhinhos0EV.png, id=139, 375.65344pt x 280.79906pt>
+<Figuras/Mann/manOlhinhos0EV.png, id=136, 375.65344pt x 280.79906pt>
 File: Figuras/Mann/manOlhinhos0EV.png Graphic file (type png)
 
 <use Figuras/Mann/manOlhinhos0EV.png>
@@ -729,7 +729,7 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
 [20 <./Figuras/Mann/manPorquinho-3,6EV.png> <./Figuras/Mann/manPorquinho-0,4EV.
-png>] <Figuras/Mann/Fr-linear-total.png, id=146, 380.17032pt x 297.36093pt>
+png>] <Figuras/Mann/Fr-linear-total.png, id=142, 380.17032pt x 297.36093pt>
 File: Figuras/Mann/Fr-linear-total.png Graphic file (type png)
 
 <use Figuras/Mann/Fr-linear-total.png>
@@ -737,7 +737,7 @@ Package pdftex.def Info: Figuras/Mann/Fr-linear-total.png used on input line 11
 2.
 (pdftex.def)             Requested size: 218.25398pt x 170.71652pt.
 
-<Figuras/Mann/Fr-log-total.png, id=147, 387.69844pt x 299.61937pt>
+<Figuras/Mann/Fr-log-total.png, id=143, 387.69844pt x 299.61937pt>
 File: Figuras/Mann/Fr-log-total.png Graphic file (type png)
 
 <use Figuras/Mann/Fr-log-total.png>
@@ -760,14 +760,14 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[24] <Figuras/Robertson/Pontos.png, id=164, 383.93437pt x 295.85532pt>
+[24] <Figuras/Robertson/Pontos.png, id=161, 383.93437pt x 295.85532pt>
 File: Figuras/Robertson/Pontos.png Graphic file (type png)
 
 <use Figuras/Robertson/Pontos.png>
 Package pdftex.def Info: Figuras/Robertson/Pontos.png used on input line 86.
 (pdftex.def)             Requested size: 221.54556pt x 170.71652pt.
 
-<Figuras/Robertson/fr-linear-azul.png, id=165, 383.93437pt x 295.85532pt>
+<Figuras/Robertson/fr-linear-azul.png, id=162, 383.93437pt x 295.85532pt>
 File: Figuras/Robertson/fr-linear-azul.png Graphic file (type png)
 
 <use Figuras/Robertson/fr-linear-azul.png>
@@ -779,14 +779,14 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
 [25]
-<Figuras/Robertson/robertsonSala-11,0EV.png, id=169, 376.40625pt x 280.79906pt>
+<Figuras/Robertson/robertsonSala-11,0EV.png, id=166, 376.40625pt x 280.79906pt>
 File: Figuras/Robertson/robertsonSala-11,0EV.png Graphic file (type png)
 <use Figuras/Robertson/robertsonSala-11,0EV.png>
 Package pdftex.def Info: Figuras/Robertson/robertsonSala-11,0EV.png used on inp
 ut line 107.
 (pdftex.def)             Requested size: 228.84358pt x 170.71652pt.
 
-<Figuras/Robertson/robertsonSala-4,3EV.png, id=170, 375.65344pt x 282.30469pt>
+<Figuras/Robertson/robertsonSala-4,3EV.png, id=167, 375.65344pt x 282.30469pt>
 File: Figuras/Robertson/robertsonSala-4,3EV.png Graphic file (type png)
 
 <use Figuras/Robertson/robertsonSala-4,3EV.png>
@@ -798,7 +798,7 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
 [26 <./Figuras/Robertson/Pontos.png> <./Figuras/Robertson/fr-linear-azul.png>]
-<Figuras/Robertson/robertsonOtima-4,3EV.png, id=177, 499.8675pt x 374.90062pt>
+<Figuras/Robertson/robertsonOtima-4,3EV.png, id=173, 499.8675pt x 374.90062pt>
 File: Figuras/Robertson/robertsonOtima-4,3EV.png Graphic file (type png)
 
 <use Figuras/Robertson/robertsonOtima-4,3EV.png>
@@ -806,14 +806,14 @@ Package pdftex.def Info: Figuras/Robertson/robertsonOtima-4,3EV.png used on inp
 ut line 124.
 (pdftex.def)             Requested size: 227.62312pt x 170.71652pt.
 
-<Figuras/Robertson/robertsonOtima-2,0EV.png, id=178, 501.37312pt x 374.90062pt>
+<Figuras/Robertson/robertsonOtima-2,0EV.png, id=174, 501.37312pt x 374.90062pt>
 File: Figuras/Robertson/robertsonOtima-2,0EV.png Graphic file (type png)
 <use Figuras/Robertson/robertsonOtima-2,0EV.png>
 Package pdftex.def Info: Figuras/Robertson/robertsonOtima-2,0EV.png used on inp
 ut line 130.
 (pdftex.def)             Requested size: 228.30873pt x 170.71652pt.
 
-<Figuras/Robertson/robertsonOtima0,0EV.png, id=179, 500.62032pt x 374.14781pt>
+<Figuras/Robertson/robertsonOtima0,0EV.png, id=175, 500.62032pt x 374.14781pt>
 File: Figuras/Robertson/robertsonOtima0,0EV.png Graphic file (type png)
 
 <use Figuras/Robertson/robertsonOtima0,0EV.png>
@@ -826,7 +826,7 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 [27 <./Figuras/Robertson/robertsonSala-11,0EV.png> <./Figuras/Robertson/roberts
 onSala-4,3EV.png>]
-<Figuras/Robertson/robertsonOlhinhos-4,3EV.png, id=185, 498.36188pt x 371.88937
+<Figuras/Robertson/robertsonOlhinhos-4,3EV.png, id=182, 498.36188pt x 371.88937
 pt>
 File: Figuras/Robertson/robertsonOlhinhos-4,3EV.png Graphic file (type png)
  <use Figuras/Robertson/robertsonOlhinhos-4,3EV.png>
@@ -834,7 +834,7 @@ Package pdftex.def Info: Figuras/Robertson/robertsonOlhinhos-4,3EV.png used on
 input line 148.
 (pdftex.def)             Requested size: 228.77777pt x 170.71652pt.
 
-<Figuras/Robertson/robertsonOlhinhos-2,7EV.png, id=186, 499.11469pt x 374.14781
+<Figuras/Robertson/robertsonOlhinhos-2,7EV.png, id=183, 499.11469pt x 374.14781
 pt>
 File: Figuras/Robertson/robertsonOlhinhos-2,7EV.png Graphic file (type png)
  <use Figuras/Robertson/robertsonOlhinhos-2,7EV.png>
@@ -842,7 +842,7 @@ Package pdftex.def Info: Figuras/Robertson/robertsonOlhinhos-2,7EV.png used on
 input line 154.
 (pdftex.def)             Requested size: 227.73726pt x 170.71652pt.
 
-<Figuras/Robertson/robertsonOlhinhos-0,4EV.png, id=187, 499.8675pt x 414.04688p
+<Figuras/Robertson/robertsonOlhinhos-0,4EV.png, id=184, 499.8675pt x 414.04688p
 t>
 File: Figuras/Robertson/robertsonOlhinhos-0,4EV.png Graphic file (type png)
  <use Figuras/Robertson/robertsonOlhinhos-0,4EV.png>
@@ -855,14 +855,14 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 [28 <./Figuras/Robertson/robertsonOtima-4,3EV.png> <./Figuras/Robertson/roberts
 onOtima-2,0EV.png> <./Figuras/Robertson/robertsonOtima0,0EV.png>]
-<Figuras/Robertson/Sala.png, id=194, 500.62032pt x 375.65344pt>
+<Figuras/Robertson/Sala.png, id=191, 500.62032pt x 375.65344pt>
 File: Figuras/Robertson/Sala.png Graphic file (type png)
 
 <use Figuras/Robertson/Sala.png>
 Package pdftex.def Info: Figuras/Robertson/Sala.png used on input line 172.
 (pdftex.def)             Requested size: 227.5076pt x 170.71652pt.
 
-<Figuras/Robertson/Ruido.png, id=195, 556.32843pt x 361.35pt>
+<Figuras/Robertson/Ruido.png, id=192, 556.32843pt x 361.35pt>
 File: Figuras/Robertson/Ruido.png Graphic file (type png)
 
 <use Figuras/Robertson/Ruido.png>
@@ -874,7 +874,7 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 [29 <./Figuras/Robertson/robertsonOlhinhos-4,3EV.png> <./Figuras/Robertson/robe
 rtsonOlhinhos-2,7EV.png> <./Figuras/Robertson/robertsonOlhinhos-0,4EV.png>]
-<Figuras/Robertson/fr-linear-total.png, id=202, 377.15906pt x 289.08pt>
+<Figuras/Robertson/fr-linear-total.png, id=199, 377.15906pt x 289.08pt>
 File: Figuras/Robertson/fr-linear-total.png Graphic file (type png)
 
 <use Figuras/Robertson/fr-linear-total.png>
@@ -882,7 +882,7 @@ Package pdftex.def Info: Figuras/Robertson/fr-linear-total.png used on input li
 ne 191.
 (pdftex.def)             Requested size: 222.7291pt x 170.71652pt.
 
-<Figuras/Robertson/fr-log-total.png, id=203, 381.67593pt x 301.8778pt>
+<Figuras/Robertson/fr-log-total.png, id=200, 381.67593pt x 301.8778pt>
 File: Figuras/Robertson/fr-log-total.png Graphic file (type png)
 
 <use Figuras/Robertson/fr-log-total.png>
@@ -911,14 +911,14 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[34] <Figuras/Sen/senSala-9,8EV.png, id=224, 499.8675pt x 373.395pt>
+[34] <Figuras/Sen/senSala-9,8EV.png, id=221, 499.8675pt x 373.395pt>
 File: Figuras/Sen/senSala-9,8EV.png Graphic file (type png)
 
 <use Figuras/Sen/senSala-9,8EV.png>
 Package pdftex.def Info: Figuras/Sen/senSala-9,8EV.png used on input line 87.
 (pdftex.def)             Requested size: 228.5384pt x 170.71652pt.
 
-<Figuras/Sen/senSala-1,1EV.png, id=225, 499.8675pt x 374.14781pt>
+<Figuras/Sen/senSala-1,1EV.png, id=222, 499.8675pt x 374.14781pt>
 File: Figuras/Sen/senSala-1,1EV.png Graphic file (type png)
 
 <use Figuras/Sen/senSala-1,1EV.png>
@@ -928,7 +928,7 @@ Package pdftex.def Info: Figuras/Sen/senSala-1,1EV.png used on input line 93.
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[35] <Figuras/Sen/senPorquinho-1,3EV.png, id=229, 498.36188pt x 374.14781pt>
+[35] <Figuras/Sen/senPorquinho-1,3EV.png, id=226, 498.36188pt x 374.14781pt>
 File: Figuras/Sen/senPorquinho-1,3EV.png Graphic file (type png)
 
 <use Figuras/Sen/senPorquinho-1,3EV.png>
@@ -936,7 +936,7 @@ Package pdftex.def Info: Figuras/Sen/senPorquinho-1,3EV.png used on input line
 104.
 (pdftex.def)             Requested size: 227.39377pt x 170.71652pt.
 
-<Figuras/Sen/senPorquinho2,5EV.png, id=230, 498.36188pt x 372.64218pt>
+<Figuras/Sen/senPorquinho2,5EV.png, id=227, 498.36188pt x 372.64218pt>
 File: Figuras/Sen/senPorquinho2,5EV.png Graphic file (type png)
 
 <use Figuras/Sen/senPorquinho2,5EV.png>
@@ -948,7 +948,7 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
 [36 <./Figuras/Sen/senSala-9,8EV.png> <./Figuras/Sen/senSala-1,1EV.png>]
-<Figuras/Sen/senOlhinhos-0,6EV.png, id=236, 499.8675pt x 372.64218pt>
+<Figuras/Sen/senOlhinhos-0,6EV.png, id=233, 499.8675pt x 372.64218pt>
 File: Figuras/Sen/senOlhinhos-0,6EV.png Graphic file (type png)
 
 <use Figuras/Sen/senOlhinhos-0,6EV.png>
@@ -956,7 +956,7 @@ Package pdftex.def Info: Figuras/Sen/senOlhinhos-0,6EV.png used on input line 1
 21.
 (pdftex.def)             Requested size: 228.99605pt x 170.71652pt.
 
-<Figuras/Sen/senOlhinhos-3,4EV.png, id=237, 499.8675pt x 371.88937pt>
+<Figuras/Sen/senOlhinhos-3,4EV.png, id=234, 499.8675pt x 371.88937pt>
 File: Figuras/Sen/senOlhinhos-3,4EV.png Graphic file (type png)
 
 <use Figuras/Sen/senOlhinhos-3,4EV.png>
@@ -964,7 +964,7 @@ Package pdftex.def Info: Figuras/Sen/senOlhinhos-3,4EV.png used on input line 1
 27.
 (pdftex.def)             Requested size: 229.46893pt x 170.71652pt.
 
-<Figuras/Sen/senOlhinhos3,6EV.png, id=238, 499.8675pt x 371.13657pt>
+<Figuras/Sen/senOlhinhos3,6EV.png, id=235, 499.8675pt x 371.13657pt>
 File: Figuras/Sen/senOlhinhos3,6EV.png Graphic file (type png)
 
 <use Figuras/Sen/senOlhinhos3,6EV.png>
@@ -998,21 +998,21 @@ Cap\'{\i }tulo 4.
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[42] <Figuras/exVisualSFM/uso0.png, id=263, 749.80125pt x 408.77719pt>
+[42] <Figuras/exVisualSFM/uso0.png, id=260, 749.80125pt x 408.77719pt>
 File: Figuras/exVisualSFM/uso0.png Graphic file (type png)
 
 <use Figuras/exVisualSFM/uso0.png>
 Package pdftex.def Info: Figuras/exVisualSFM/uso0.png used on input line 21.
 (pdftex.def)             Requested size: 260.94704pt x 142.26378pt.
 
-<Figuras/exVisualSFM/uso1.png, id=264, 748.29562pt x 411.03563pt>
+<Figuras/exVisualSFM/uso1.png, id=261, 748.29562pt x 411.03563pt>
 File: Figuras/exVisualSFM/uso1.png Graphic file (type png)
 
 <use Figuras/exVisualSFM/uso1.png>
 Package pdftex.def Info: Figuras/exVisualSFM/uso1.png used on input line 27.
 (pdftex.def)             Requested size: 258.98436pt x 142.26378pt.
 
-<Figuras/exVisualSFM/uso2.png, id=265, 744.53156pt x 408.02437pt>
+<Figuras/exVisualSFM/uso2.png, id=262, 744.53156pt x 408.02437pt>
 File: Figuras/exVisualSFM/uso2.png Graphic file (type png)
 
 <use Figuras/exVisualSFM/uso2.png>
@@ -1025,7 +1025,7 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 [43 <./Figuras/exVisualSFM/uso0.png> <./Figuras/exVisualSFM/uso1.png> <./Figura
 s/exVisualSFM/uso2.png>]
-<Figuras/salaToneMapped.png, id=272, 769.37437pt x 395.22656pt>
+<Figuras/salaToneMapped.png, id=269, 769.37437pt x 395.22656pt>
 File: Figuras/salaToneMapped.png Graphic file (type png)
 
 <use Figuras/salaToneMapped.png>
@@ -1045,7 +1045,7 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 LaTeX Warning: Command \textordmasculine invalid in math mode on input line 17.
 
 
-<Figuras/matrizLaplace.png, id=278, 110.66344pt x 109.91063pt>
+<Figuras/matrizLaplace.png, id=274, 110.66344pt x 109.91063pt>
 File: Figuras/matrizLaplace.png Graphic file (type png)
 
 <use Figuras/matrizLaplace.png>
@@ -1056,256 +1056,478 @@ Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
 [45 <./Figuras/matrizLaplace.png>]) (Documentos/Pontos/BaseImagens.tex
-<Figuras/BaseObjeto/Frente/1.jpg, id=283, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Frente/1.jpg Graphic file (type jpg)
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
-<use Figuras/BaseObjeto/Frente/1.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Frente/1.jpg used on input line 11.
 
+[46] <Figuras/Base1/Frente/1.jpg, id=283, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Frente/1.jpg Graphic file (type jpg)
+
+<use Figuras/Base1/Frente/1.jpg>
+Package pdftex.def Info: Figuras/Base1/Frente/1.jpg used on input line 16.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Frente/2.jpg, id=284, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Frente/2.jpg Graphic file (type jpg)
+<Figuras/Base1/Frente/2.jpg, id=284, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Frente/2.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Frente/2.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Frente/2.jpg used on input line 17.
-
+<use Figuras/Base1/Frente/2.jpg>
+Package pdftex.def Info: Figuras/Base1/Frente/2.jpg used on input line 22.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Frente/3.jpg, id=285, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Frente/3.jpg Graphic file (type jpg)
+<Figuras/Base1/Frente/3.jpg, id=285, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Frente/3.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Frente/3.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Frente/3.jpg used on input line 23.
-
+<use Figuras/Base1/Frente/3.jpg>
+Package pdftex.def Info: Figuras/Base1/Frente/3.jpg used on input line 28.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Frente/4.jpg, id=286, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Frente/4.jpg Graphic file (type jpg)
+<Figuras/Base1/Frente/4.jpg, id=286, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Frente/4.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Frente/4.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Frente/4.jpg used on input line 29.
+<use Figuras/Base1/Frente/4.jpg>
+Package pdftex.def Info: Figuras/Base1/Frente/4.jpg used on input line 34.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
+<Figuras/Base1/Direita/1.jpg, id=287, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Direita/1.jpg Graphic file (type jpg)
+
+<use Figuras/Base1/Direita/1.jpg>
+Package pdftex.def Info: Figuras/Base1/Direita/1.jpg used on input line 45.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base1/Direita/2.jpg, id=288, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Direita/2.jpg Graphic file (type jpg)
+
+<use Figuras/Base1/Direita/2.jpg>
+Package pdftex.def Info: Figuras/Base1/Direita/2.jpg used on input line 51.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base1/Direita/3.jpg, id=289, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Direita/3.jpg Graphic file (type jpg)
+
+<use Figuras/Base1/Direita/3.jpg>
+Package pdftex.def Info: Figuras/Base1/Direita/3.jpg used on input line 57.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base1/Direita/4.jpg, id=290, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Direita/4.jpg Graphic file (type jpg)
+
+<use Figuras/Base1/Direita/4.jpg>
+Package pdftex.def Info: Figuras/Base1/Direita/4.jpg used on input line 63.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[46] <Figuras/BaseObjeto/Direita/1.jpg, id=290, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Direita/1.jpg Graphic file (type jpg)
+[47 <./Figuras/Base1/Frente/1.jpg> <./Figuras/Base1/Frente/2.jpg> <./Figuras/Ba
+se1/Frente/3.jpg> <./Figuras/Base1/Frente/4.jpg>]
+<Figuras/Base1/Esquerda/1.jpg, id=294, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Esquerda/1.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Direita/1.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Direita/1.jpg used on input line 40
-.
+<use Figuras/Base1/Esquerda/1.jpg>
+Package pdftex.def Info: Figuras/Base1/Esquerda/1.jpg used on input line 74.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Direita/2.jpg, id=291, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Direita/2.jpg Graphic file (type jpg)
+<Figuras/Base1/Esquerda/2.jpg, id=295, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Esquerda/2.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Direita/2.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Direita/2.jpg used on input line 46
-.
+<use Figuras/Base1/Esquerda/2.jpg>
+Package pdftex.def Info: Figuras/Base1/Esquerda/2.jpg used on input line 80.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Direita/3.jpg, id=292, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Direita/3.jpg Graphic file (type jpg)
+<Figuras/Base1/Esquerda/3.jpg, id=296, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Esquerda/3.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Direita/3.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Direita/3.jpg used on input line 52
-.
+<use Figuras/Base1/Esquerda/3.jpg>
+Package pdftex.def Info: Figuras/Base1/Esquerda/3.jpg used on input line 86.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Direita/4.jpg, id=293, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Direita/4.jpg Graphic file (type jpg)
+<Figuras/Base1/Esquerda/4.jpg, id=297, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Esquerda/4.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Direita/4.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Direita/4.jpg used on input line 58
-.
+<use Figuras/Base1/Esquerda/4.jpg>
+Package pdftex.def Info: Figuras/Base1/Esquerda/4.jpg used on input line 92.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Esquerda/1.jpg, id=294, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Esquerda/1.jpg Graphic file (type jpg)
+<Figuras/Base1/Cima/1.jpg, id=298, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Cima/1.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Esquerda/1.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Esquerda/1.jpg used on input line 6
-9.
+<use Figuras/Base1/Cima/1.jpg>
+Package pdftex.def Info: Figuras/Base1/Cima/1.jpg used on input line 103.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Esquerda/2.jpg, id=295, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Esquerda/2.jpg Graphic file (type jpg)
+<Figuras/Base1/Cima/2.jpg, id=299, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Cima/2.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Esquerda/2.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Esquerda/2.jpg used on input line 7
-5.
+<use Figuras/Base1/Cima/2.jpg>
+Package pdftex.def Info: Figuras/Base1/Cima/2.jpg used on input line 109.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Esquerda/3.jpg, id=296, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Esquerda/3.jpg Graphic file (type jpg)
+<Figuras/Base1/Cima/3.jpg, id=300, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Cima/3.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Esquerda/3.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Esquerda/3.jpg used on input line 8
-1.
+<use Figuras/Base1/Cima/3.jpg>
+Package pdftex.def Info: Figuras/Base1/Cima/3.jpg used on input line 115.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Esquerda/4.jpg, id=297, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Esquerda/4.jpg Graphic file (type jpg)
+<Figuras/Base1/Cima/4.jpg, id=301, 1606.0pt x 1204.5pt>
+File: Figuras/Base1/Cima/4.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Esquerda/4.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Esquerda/4.jpg used on input line 8
-7.
+<use Figuras/Base1/Cima/4.jpg>
+Package pdftex.def Info: Figuras/Base1/Cima/4.jpg used on input line 121.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[47 <./Figuras/BaseObjeto/Frente/1.jpg> <./Figuras/BaseObjeto/Frente/2.jpg> <./
-Figuras/BaseObjeto/Frente/3.jpg> <./Figuras/BaseObjeto/Frente/4.jpg> <./Figuras
-/BaseObjeto/Direita/1.jpg> <./Figuras/BaseObjeto/Direita/2.jpg> <./Figuras/Base
-Objeto/Direita/3.jpg> <./Figuras/BaseObjeto/Direita/4.jpg>]
-<Figuras/BaseObjeto/Cima/1.jpg, id=303, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Cima/1.jpg Graphic file (type jpg)
+[48 <./Figuras/Base1/Direita/1.jpg> <./Figuras/Base1/Direita/2.jpg> <./Figuras/
+Base1/Direita/3.jpg> <./Figuras/Base1/Direita/4.jpg> <./Figuras/Base1/Esquerda/
+1.jpg> <./Figuras/Base1/Esquerda/2.jpg> <./Figuras/Base1/Esquerda/3.jpg> <./Fig
+uras/Base1/Esquerda/4.jpg>]
+<Figuras/Base2/Frente/1.jpg, id=305, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Frente/1.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Cima/1.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Cima/1.jpg used on input line 98.
+<use Figuras/Base2/Frente/1.jpg>
+Package pdftex.def Info: Figuras/Base2/Frente/1.jpg used on input line 138.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Cima/2.jpg, id=304, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Cima/2.jpg Graphic file (type jpg)
+<Figuras/Base2/Frente/2.jpg, id=306, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Frente/2.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Cima/2.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Cima/2.jpg used on input line 104.
+<use Figuras/Base2/Frente/2.jpg>
+Package pdftex.def Info: Figuras/Base2/Frente/2.jpg used on input line 144.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Cima/3.jpg, id=305, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Cima/3.jpg Graphic file (type jpg)
+<Figuras/Base2/Frente/3.jpg, id=307, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Frente/3.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Cima/3.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Cima/3.jpg used on input line 110.
+<use Figuras/Base2/Frente/3.jpg>
+Package pdftex.def Info: Figuras/Base2/Frente/3.jpg used on input line 150.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
-<Figuras/BaseObjeto/Baixo/1.jpg, id=306, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Baixo/1.jpg Graphic file (type jpg)
+<Figuras/Base2/Frente/4.jpg, id=308, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Frente/4.jpg Graphic file (type jpg)
 
-<use Figuras/BaseObjeto/Baixo/1.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Baixo/1.jpg used on input line 121.
-
-(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
-
-<Figuras/BaseObjeto/Baixo/2.jpg, id=307, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Baixo/2.jpg Graphic file (type jpg)
-
-<use Figuras/BaseObjeto/Baixo/2.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Baixo/2.jpg used on input line 127.
-
-(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
-
-<Figuras/BaseObjeto/Baixo/3.jpg, id=308, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Baixo/3.jpg Graphic file (type jpg)
-
-<use Figuras/BaseObjeto/Baixo/3.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Baixo/3.jpg used on input line 133.
-
-(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
-
-<Figuras/BaseObjeto/Baixo/4.jpg, id=309, 1606.0pt x 1204.5pt>
-File: Figuras/BaseObjeto/Baixo/4.jpg Graphic file (type jpg)
-
-<use Figuras/BaseObjeto/Baixo/4.jpg>
-Package pdftex.def Info: Figuras/BaseObjeto/Baixo/4.jpg used on input line 139.
-
+<use Figuras/Base2/Frente/4.jpg>
+Package pdftex.def Info: Figuras/Base2/Frente/4.jpg used on input line 156.
 (pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
 
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[48 <./Figuras/BaseObjeto/Esquerda/1.jpg> <./Figuras/BaseObjeto/Esquerda/2.jpg>
- <./Figuras/BaseObjeto/Esquerda/3.jpg> <./Figuras/BaseObjeto/Esquerda/4.jpg> <.
-/Figuras/BaseObjeto/Cima/1.jpg> <./Figuras/BaseObjeto/Cima/2.jpg> <./Figuras/Ba
-seObjeto/Cima/3.jpg>]) (Documentos/Pontos/Resultados.tex
-<Figuras/toneMapping/PontosFrente.png, id=313, 1505.625pt x 1129.21875pt>
-File: Figuras/toneMapping/PontosFrente.png Graphic file (type png)
+[49 <./Figuras/Base1/Cima/1.jpg> <./Figuras/Base1/Cima/2.jpg> <./Figuras/Base1/
+Cima/3.jpg> <./Figuras/Base1/Cima/4.jpg>]
+<Figuras/Base2/Direita/1.jpg, id=312, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Direita/1.jpg Graphic file (type jpg)
 
-<use Figuras/toneMapping/PontosFrente.png>
-Package pdftex.def Info: Figuras/toneMapping/PontosFrente.png used on input lin
-e 11.
+<use Figuras/Base2/Direita/1.jpg>
+Package pdftex.def Info: Figuras/Base2/Direita/1.jpg used on input line 167.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base2/Direita/2.jpg, id=313, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Direita/2.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Direita/2.jpg>
+Package pdftex.def Info: Figuras/Base2/Direita/2.jpg used on input line 173.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base2/Direita/3.jpg, id=314, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Direita/3.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Direita/3.jpg>
+Package pdftex.def Info: Figuras/Base2/Direita/3.jpg used on input line 179.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base2/Direita/4.jpg, id=315, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Direita/4.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Direita/4.jpg>
+Package pdftex.def Info: Figuras/Base2/Direita/4.jpg used on input line 185.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base2/Esquerda/1.jpg, id=316, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Esquerda/1.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Esquerda/1.jpg>
+Package pdftex.def Info: Figuras/Base2/Esquerda/1.jpg used on input line 196.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base2/Esquerda/2.jpg, id=317, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Esquerda/2.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Esquerda/2.jpg>
+Package pdftex.def Info: Figuras/Base2/Esquerda/2.jpg used on input line 202.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base2/Esquerda/3.jpg, id=318, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Esquerda/3.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Esquerda/3.jpg>
+Package pdftex.def Info: Figuras/Base2/Esquerda/3.jpg used on input line 208.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base2/Esquerda/4.jpg, id=319, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Esquerda/4.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Esquerda/4.jpg>
+Package pdftex.def Info: Figuras/Base2/Esquerda/4.jpg used on input line 214.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[50 <./Figuras/Base2/Frente/1.jpg> <./Figuras/Base2/Frente/2.jpg> <./Figuras/Ba
+se2/Frente/3.jpg> <./Figuras/Base2/Frente/4.jpg> <./Figuras/Base2/Direita/1.jpg
+> <./Figuras/Base2/Direita/2.jpg> <./Figuras/Base2/Direita/3.jpg> <./Figuras/Ba
+se2/Direita/4.jpg>] <Figuras/Base2/Cima/1.jpg, id=323, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Cima/1.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Cima/1.jpg>
+Package pdftex.def Info: Figuras/Base2/Cima/1.jpg used on input line 225.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base2/Cima/2.jpg, id=324, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Cima/2.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Cima/2.jpg>
+Package pdftex.def Info: Figuras/Base2/Cima/2.jpg used on input line 231.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base2/Cima/3.jpg, id=325, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Cima/3.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Cima/3.jpg>
+Package pdftex.def Info: Figuras/Base2/Cima/3.jpg used on input line 237.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+
+<Figuras/Base2/Cima/4.jpg, id=326, 1606.0pt x 1204.5pt>
+File: Figuras/Base2/Cima/4.jpg Graphic file (type jpg)
+
+<use Figuras/Base2/Cima/4.jpg>
+Package pdftex.def Info: Figuras/Base2/Cima/4.jpg used on input line 243.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+) (Documentos/Pontos/Resultados.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[51 <./Figuras/Base2/Esquerda/1.jpg> <./Figuras/Base2/Esquerda/2.jpg> <./Figura
+s/Base2/Esquerda/3.jpg> <./Figuras/Base2/Esquerda/4.jpg> <./Figuras/Base2/Cima/
+1.jpg> <./Figuras/Base2/Cima/2.jpg> <./Figuras/Base2/Cima/3.jpg> <./Figuras/Bas
+e2/Cima/4.jpg>]
+<Figuras/Base1/ToneMap/4.png, id=331, 1505.625pt x 1129.21875pt>
+File: Figuras/Base1/ToneMap/4.png Graphic file (type png)
+
+<use Figuras/Base1/ToneMap/4.png>
+Package pdftex.def Info: Figuras/Base1/ToneMap/4.png used on input line 23.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/toneMapping/PontosBaixo.png, id=314, 1505.625pt x 1129.21875pt>
-File: Figuras/toneMapping/PontosBaixo.png Graphic file (type png)
+<Figuras/Base1/ToneMap/3.png, id=332, 1505.625pt x 1129.21875pt>
+File: Figuras/Base1/ToneMap/3.png Graphic file (type png)
 
-<use Figuras/toneMapping/PontosBaixo.png>
-Package pdftex.def Info: Figuras/toneMapping/PontosBaixo.png used on input line
- 17.
+<use Figuras/Base1/ToneMap/3.png>
+Package pdftex.def Info: Figuras/Base1/ToneMap/3.png used on input line 29.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/toneMapping/PontosCima.png, id=315, 1505.625pt x 1129.21875pt>
-File: Figuras/toneMapping/PontosCima.png Graphic file (type png)
+<Figuras/Base1/ToneMap/2.png, id=333, 1505.625pt x 1129.21875pt>
+File: Figuras/Base1/ToneMap/2.png Graphic file (type png)
 
-<use Figuras/toneMapping/PontosCima.png>
-Package pdftex.def Info: Figuras/toneMapping/PontosCima.png used on input line 
-23.
+<use Figuras/Base1/ToneMap/2.png>
+Package pdftex.def Info: Figuras/Base1/ToneMap/2.png used on input line 35.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/toneMapping/PontosDireita.png, id=316, 1505.625pt x 1129.21875pt>
-File: Figuras/toneMapping/PontosDireita.png Graphic file (type png)
+<Figuras/Base1/ToneMap/1.png, id=334, 1505.625pt x 1129.21875pt>
+File: Figuras/Base1/ToneMap/1.png Graphic file (type png)
 
-<use Figuras/toneMapping/PontosDireita.png>
-Package pdftex.def Info: Figuras/toneMapping/PontosDireita.png used on input li
-ne 29.
-(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
-
-<Figuras/toneMapping/PontosEsquerda.png, id=317, 1505.625pt x 1129.21875pt>
-File: Figuras/toneMapping/PontosEsquerda.png Graphic file (type png)
-
-<use Figuras/toneMapping/PontosEsquerda.png>
-Package pdftex.def Info: Figuras/toneMapping/PontosEsquerda.png used on input l
-ine 35.
+<use Figuras/Base1/ToneMap/1.png>
+Package pdftex.def Info: Figuras/Base1/ToneMap/1.png used on input line 41.
 (pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[49 <./Figuras/BaseObjeto/Baixo/1.jpg> <./Figuras/BaseObjeto/Baixo/2.jpg> <./Fi
-guras/BaseObjeto/Baixo/3.jpg> <./Figuras/BaseObjeto/Baixo/4.jpg>]
+[52] <Figuras/Base2/ToneMap/3.png, id=338, 1505.625pt x 1129.21875pt>
+File: Figuras/Base2/ToneMap/3.png Graphic file (type png)
 
-LaTeX Warning: Reference `tonemapped' on page 50 undefined on input line 42.
+<use Figuras/Base2/ToneMap/3.png>
+Package pdftex.def Info: Figuras/Base2/ToneMap/3.png used on input line 52.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
+<Figuras/Base2/ToneMap/2.png, id=339, 1505.625pt x 1129.21875pt>
+File: Figuras/Base2/ToneMap/2.png Graphic file (type png)
+
+<use Figuras/Base2/ToneMap/2.png>
+Package pdftex.def Info: Figuras/Base2/ToneMap/2.png used on input line 58.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/Base2/ToneMap/4.png, id=340, 1505.625pt x 1129.21875pt>
+File: Figuras/Base2/ToneMap/4.png Graphic file (type png)
+
+<use Figuras/Base2/ToneMap/4.png>
+Package pdftex.def Info: Figuras/Base2/ToneMap/4.png used on input line 64.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/Base2/ToneMap/1.png, id=341, 1505.625pt x 1129.21875pt>
+File: Figuras/Base2/ToneMap/1.png Graphic file (type png)
+
+<use Figuras/Base2/ToneMap/1.png>
+Package pdftex.def Info: Figuras/Base2/ToneMap/1.png used on input line 70.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[50 <./Figuras/toneMapping/PontosFrente.png> <./Figuras/toneMapping/PontosBaixo
-.png> <./Figuras/toneMapping/PontosCima.png> <./Figuras/toneMapping/PontosDirei
-ta.png> <./Figuras/toneMapping/PontosEsquerda.png>]
-<Figuras/nuvemPontos/Convencional.png, id=330, 295.85532pt x 308.65312pt>
-File: Figuras/nuvemPontos/Convencional.png Graphic file (type png)
+[53 <./Figuras/Base1/ToneMap/4.png> <./Figuras/Base1/ToneMap/3.png> <./Figuras/
+Base1/ToneMap/2.png> <./Figuras/Base1/ToneMap/1.png>]
+<Figuras/Base1/Realcado/1.png, id=349, 2007.5pt x 1505.625pt>
+File: Figuras/Base1/Realcado/1.png Graphic file (type png)
 
-<use Figuras/nuvemPontos/Convencional.png>
-Package pdftex.def Info: Figuras/nuvemPontos/Convencional.png used on input lin
-e 67.
-(pdftex.def)             Requested size: 136.36595pt x 142.26378pt.
+<use Figuras/Base1/Realcado/1.png>
+Package pdftex.def Info: Figuras/Base1/Realcado/1.png used on input line 83.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
 
-<Figuras/nuvemPontos/HDR.png, id=331, 210.7875pt x 230.36063pt>
-File: Figuras/nuvemPontos/HDR.png Graphic file (type png)
+<Figuras/Base1/Realcado/4.png, id=350, 2007.5pt x 1505.625pt>
+File: Figuras/Base1/Realcado/4.png Graphic file (type png)
 
-<use Figuras/nuvemPontos/HDR.png>
-Package pdftex.def Info: Figuras/nuvemPontos/HDR.png used on input line 73.
-(pdftex.def)             Requested size: 130.17549pt x 142.26378pt.
-) (Documentos/ConsideracoesFinais.tex
+<use Figuras/Base1/Realcado/4.png>
+Package pdftex.def Info: Figuras/Base1/Realcado/4.png used on input line 89.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/Base1/Realcado/3.png, id=351, 2007.5pt x 1505.625pt>
+File: Figuras/Base1/Realcado/3.png Graphic file (type png)
+
+<use Figuras/Base1/Realcado/3.png>
+Package pdftex.def Info: Figuras/Base1/Realcado/3.png used on input line 95.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/Base1/Realcado/2.png, id=352, 2007.5pt x 1505.625pt>
+File: Figuras/Base1/Realcado/2.png Graphic file (type png)
+
+<use Figuras/Base1/Realcado/2.png>
+Package pdftex.def Info: Figuras/Base1/Realcado/2.png used on input line 101.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[51 <./Figuras/nuvemPontos/Convencional.png> <./Figuras/nuvemPontos/HDR.png>]
+[54 <./Figuras/Base2/ToneMap/3.png> <./Figuras/Base2/ToneMap/2.png> <./Figuras/
+Base2/ToneMap/4.png> <./Figuras/Base2/ToneMap/1.png>]
+<Figuras/Base2/Realcado/4.png, id=360, 2007.5pt x 1505.625pt>
+File: Figuras/Base2/Realcado/4.png Graphic file (type png)
+
+<use Figuras/Base2/Realcado/4.png>
+Package pdftex.def Info: Figuras/Base2/Realcado/4.png used on input line 112.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/Base2/Realcado/3.png, id=361, 2007.5pt x 1505.625pt>
+File: Figuras/Base2/Realcado/3.png Graphic file (type png)
+
+<use Figuras/Base2/Realcado/3.png>
+Package pdftex.def Info: Figuras/Base2/Realcado/3.png used on input line 118.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/Base2/Realcado/1.png, id=362, 2007.5pt x 1505.625pt>
+File: Figuras/Base2/Realcado/1.png Graphic file (type png)
+
+<use Figuras/Base2/Realcado/1.png>
+Package pdftex.def Info: Figuras/Base2/Realcado/1.png used on input line 124.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+<Figuras/Base2/Realcado/2.png, id=363, 2007.5pt x 1505.625pt>
+File: Figuras/Base2/Realcado/2.png Graphic file (type png)
+
+<use Figuras/Base2/Realcado/2.png>
+Package pdftex.def Info: Figuras/Base2/Realcado/2.png used on input line 130.
+(pdftex.def)             Requested size: 189.67299pt x 142.26378pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[55 <./Figuras/Base1/Realcado/1.png (PNG copy)> <./Figuras/Base1/Realcado/4.png
+ (PNG copy)> <./Figuras/Base1/Realcado/3.png (PNG copy)> <./Figuras/Base1/Realc
+ado/2.png (PNG copy)>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[56 <./Figuras/Base2/Realcado/4.png (PNG copy)> <./Figuras/Base2/Realcado/3.png
+ (PNG copy)> <./Figuras/Base2/Realcado/1.png (PNG copy)> <./Figuras/Base2/Realc
+ado/2.png (PNG copy)>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[57]
+<Figuras/Base1/ResultadosSFM/nuvemConvencional.png, id=374, 439.6425pt x 363.60
+844pt>
+File: Figuras/Base1/ResultadosSFM/nuvemConvencional.png Graphic file (type png)
+
+ <use Figuras/Base1/ResultadosSFM/nuvemConvencional.png>
+Package pdftex.def Info: Figuras/Base1/ResultadosSFM/nuvemConvencional.png used
+ on input line 191.
+(pdftex.def)             Requested size: 172.01668pt x 142.26378pt.
+
+<Figuras/Base1/ResultadosSFM/nuvemToneMap.png, id=375, 767.11594pt x 464.4853pt
+>
+File: Figuras/Base1/ResultadosSFM/nuvemToneMap.png Graphic file (type png)
+ <use Figuras/Base1/ResultadosSFM/nuvemToneMap.png>
+Package pdftex.def Info: Figuras/Base1/ResultadosSFM/nuvemToneMap.png used on i
+nput line 197.
+(pdftex.def)             Requested size: 234.9591pt x 142.26378pt.
+
+<Figuras/Base1/ResultadosSFM/nuvemRealce.png, id=376, 487.8225pt x 408.77719pt>
+File: Figuras/Base1/ResultadosSFM/nuvemRealce.png Graphic file (type png)
+<use Figuras/Base1/ResultadosSFM/nuvemRealce.png>
+Package pdftex.def Info: Figuras/Base1/ResultadosSFM/nuvemRealce.png used on in
+put line 203.
+(pdftex.def)             Requested size: 169.77277pt x 142.26378pt.
+
+<Figuras/Base2/ResultadosSFM/nuvemConvencional.png, id=377, 572.89032pt x 435.8
+7843pt>
+File: Figuras/Base2/ResultadosSFM/nuvemConvencional.png Graphic file (type png)
+
+ <use Figuras/Base2/ResultadosSFM/nuvemConvencional.png>
+Package pdftex.def Info: Figuras/Base2/ResultadosSFM/nuvemConvencional.png used
+ on input line 214.
+(pdftex.def)             Requested size: 186.98262pt x 142.26378pt.
+
+<Figuras/Base2/ResultadosSFM/nuvemToneMap.png, id=378, 478.03593pt x 341.02406p
+t>
+File: Figuras/Base2/ResultadosSFM/nuvemToneMap.png Graphic file (type png)
+ <use Figuras/Base2/ResultadosSFM/nuvemToneMap.png>
+Package pdftex.def Info: Figuras/Base2/ResultadosSFM/nuvemToneMap.png used on i
+nput line 220.
+(pdftex.def)             Requested size: 199.42429pt x 142.26378pt.
+
+<Figuras/Base2/ResultadosSFM/nuvemRealce.png, id=379, 475.02469pt x 419.31656pt
+>
+File: Figuras/Base2/ResultadosSFM/nuvemRealce.png Graphic file (type png)
+ <use Figuras/Base2/ResultadosSFM/nuvemRealce.png>
+Package pdftex.def Info: Figuras/Base2/ResultadosSFM/nuvemRealce.png used on in
+put line 226.
+(pdftex.def)             Requested size: 161.15833pt x 142.26378pt.
+)
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[58 <./Figuras/Base1/ResultadosSFM/nuvemConvencional.png> <./Figuras/Base1/Resu
+ltadosSFM/nuvemToneMap.png> <./Figuras/Base1/ResultadosSFM/nuvemRealce.png>]
+(Documentos/ConsideracoesFinais.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[59 <./Figuras/Base2/ResultadosSFM/nuvemConvencional.png> <./Figuras/Base2/Resu
+ltadosSFM/nuvemToneMap.png> <./Figuras/Base2/ResultadosSFM/nuvemRealce.png>]
 Cap\'{\i }tulo 5.
-) (TCC.bbl [52
+[60
 
-] [53
+]) (TCC.bbl
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[61] [62
 
 ]
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[54]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 115--117
 []\T1/ptm/m/n/12 [Online] Vi-su-alSFM. Dis-po-ní-vel em: <http://ccwu.me/vsfm/>
 . Acesso em:
@@ -1315,39 +1537,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--117
 Overfull \vbox (9.74998pt too high) has occurred while \output is active []
 
 
-[55] (TCC.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[64] (TCC.aux) )
+(\end occurred when \iftrue on line 85 was incomplete) 
 Here is how much of TeX's memory you used:
- 7818 strings out of 493634
- 118785 string characters out of 3141315
- 177504 words of memory out of 3000000
- 10931 multiletter control sequences out of 15000+200000
- 46279 words of font info for 66 fonts, out of 3000000 for 9000
+ 8009 strings out of 493634
+ 123793 string characters out of 3141315
+ 178665 words of memory out of 3000000
+ 11112 multiletter control sequences out of 15000+200000
+ 47827 words of font info for 72 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,21n,49p,1067b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
-times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8
-a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on TCC.pdf (66 pages, 102651236 bytes).
+ 44i,21n,49p,1377b,603s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/M
+iKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on TCC.pdf (74 pages, 194048376 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
+ 453 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 386 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 526 words of extra memory for PDF output out of 10000 (max. 10000000)
 

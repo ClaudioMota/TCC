@@ -1,6 +1,6 @@
 \subsection{Base de Imagens e Visualização} \label{metodoBaseImg}
 
-Para a geração das imagens HDR nos métodos das próximas subseções, será utilizada a base de imagens LDR aqui apresentada. Essa base de dados consiste num conjunto de cenas, cada uma possuindo partes bem iluminadas e partes pouco iluminadas. Cada cena foi registrada por um conjunto de imagens LDR, que diferem apenas em tempo de exposição, cada imagem busca registrar uma faixa de iluminação específica da cena. Com isso visa-se verificar a eficiência de cada método em gerar imagens HDR dessas cenas.
+Para a geração das imagens HDR nos métodos das próximas subseções, será utilizada a base de imagens LDR aqui apresentada. Essa base de dados consiste num conjunto de cenas, cada uma possuindo regiões bem iluminadas e regiões pouco iluminadas. Cada cena foi registrada por um conjunto de imagens LDR, que diferem apenas em tempo de exposição, e cada imagem busca registrar uma faixa de iluminação específica da cena. Com isso visa-se verificar a eficiência de cada método em gerar imagens HDR dessas cenas.
 
 É importante salientar que, apesar de pouco, o movimento entre a captura das imagens LDR de cada cena da base de dados existe. Esse foi um fator limitante neste trabalho, devido aos equipamentos disponíveis para uso. Outro fator limitante devido ao equipamento utilizado foi o uso de imagens no formato JPG, que possui compressão com perda de informações.
 
@@ -36,7 +36,7 @@ Para a geração das imagens HDR nos métodos das próximas subseções, será u
     \includegraphics[height=5cm]{CenaDidatica/5}
     \label{figBaseDidaticas5}
   }
-  \caption{Note que a parte interna da sala possui uma baixa iluminação e é perdida nas imagens com menor tempo de exposição. Enquanto a parte externa possui alta iluminação e é perdida nas imagens com maior tempo de exposição.}
+  \caption{A parte interna da sala possui baixa iluminação e é perdida nas imagens com menor tempo de exposição. A parte externa possui alta iluminação e é perdida nas imagens com maior tempo de exposição.}
   \label{figBaseDidaticas}
 \end{figure}
 
@@ -67,7 +67,7 @@ Para a geração das imagens HDR nos métodos das próximas subseções, será u
     \includegraphics[height=5cm]{CenaPorquinho/4}
     \label{figBasePorquinho4}
   }
-  \caption{Note que partes da cena são perdidas em algumas figuras. Porém estas mesmas partes estão bem representadas em outras.}
+  \caption{Partes da cena são perdidas em algumas figuras. Porém estas mesmas partes estão bem representadas em outras.}
   \label{figBasePorquinho}
 \end{figure}
 
@@ -104,10 +104,10 @@ Para a geração das imagens HDR nos métodos das próximas subseções, será u
     \includegraphics[height=5cm]{CenaOlhinhos/5}
     \label{figBaseOlhihos5}
   }
-  \caption{Note que partes da cena são perdidas em algumas figuras. Porém estas mesmas partes são bem representadas em outras figuras.}
+  \caption{Partes da cena são perdidas em algumas figuras. Porém estas mesmas partes são bem representadas em outras figuras.}
   \label{figBaseOlhinhos}
 \end{figure}
 
 \subsubsection{Software para Visualização de Imagens HDR} \label{baseImgPicturenaut}
 
-Para a visualização das imagens HDR geradas, é necessário o uso de softwares específicos. Neste trabalho é utilizado o Picturenaut, disponível no link da Referência \cite{picturenaut}. Este foi escolhido devido a seu fácil manuseio, compatibilidade com diversos tipos de arquivos e por possuir uma ferramenta que realiza tone mapping de imagens HDR.
+Para a visualização das imagens HDR geradas, é necessário o uso de software específico. Neste trabalho é utilizado o Picturenaut, disponível no link da Referência \cite{picturenaut}. Este foi escolhido devido a seu fácil manuseio, compatibilidade com diversos tipos de arquivos e por possuir uma ferramenta que realiza tone mapping de imagens HDR.

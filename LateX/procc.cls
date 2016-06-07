@@ -145,9 +145,9 @@
 			\let\footnotesize\small
 			\let\footnotrule\relax
  		 	\begin{center}
- 		   	{\Large \textbf{UNIVERSIDADE FEDERAL DE SERGIPE} \par}
- 		   	{\Large \textbf{CENTRO DE CI\^{E}NCIAS EXATAS E TECNOL\'{O}GICAS} \par}
- 		   	{\Large \textbf{TRABALHO DE CONCLUS\~{A}O DE CURSO DE BACHARELADO EM CI\^{E}NCIA DA COMPUTA\c{C}\~{A}O} \par}
+ 		   	{\normalsize \textbf{UNIVERSIDADE FEDERAL DE SERGIPE} \par}
+ 		   	{\normalsize \textbf{CENTRO DE CI\^{E}NCIAS EXATAS E TECNOLOGIA} \par}
+ 		   	{\normalsize \textbf{TRABALHO DE CONCLUS\~{A}O DE CURSO DE BACHARELADO EM CI\^{E}NCIA DA COMPUTA\c{C}\~{A}O} \par}
 	    	\vskip 12em
 	    	{\Large \textbf{\@Titulo} \par}
 	    	\vskip 9em
@@ -165,9 +165,9 @@
 			\begin{titlepage} 
 				\newpage
 		  	\begin{center}
- 		 	  	{\Large \textbf{UNIVERSIDADE FEDERAL DE SERGIPE} \par}
- 		   		{\Large \textbf{CENTRO DE CI\^{E}NCIAS EXATAS E TECNOL\'{O}GICAS} \par}
- 		   		{\Large \textbf{TRABALHO DE CONCLUS\~{A}O DE CURSO DE BACHARELADO EM CI\^{E}NCIA DA COMPUTA\c{C}\~{A}O} \par}
+ 		 	  	{\normalsize \textbf{UNIVERSIDADE FEDERAL DE SERGIPE} \par}
+ 		   		{\normalsize \textbf{CENTRO DE CI\^{E}NCIAS EXATAS E TECNOLOGIA} \par}
+ 		   		{\normalsize \textbf{TRABALHO DE CONCLUS\~{A}O DE CURSO DE BACHARELADO EM CI\^{E}NCIA DA COMPUTA\c{C}\~{A}O} \par}
  	 		 	 	\vskip 6em
   		  	{\normalsize \textbf{\@Autor} \par}
  		   		\vskip 4em
@@ -180,7 +180,7 @@
   
   			\begin{center}
   				\vskip 5em%
- 	  			{\normalsize \textbf{Orientador:} \@Orientador \par}
+ 	  			{\normalsize \textbf{Orientadora:} \@Orientador \par}
  		  		\vskip 5em
  					{\small \textbf{S\~{A}O CRIST\'{O}V\~{A}O/ SE} \par}
    				{\small \@Ano \par}
@@ -191,64 +191,76 @@
 		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		% Paginas que nao estao sendo usadas neste documento: coisas de banca examinadora
 		%
-		%\if@msc
-		%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		%	%% Terceira Folha
-		%	%% 
-		%	\begin{titlepage}
-		%		\newpage
-		%		\begin{center}
- 		%  		{\normalsize \textbf{\@Autor} \par}
- 		%   		\vskip 4em
-	    %		{\Large \textbf{\@Titulo} \par}
-   		% 		\vskip 5em
-	  	%	\end{center}
+		\if@msc
+			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			%% Terceira Folha
+			%% 
+			\begin{titlepage}
+				\newpage
+				\begin{center}
+ 		  		{\normalsize \textbf{\@Autor} \par}
+ 		   		\vskip 4em
+	    		{\Large \textbf{\@Titulo} \par}
+   		 		\vskip 5em
+	  		\end{center}
   
-		%		\begin{flushright}
- 		%			\parbox[t]{90mm}{Trabalho apresentado ao Programa de P\'{o}s-Gradua\c{c}\~{a}o em Ci\^{e}ncia da Computa\c{c}\~{a}o (PROCC) da Universidade Federal de Sergipe (UFS) como parte de requisito para obten\c{c}\~{a}o do t\'{i}tulo de Mestre em Ci\^{e}ncia da Computa\c{c}\~{a}o.}
-		%		\end{flushright}
-  
- 		% 		\begin{center}
-  		%		\vskip 4em%
-		%   		{\normalsize \textbf{BANCA EXAMINADORA} \par}
- 		%		  \vskip 3em
-   		%		{\small \@Orientador, Presidente \par}
- 		%	  	{\small \@UniverOrientador \par}
-		%			\vskip 3em
-		%			{\small \@CoOrientador, Co-Orientador \par}
-		%			{\small \@UniverCoOrientador \par}
-		%			\vskip 3em
-		%			{\small \@priAvaliador, Membro \par}
-		%			{\small \@UniverpriAvaliador \par}
-		%			\vskip 3em
-		%			{\small \@segAvaliador, Membro \par}
-		%			{\small \@UniversegAvaliador \par}		
-		%		\end{center}
-		%	 \end{titlepage}
-		%	\fi
+ 		 		\begin{center}
+  				\vskip 4em%
+		   		{\normalsize \textbf{BANCA EXAMINADORA} \par}
+ 				\vskip 4em%
+  				 	\parbox[t]{80mm}{\small 
+  	 					\begin{center} 
+   							\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\ 
+ 	  						\@Orientador \\ 
+ 	  						Orientadora 
+ 	  					\end{center}  \par}
+ 					  \vskip 2em
+ 					  %\parbox[t]{80mm}{\small 
+   					%	\begin{center} 
+   					%		\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\ 
+   					%		\@CoOrientador \\ 
+   					%		Co-Orientador 
+ 	  				%	\end{center}  \par}
+ 	 				%	\vskip 2em
+						\parbox[t]{80mm}{\small 
+   						\begin{center} 
+   							\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\ 
+  			 				\@priAvaliador \\ 
+  	 						Membro 
+  			 			\end{center}  \par}
+ 					  \vskip 2em
+ 	 					 \parbox[t]{80mm}{\small 
+   							\begin{center} 
+   								\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\ 
+   								\@segAvaliador \\ 
+   								Membro 
+   							\end{center}  \par}
+			\end{center}  
+			 \end{titlepage}
+			\fi
 
-		%\if@dsc
+		\if@dsc
 		%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		%	%% Quarta Folha
 		%	%% 
 		%	\begin{titlepage}
 		%		\newpage
 		%		\begin{center}
-   		% 		{\Large \textbf{\@Titulo} \par}
+   		 %		{\Large \textbf{\@Titulo} \par}
  	  	%		 \vskip 4em
   		%	\end{center}
-  
-		%		\begin{flushright}
- 		%				\parbox[t]{82mm}{ Este exemplar corresponde \`{a} reda\c{c}\~{a}o parcial da Disserta\c{c}\~{a}o de Mestrado, sendo o Exame de Qualifica\c{c}\~{a}o do mestrando \textbf{\@Autor} para ser aprovada pela Banca examinadora.}
- 		%				\vskip 3em
-  	 	%			\parbox[t]{80mm}{ S\~{a}o Crist\'{o}v\~{a}o - SE, \@Data}
-   		%			\vskip 4em%
-  		%		 	\parbox[t]{80mm}{\small 
-  	 	%				\begin{center} 
-   		%					\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\ 
- 	  	%					\@Orientador \\ 
- 	  	%					Orientador 
- 	  	%				\end{center}  \par}
+  %
+	%			\begin{flushright}
+ 	%					\parbox[t]{82mm}{ Este exemplar corresponde \`{a} reda\c{c}\~{a}o parcial da Disserta\c{c}\~{a}o de Mestrado, sendo o Exame de Qualifica\c{c}\~{a}o do mestrando \textbf{\@Autor} para ser aprovada pela Banca examinadora.}
+ 	%					\vskip 3em
+  	 %				\parbox[t]{80mm}{ S\~{a}o Crist\'{o}v\~{a}o - SE, \@Data}
+   	%				\vskip 4em%
+  	%			 	\parbox[t]{80mm}{\small 
+  	 %					\begin{center} 
+   	%						\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \\ 
+ 	  %						\@Orientador \\ 
+ 	  %						Orientador 
+ 	  %					\end{center}  \par}
  		%			  \vskip 2em
  		%			  \parbox[t]{80mm}{\small 
    		%				\begin{center} 

@@ -40,13 +40,15 @@
 \contentsline {subsection}{\numberline {3.3.3}M\IeC {\'e}todo Sen}{40}
 \contentsline {subsubsection}{Vantagens}{40}
 \contentsline {subsubsection}{Desvantagens}{40}
-\contentsline {chapter}{\numberline {4}Obten\IeC {\c c}\IeC {\~a}o de Nuvem de Pontos a Partir de Imagens HDR}{41}
+\contentsline {chapter}{\numberline {4}Obten\IeC {\c c}\IeC {\~a}o de Nuvem de Pontos a partir de Imagens HDR}{41}
 \contentsline {section}{\numberline {4.1}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{41}
 \contentsline {section}{\numberline {4.2}Software Utilizado}{42}
 \contentsline {section}{\numberline {4.3}Introduzindo as Imagens HDR ao Processo}{44}
 \contentsline {subsection}{\numberline {4.3.1}M\IeC {\'e}todo de Tone Mapping}{44}
 \contentsline {section}{\numberline {4.4}Proposta para Melhoria na Aquisi\IeC {\c c}\IeC {\~a}o da Nuvem de Pontos}{45}
 \contentsline {section}{\numberline {4.5}Base de Imagens}{46}
-\contentsline {section}{\numberline {4.6}Resultados e Discuss\IeC {\~o}es}{49}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{52}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{52}
+\contentsline {subsection}{\numberline {4.5.1}Base Controlada}{47}
+\contentsline {subsection}{\numberline {4.5.2}Base Capturada Manualmente}{49}
+\contentsline {section}{\numberline {4.6}Resultados e Discuss\IeC {\~o}es}{52}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{60}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{61}
