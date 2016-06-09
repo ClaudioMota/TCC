@@ -2,7 +2,7 @@
 
 O método proposto por Sen~\etal~\cite{hdrMovimento}, aborda a geração de imagens HDR sob uma ótica bastante diferenciada dos outros métodos citados anteriormente, apesar de partir do mesmo pressuposto da união de várias imagens LDR em diferentes tempos de exposição para gerar uma imagem HDR. Um dos princípios básicos deste método é a robustez quanto ao movimento dos elementos das imagens, característica essa que nos outros métodos era assumida como sendo estática.
 
-No processo de captura de uma sequência de várias imagens, assumir que uma imagem e os elementos contidos na mesma estarão estáticos em relação às outras imagens só é possível para ambientes bastante controlados. Para isso há a necessidade de que os objetos da cena não sejam móveis, e é requerido o uso de equipamentos mais sofisticados como tripé da câmera para mantê-la fixa e/ou uso de câmeras controladas remotamente. Estes casos são bastante específicos e não correspondem à realidade de grande parte dos usuários de câmeras digitais convencionais. Muitos destes possuem como única alternativa, a captura das imagens sem tripé, sem software, onde as cenas capturadas possuem uma dinâmica bem diferente de um ambiente estático.
+No processo de captura de uma sequência de várias imagens, assumir que uma imagem e os elementos contidos nela estarão estáticos em relação às outras imagens só é possível para ambientes bastante controlados. Para isso há a necessidade de que os objetos da cena não sejam móveis, e é requerido o uso de equipamentos mais sofisticados como tripé da câmera para mantê-la fixa e/ou uso de câmeras controladas remotamente. Estes casos são bastante específicos e não correspondem à realidade de grande parte dos usuários de câmeras digitais convencionais. Muitos destes possuem como única alternativa a captura das imagens sem tripé, sem software, onde as cenas capturadas possuem uma dinâmica bem diferente de um ambiente estático.
 
 O método em questão se utiliza do princípio de minimização de energia para inferir, a partir de uma imagem de referência e de várias imagens LDR, como seria o registro da imagem de referência se esta fosse capturada com os tempos de exposição das outras imagens. Simultaneamente o algoritmo gera a imagem HDR e cópias da imagem de referência em diferentes tempos de exposição. Utilizando a imagem HDR obtida o algoritmo verifica e corrige a qualidade das imagens LDR que a gerou. Estas imagens com qualidade melhorada geram uma imagem HDR de melhor qualidade. Este ciclo iterativo continua até atingir um limiar.
 
@@ -18,7 +18,7 @@ Seja um conjunto de $N$ imagens LDR $(L_1,L_2,..,L_N)$, onde uma destas é a ima
 	\item A imagem de referência deve ser utilizada na composição da imagem HDR quando essa estiver propriamente exposta, caso contrário as outras imagens HDR devem assumir participação na inferência do valor de irradiação com base na múltipla similaridade bidirecional (MBDS), i.e., versão do conceito similaridade bidirecional para tratar múltiplas entradas.
 \end{itemize}
 
-Sendo assim a equação da energia é dada pela junção destes fatores como segue:
+A equação da energia é dada pela junção destes fatores como segue:
  
 \begin{align} \label{eqSenEnergia}
 	E(H) = \sum\limits_{p \in pixels}{[\alpha_{ref_{(p)}}.(h(L_{ref})_{(p)} - H_{(p)})^2 + (1-\alpha_{ref_(p)}).E_{MBDS}(H|L_1,..,L_N)]}
@@ -50,8 +50,8 @@ Onde
 Sendo assim, a equação pode ser solucionada através de um método iterativo que infere simultaneamente os $H$ e os $\{I_k\}$ seguindo os seguintes passos:
 
 \begin{itemize}
-	\item Minimiza-se a equação para $I_1,..,I_N$, usando primeiramente a procura dos melhores fragmentos para resolver o MBDS. E então para cada $I_k$ combina com o mapeamento de $H$ anterior para a exposição $k$, para que eles possuam gradualmente mais informações da imagem de referência.
-	\item Minimiza-se então a equação quanto ao valor $H$. Primeiramente mapeia-se a irradiação linear de todos os $\{I_k\}$ e faz-se a combinação dos mesmos para obter $\overset{*}{H}$, como mostra a equação~\ref{eqSenGeracao}. Após isso o valor de $\overset{*}{H}$ é combinado com a imagem de referência mapeada para o domínio de irradiação linear para obter o novo valor da imagem HDR $H$ como mostrado na equação~\ref{eqSenTotal}.
+	\item Minimiza-se a equação para $I_1,..,I_N$, usando primeiramente a procura dos melhores trechos para resolver o MBDS. E então para cada $I_k$ combina com o mapeamento de $H$ anterior para a exposição $k$, para que eles possuam gradualmente mais informações da imagem de referência.
+	\item Minimiza-se então a equação quanto ao valor $H$. Primeiramente mapeia-se a irradiação linear de todos os $\{I_k\}$ e então é feita a combinação dos $\{I_k\}$ para obter $\overset{*}{H}$, como mostra a equação~\ref{eqSenGeracao}. Após isso o valor de $\overset{*}{H}$ é combinado com a imagem de referência mapeada para o domínio de irradiação linear para obter o novo valor da imagem HDR $H$ como mostrado na equação~\ref{eqSenTotal}.
 \end{itemize}
 
 \begin{equation} \label{eqSenGeracao}
@@ -66,7 +66,7 @@ Esses passos são repetidos até atingir um critério de convergência.
 
 \subsubsection{Especificidades de Implementação} \label{MetodoSenImplementacao}
 
-Para implementação do método foi utilizada a própria implementação disponibilizada pelos autores \cite{hdrMovimento}. Para o correto funcionamento deste há a necessidade de efetuar um preprocessamento nas imagens para colocá-las no domínio linear. Para isso é necessário o conhecimento da função resposta da câmera, pois a partir de sua inversa calcula-se o mapeamento de um pixel (geralmente domínio não-linear) para o domínio linear. Uma vez com a imagem linearizada aplica-se uma correção gama de 2.2 para aumentar a eficácia do algoritmo.
+Para implementação do método foi utilizada a própria implementação disponibilizada pelos autores \cite{hdrMovimento}. Para seu correto funcionamento há a necessidade de efetuar um preprocessamento nas imagens para colocá-las no domínio linear. Para isso é necessário o conhecimento da função resposta da câmera, pois a partir de sua inversa calcula-se o mapeamento de um pixel (geralmente domínio não-linear) para o domínio linear. Uma vez com a imagem linearizada aplica-se uma correção gama de 2.2 para aumentar a eficácia do algoritmo.
 
 Para a primeira iteração do algoritmo, é necessária a definição do conjunto de imagens de entrada ${I_k}$ como sendo $I_k \leftarrow g^k(L_{ref})$. Para poder definir melhor quais imagens influenciam mais a geração da imagem HDR, os autores utilizaram um conceito de pesos extras na Equação \ref{eqSenTotal}, de forma que imagens com alta exposição não contribuam com pixels muito saturados e imagens com baixa exposição não contribuam com pixels de baixa intensidade.
 
@@ -76,7 +76,7 @@ Outra otimização feita é a implementação de fases do algoritmo relativas a 
 
 Notou-se que ao utilizar imagens com alta resolução o processamento era longo e com consumo de memória excessivo. Para o caso em que foi testado, num computador com memória RAM de 4GB, utilizando imagens de 4000x3000 pixels, não foi possível a execução do método pois a mémoria era isuficiente para o processo, sendo assim necessário o redimensionamento das imagens para 2000x1500 pixels.
 
-O método foi testado utilizando o conjunto de imagens mostrado na seção \ref{metodoBaseImg}. Os resultados são mostrados nas Figuras \ref{figSenSala}, \ref{figSenPorquinho} e \ref{figSenOlhinhos}. Apesar da ausência de fantasmas nas imagens, algumas delas, conforme mostrado na Figura \ref{figSenSalaB}, possuíram artefatos que se assemelham a uma quantização das cores quando o ganho é relativamente alto.
+O método foi testado utilizando o conjunto de imagens mostrado na seção \ref{metodoBaseImg}. Os resultados são mostrados nas Figuras \ref{figSenSala}, \ref{figSenPorquinho} e \ref{figSenOlhinhos}. Apesar da ausência de fantasmas nas imagens, algumas delas, conforme mostrado na Figura \ref{figSenSalaB}, possuem artefatos que se assemelham a uma quantização das cores quando o ganho é relativamente alto.
 
 \begin{figure}[H]
   \centering

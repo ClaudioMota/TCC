@@ -6,6 +6,12 @@ Sameer Agarwal, Yasutaka Furukawa, Noah Snavely, Ian Simon, Brian Curless,
 \newblock Building rome in a day.
 \newblock {\em Commun. ACM}, 54(10):105--112, October 2011.
 
+\bibitem{bestHDRs}
+C.~Aguerrebere, Julie Delon, Yann Gousseau, and Pablo Musé.
+\newblock Best algorithms for hdr image generation. a study of performance
+  bounds.
+\newblock {\em SIAM Journal on Imaging Sciences}, 71(1):1--34, 2014.
+
 \bibitem{ali}
 Mir~Adnan Ali and Steve Mann.
 \newblock Comparametric image compositing: Computationally efficient high
@@ -82,11 +88,6 @@ Bronislav P\v{r}ibyl, Alan Chalmers, and Pavel Zem\v{c}\'{\i}k.
   multiple exposures.
 \newblock {\em Journal of Electronic Imaging 12(2), 219 228 (April 2003).},
   12(2):219--228, April 2003.
-
-\bibitem{livroCalculoNumerico}
-Marcia A.~Gomes Ruggiero and Vera Lúcia da Rocha~Lopes Lopes.
-\newblock {\em Cálculo Numérico: Aspectos teóricos e computacionais}.
-\newblock Makron Books, 2nd edition, 1996.
 
 \bibitem{hdrMovimento}
 Pradeep Sen, Nima~Khademi Kalantari, Maziar Yaesoubi, Soheil Darabi, Dan~B.

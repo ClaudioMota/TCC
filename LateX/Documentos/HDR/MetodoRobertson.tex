@@ -11,13 +11,13 @@ Ao tentar extrair o valor de irradiação de luz ao qual um pixel é mapeado, ap
 \end{align}
 Onde
 \begin{itemize}
-\item $N_{ij}$ encapsula os ruídos tiveram influência na captura do pixel.
+\item $N_{ij}$ representa os ruídos que tiveram influência na captura do pixel.
 \item $x$ é o valor de irradiação de luz real que deseja-se encontrar.
 \item $t_{i}$ é o tempo de exposição ao qual o sensor da câmera foi submetido para captura do pixel.
 \item $p_{ij}$ é o valor do pixel $j$ da imagem com exposição $t_{i}$.
 \end{itemize}
 
-Como o ruído é uma caracteristica singular para cada ambiente/câmera utilizada, modelar o problema de forma a caracterizar cada ruído é uma tarefa bastante complexa. Sendo assim, este método trata o ruído sob o ponto de vista de uma distribuição gaussiana com média zero para simplificar a modelagem.
+Como o ruído é uma característica específica de cada ambiente/câmera utilizada, modelar o problema de forma a caracterizar cada ruído é uma tarefa bastante complexa. Sendo assim, este método trata o ruído sob o ponto de vista de uma distribuição Gaussiana com média zero para simplificar a modelagem.
 
 Utilizando-se de operações algébricas para calcular o erro de um valor de iluminação inferido em relação ao valor real, obtém-se a seguinte equação:
 
@@ -25,10 +25,10 @@ Utilizando-se de operações algébricas para calcular o erro de um valor de ilu
 	O(x) = \sum\limits_{i,j}{w_{ij}(I_{p_{ij}} - x_{ij}t_{i})^2}
 \end{align}
 
-Essa equação representa o erro quadrático entre o valor inferido e o valor obtido pela inversa. Fazendo o gradiente de $O(x)$ tender a zero, os autores do método chegaram à seguinte equação para inferência do valor de irradiação de luz:
+Essa equação representa o erro quadrático entre o valor inferido e o valor obtido pela inversa. Fazendo o gradiente de $O(x)$ tender a zero, Robertson chegou à seguinte equação para inferência do valor de irradiação de luz:
 
 \begin{align} \label{eqRobertsonGeracao}
-	x^{*}_j = \frac{\sum{_i w_{ij}t_{i}I_{p_{ij}}}}{\sum{_i w_{ij}t_{ij}^{2}}}
+	x^{*}_j = \frac{\sum\limits_i{w_{ij}t_{i}I_{p_{ij}}}}{\sum\limits_i{w_{ij}t_{ij}^{2}}}
 \end{align}
 Onde
 \begin{itemize}
@@ -46,7 +46,7 @@ Na maioria dos casos, não se sabe a função resposta de uma câmera e por isso
 	O(I,x) = \sum\limits_{i,j}{w_{ij}(I_{p_{ij}} - x_{ij}t_{i})^2}
 \end{align}
 
-Essa equação é parecida com a Equação \ref{eqRobertsonErr}, porém com uma variável $I$ de entrada que também será inferida. Como não se sabe o valor de irradiação $x_{ij}$ nem a função resposta para calcular o valor de $I_{p_{ij}}$, utiliza-se o método de relaxação de Gauss-Seidel para inferir ambas as variáveis simultaneamente. Também é necessário estabelecer uma função para mapear os pesos uma vez que, como não se sabe a função resposta da câmera, não há como obter a sua derivada. Os autores propõem a seguinte função para definir os pesos \cite{robertson2}:
+Essa equação é parecida com a Equação \ref{eqRobertsonErr}, porém com uma variável $I$ de entrada que também será inferida. Como não se sabe o valor de irradiação $x_{ij}$ nem a função resposta para calcular o valor de $I_{p_{ij}}$, utiliza-se o método de relaxação de Gauss-Seidel para inferir ambas as variáveis simultaneamente. Também é necessário estabelecer uma função para mapear os pesos uma vez que, como não se sabe a função resposta da câmera, não há como obter a sua derivada. Robertson propôs a seguinte função para definir os pesos \cite{robertson2}:
 
 \begin{align} \label{eqRobertsonErr3}
 	w_{ij} = e^{-4\frac{(p_{ij}-127.5)^2}{127.5^2}}
@@ -73,7 +73,7 @@ Para cada iteração $l$ são feitos os seguintes passos:
 \end{align}
 \end{itemize}
 
-Dessa forma, a função resposta e a imagem HDR vão sendo inferidas simultaneamente, e quando as modificações feitas no passo iterativo da Equação \ref{eqRobertsonIteracaoFR} forem menores que um limiar predefinido o passo iterativo é terminado.
+Dessa forma, a função resposta e a imagem HDR vão sendo inferidas simultaneamente, e quando as modificações feitas no passo iterativo da Equação \ref{eqRobertsonIteracaoFR} forem menores que um limiar predefinido, o passo iterativo é terminado.
 
 Ao final do método, possui-se um conjunto de valores $\{I_{p_{ij}}\}$ que representam informações da função resposta da câmera. Como este conjunto é discreto, há a necessidade de efetuar uma interpolação utilizando a técnica da Spline cúbica (vide Seção \ref{conceitoSpline}) para obtenção da função resposta final como ilustrado na Figura \ref{figRobertsonPontos}. 
 
@@ -171,7 +171,7 @@ O método em questão foi implementado na linguagem de programação C++, assim 
     \label{figRobertsonSalaA}
   }
   \quad %espaco separador
-  \subfloat[A aproximação mostrou a presença de ruído na imagem]
+  \subfloat[A ampliação mostrou a presença de ruído na imagem]
   {
     \includegraphics[height=6cm]{Robertson/Ruido}
     \label{figRobertsonSalaB}

@@ -1,8 +1,8 @@
 \subsection{Mann e Picard} \label{metodoMann}
-O método proposto por Mann~e~Picard~\cite{mann} parte da problemática que, para ambientes com áreas bem iluminadas e outras pouco iluminadas, as câmeras convecionais acabam perdendo informações por não possuírem faixa dinâmica suficiente para representação de todos os valores de iluminação ali presentes. A solução de alguns fotógrafos para este problema é regular manualmente o tempo de exposição dos sensores da câmera, de forma que a perda seja a menor possível, ou valorizando apenas áreas de seu interesse. A solução proposta pelos autores restringe o problema à captura de várias imagens de uma mesma cena, variando apenas o tempo de exposição, sem que haja movimentação da câmera entre as capturas. Cada imagem possuirá informações relevantes de determinadas áreas da cena, e ao unir essas imagens obtem-se uma imagem com mais informações visíveis do ambiente.
+O método proposto por Mann~e~Picard~\cite{mann} parte do pressuposto de que, para ambientes com áreas bem iluminadas e outras pouco iluminadas, as câmeras convecionais acabam perdendo informações por não possuírem faixa dinâmica suficiente para representação de todos os valores de iluminação ali presentes. A solução de alguns fotógrafos para este problema é regular manualmente o tempo de exposição dos sensores da câmera, de forma que a perda seja a menor possível, ou valorizando apenas áreas de seu interesse. A solução proposta pelos autores restringe o problema à captura de várias imagens de uma mesma cena, variando apenas o tempo de exposição, sem que haja movimentação da câmera entre as capturas. Cada imagem possuirá informações relevantes de determinadas áreas da cena, e ao unir essas imagens obtem-se uma imagem com mais informações visíveis do ambiente.
  
  
-Para que se possa fazer a união das imagens é necessário saber o valor de iluminação que gerou o mapeamento para um dado pixel da imagem. Para isso, é necessário fazer o cálculo da inversa da função resposta da câmera, que é diferente para cada modelo de câmera no mercado, e muitas vezes é não-linear. Os autores propuseram um algoritmo para inferir a função resposta da câmera e assim calcular a inversa da mesma.
+Para que se possa fazer a união das imagens é necessário saber o valor de iluminação que gerou o mapeamento para um dado pixel da imagem. Para isso, é necessário fazer o cálculo da inversa da função resposta da câmera, que é diferente para cada modelo de câmera no mercado, e muitas vezes é não-linear. Os autores propuseram um algoritmo para inferir a função resposta da câmera e assim calcular a sua inversa.
 
 \subsubsection{Algoritmo para Inferir a Função Resposta} \label{metodoMannAlg}
 
@@ -39,7 +39,7 @@ Seja um conjunto com $N$ imagens alinhadas entre si, variando apenas no tempo de
 
 \subsubsection{Resultados e Discussões} \label{metodoMannResultado}
 
-O método em questão foi implementado na linguagem de programação C++, e foi utilizado um conjunto de imagens capturadas neste trabalho para a verificação dos resultados. Verificou-se que pelo fato do $\beta$ da equação \ref{eqMannTotal} ser arbitrário  a depender do valor atribuido ao mesmo pode-se haver uma incompatibilidade entre as funções respostas dos diferentes canais de cores da imagem, como mostrado na Figura \ref{figMannFigErr}.
+O método em questão foi implementado na linguagem de programação C++, e foi utilizado um conjunto de imagens capturadas neste trabalho para a verificação dos resultados. Verificou-se que, pelo fato do $\beta$ da equação \ref{eqMannTotal} ser arbitrário, a depender do valor atribuido a ele pode haver uma incompatibilidade entre as funções respostas dos diferentes canais de cores da imagem, como mostrado na Figura \ref{figMannFigErr}.
 
 \begin{figure}[H]
   \centering
@@ -101,7 +101,7 @@ Para resolver este problema foi utilizada a mesma solução proposta por Roberts
   \label{figMann3}
 \end{figure}
 
-A Figura \ref{figMannFR} mostra as funções resposta dos três canais obtidas utilizando o método proposto.
+A Figura \ref{figMannFR} mostra as funções resposta dos três canais obtidas utilizando o método proposto Mann e Picard \cite{mann}. O eixo das abscissas representa o nível de exposição que elemento sensor da câmera. E o eixo das ordenadas representa o pixel que essa exposição é mapeada ao aplicar a função resposta da câmera, que foi inferida pelo método.
 
 \begin{figure}[H]
   \centering

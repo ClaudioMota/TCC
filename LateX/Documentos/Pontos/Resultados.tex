@@ -3,7 +3,7 @@
 Como exposto nas Seções \ref{pontosProposta} e \ref{pontosBaseImg}, foi feita a obtenção de nuvens de pontos das bases de imagens utilizando três procedimentos:
 
 \begin{enumerate}
-\item \textbf{Método convencional}: Método no qual o próprio usuário seleciona, com base em sua sensibilidade, o conjunto de imagens mais bem expostas para assim gerar a nuvem de pontos.
+\item \textbf{Método convencional}: Método no qual o usuário seleciona manualmente o conjunto de imagens mais bem expostas para assim gerar a nuvem de pontos.
 
 \item \textbf{Método HDR}: Método no qual é utilizado um conjunto de imagens HDR \textit{tonemapped}, para obtenção da nuvem de pontos.
 
@@ -39,7 +39,7 @@ Para isso, primeiramente foram geradas as imagens HDR, das base de imagens, util
     \includegraphics[height=5cm]{Base1/ToneMap/1}
     \label{figResTonemapD}
   }
-  \caption{Imagens HDR \textit{tonemapped} da base de dados controlada (Seção~\protect\ref{pontosBControl}).}
+  \caption{Imagens HDR \textit{tonemapped} da base de dados obtida com tripé (Seção~\protect\ref{pontosBControl}).}
   \label{figResTonemap}
 \end{figure}
 
@@ -99,7 +99,7 @@ Após a geração das imagens HDR \textit{tonemapped}, foi feito o realce dos co
     \includegraphics[height=5cm]{Base1/Realcado/2}
     \label{figResRealceD}
   }
-  \caption{Imagens HDR \textit{tonemapped} realçadas da base de dados controlada (Seção~\protect\ref{pontosBControl}).}
+  \caption{Imagens HDR \textit{tonemapped} realçadas da base de dados obtida com tripé (Seção~\protect\ref{pontosBControl}).}
   \label{figResRealce}
 \end{figure}
 
@@ -132,11 +132,11 @@ Após a geração das imagens HDR \textit{tonemapped}, foi feito o realce dos co
   \label{figRes2Realce}
 \end{figure}
 
-Foi feita então a geração de nuvens de pontos com os três métodos citados, para cada uma das bases de imagens. E sendo assim, foi feita a reunião dos principais dados quantitativos relativos a cada um dos métodos. As Tabelas \ref{tabResultados} e \ref{tabResultados2} mostram a média de pontos de interesse que foram corretamente correspondidos por par de imagens ($M_c$), assim como o número de pontos 3D obtidos nas nuvens de pontos de cada abordagem ($N_p$), e a quantidade de câmeras que tiveram suas posições inferidas com sucesso ($N_c$). As Figuras \ref{figNuvemPontos} e \ref{figNuvemPontos2} mostram as nuvens de pontos obtidas, para cada base de imagens.
+Foi feita então a geração de nuvens de pontos com os três métodos citados, para cada uma das bases de imagens. E sendo assim, foi feita a reunião dos principais dados quantitativos relativos a cada um dos métodos. As Tabelas \ref{tabResultados} e \ref{tabResultados2} mostram a média de pontos de interesse que foram corretamente correspondidos por par de imagens ($M_c$), assim como o número de pontos 3D obtidos nas nuvens de pontos de cada abordagem ($N_p$), e a quantidade de câmeras que tiveram suas posições inferidas com sucesso ($N_c$). As Figuras \ref{figNuvemPontosA}, \ref{figNuvemPontosB},\ref{figNuvemPontosC}, \ref{figNuvemPontos2A}, \ref{figNuvemPontos2B} e \ref{figNuvemPontos2C} mostram as nuvens de pontos obtidas, para cada base de imagens.
 
 \begin{table}[H]
   \centering
-  \caption{Resultados obtidos com a geração das nuvens de pontos relativas à base de imagens controlada (Seção~\protect\ref{pontosBControl}).}
+  \caption{Resultados obtidos com a geração das nuvens de pontos relativas à base de imagens obtida com tripé (Seção~\protect\ref{pontosBControl}).}
   \label{tabResultados}
   \begin{tabular}{l|l|l|l}
     \hline
@@ -175,55 +175,51 @@ Neste trabalho foram feitas apenas análises quantitativas sobre a aquisição d
 Os resultados mostraram que, para as bases de imagens utilizadas, o uso de imagens HDR na geração de nuvem de pontos levou ao aumento no número de pontos 3D obtidos. Cada método proposto obteve os seguintes resultados em relação ao método convencional:
 
 \begin{enumerate}
-\item \textbf{Método HDR}: Para a base de dados controlada, este método apresentou um aumento de $536\%$ em número de pontos 3D obtidos em comparação ao método convencional. Já para a base de dados manual, apresentou um aumento de $1,9\%$ em número de pontos 3D obtidos.
+\item \textbf{Método HDR}: Para a base de dados obtida com tripé, este método apresentou um aumento de $536\%$ em número de pontos 3D obtidos em comparação ao método convencional. Já para a base de dados manual, apresentou um aumento de $1,9\%$ em número de pontos 3D obtidos.
 
-\item \textbf{Método proposto}: Para a base de dados controlada, este método apresentou um aumento de $873\%$ em número de pontos 3D obtidos em comparação ao método convencional. Já para a base de dados manual, apresentou um aumento de $2,6\%$ em número de pontos 3D obtidos.
+\item \textbf{Método proposto}: Para a base de dados obtida com tripé, este método apresentou um aumento de $873\%$ em número de pontos 3D obtidos em comparação ao método convencional. Já para a base de dados manual, apresentou um aumento de $2,6\%$ em número de pontos 3D obtidos.
 \end{enumerate}
 
-Vale ressaltar que, além do aumento no número de pontos obtidos, o uso das imagens HDR possibilitou a inferência da posição das quatro câmeras da base de dados controlada. Já ao utilizar as imagens LDR convencionais, só foi possível inferir a posição de três das quatro câmeras. Isso pode ser visualizado na Figura \ref{figNuvemPontosA}.
+Vale ressaltar que, além do aumento no número de pontos obtidos, o uso das imagens HDR possibilitou a inferência da posição das quatro câmeras da base de dados obtida com tripé. Já ao utilizar as imagens LDR convencionais, só foi possível inferir a posição de três das quatro câmeras. Isso pode ser visualizado na Figura \ref{figNuvemPontosA}.
 
 \begin{figure}[H]
   \centering 
-  \subfloat[Obtida utilizando imagens LDR convencionais.]
-  {
-    \includegraphics[height=5cm]{Base1/ResultadosSFM/nuvemConvencional}
-    \label{figNuvemPontosA}
-  }  
-  \quad %espaco separador
-  \subfloat[Obtida utilizando as imagens \textit{tonemapped} geradas.]
-  {
-    \includegraphics[height=5cm]{Base1/ResultadosSFM/nuvemToneMap}
-    \label{figNuvemPontosB}
-  }
-  \quad %espaco separador
-  \subfloat[Obtida utilizando as imagens \textit{tonemapped} com realce de contornos.]
-  {
-    \includegraphics[height=5cm]{Base1/ResultadosSFM/nuvemRealce}
-    \label{figNuvemPontosC}
-  }
-  \caption{Nuvens de pontos obtidas utilizando o software VisualSFM.}
-  \label{figNuvemPontos}
+  \includegraphics[height=10cm]{Base1/ResultadosSFM/nuvemConvencional} 
+  \caption{Nuvens de pontos obtida utilizando imagens LDR convencionais da base de imagens capturada com tripé.}
+  \label{figNuvemPontosA}
 \end{figure}
 
 \begin{figure}[H]
   \centering 
-  \subfloat[Obtida utilizando imagens LDR convencionais.]
-  {
-    \includegraphics[height=5cm]{Base2/ResultadosSFM/nuvemConvencional}
-    \label{figNuvemPontos2A}
-  }  
-  \quad %espaco separador
-  \subfloat[Obtida utilizando as imagens \textit{tonemapped} geradas.]
-  {
-    \includegraphics[height=5cm]{Base2/ResultadosSFM/nuvemToneMap}
-    \label{figNuvemPontos2B}
-  }
-  \quad %espaco separador
-  \subfloat[Obtida utilizando as imagens \textit{tonemapped} com realce de contornos.]
-  {
-    \includegraphics[height=5cm]{Base2/ResultadosSFM/nuvemRealce}
-    \label{figNuvemPontos2C}
-  }
-  \caption{Nuvens de pontos obtidas utilizando o software VisualSFM.}
-  \label{figNuvemPontos2}
+  \includegraphics[height=10cm]{Base1/ResultadosSFM/nuvemToneMap}
+  \caption{Nuvens de pontos obtida utilizando as imagens HDR \textit{tonemapped} da base de imagens capturada com tripé.}
+  \label{figNuvemPontosB}
+\end{figure}
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[height=10cm]{Base1/ResultadosSFM/nuvemRealce}
+  \caption{Nuvens de pontos obtida utilizando as imagens HDR \textit{tonemapped} com realce de contornos da base de imagens capturada com tripé.}
+  \label{figNuvemPontosC}
+\end{figure}
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[height=10cm]{Base2/ResultadosSFM/nuvemConvencional}
+  \caption{Nuvens de pontos obtida utilizando imagens LDR convencionais da base de imagens capturada manualmente.}
+  \label{figNuvemPontos2A}
+\end{figure}
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[height=10cm]{Base2/ResultadosSFM/nuvemToneMap}
+  \caption{Nuvens de pontos obtida utilizando as imagens HDR \textit{tonemapped} da base de imagens capturada manualmente.}
+  \label{figNuvemPontos2B}
+\end{figure}
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[height=10cm]{Base2/ResultadosSFM/nuvemRealce}
+  \caption{Nuvens de pontos obtida utilizando as imagens HDR \textit{tonemapped} com realce de contornos da base de imagens capturada manualmente.}
+  \label{figNuvemPontos2C}
 \end{figure}
