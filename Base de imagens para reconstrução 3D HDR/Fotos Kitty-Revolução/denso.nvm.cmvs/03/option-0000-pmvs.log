@@ -1,0 +1,75 @@
+
+pmvs2
+C:\Users\Nanio\Desktop\Organizar\TCC parte 2\Fotos Kitty-Revolução\denso.nvm.cmvs\03\
+option-0000--------------------------------------------------
+--- Summary of specified options ---
+# of timages: 2 (enumeration)
+# of oimages: 0 (enumeration)
+level: 1  csize: 2
+threshold: 0.7  wsize: 7
+minImageNum: 2  CPU: 4
+useVisData: 1  sequence: -1
+--------------------------------------------------
+Reading images: **
+0 1 Harris running ...Harris running ...232 harris done
+DoG running...255 harris done
+DoG running...315 dog done
+316 dog done
+done
+adding seeds 
+(1,42)(0,50)done
+---- Initial: 0 secs ----
+Total pass fail0 fail1 refinepatch: 998 117 841 40 157
+Total pass fail0 fail1 refinepatch: 100 11.7234 84.2685 4.00802 15.7315
+Expanding patches...
+---- EXPANSION: 3 secs ----
+Total pass fail0 fail1 refinepatch: 7288 5157 1645 486 5643
+Total pass fail0 fail1 refinepatch: 100 70.7602 22.5714 6.6685 77.4286
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.360437 0.133073
+5249 -> 5225 (99.5428%)	0 secs
+Filter Exact: **
+5225 -> 5021 (96.0957%)	0 secs
+FilterNeighbor:	5021 -> 4633 (92.2725%)	0 secs
+FilterGroups:	20
+4633 -> 4353 (93.9564%)	0 secs
+STATUS: 125 0 5675 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 1 secs ----
+Total pass fail0 fail1 refinepatch: 2690 1209 899 582 1791
+Total pass fail0 fail1 refinepatch: 100 44.9442 33.4201 21.6357 66.5799
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.431116 0.16111
+5562 -> 5531 (99.4426%)	0 secs
+Filter Exact: **
+5531 -> 5069 (91.6471%)	0 secs
+FilterNeighbor:	5069 -> 4901 (96.6857%)	0 secs
+FilterGroups:	20
+4901 -> 4743 (96.7762%)	0 secs
+STATUS: 182 0 7409 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 1 secs ----
+Total pass fail0 fail1 refinepatch: 1959 891 730 338 1229
+Total pass fail0 fail1 refinepatch: 100 45.4824 37.2639 17.2537 62.7361
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.525285 0.169504
+5634 -> 5615 (99.6628%)	0 secs
+Filter Exact: **
+5615 -> 5221 (92.9831%)	0 secs
+FilterNeighbor:	5221 -> 5114 (97.9506%)	0 secs
+FilterGroups:	20
+5114 -> 4959 (96.9691%)	0 secs
+STATUS: 232 0 8588 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+---- Total: 0 secs ----

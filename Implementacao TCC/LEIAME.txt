@@ -1,0 +1,19 @@
+Necessita da instalação do OpenCV
+O main do programa está no arquivo GeradorHDR.cpp
+
+Para o correto funcionamento do programa o diretório de execução deve possuir um arquivo "Configuração.txt". Este arquivo deve ter o formato:
+
+
+%Numero de imagens que serão utilizadas na produção da imagem HDR%
+%tempo de exposição da imagem 1%
+%tempo de exposição da imagem 2%
+...
+%tempo de exposição da imagem N%
+
+
+O diretório de execução também deve possuir N imagens com nomes de 1.JPG, 2.JPG, ..., N.JPG.
+
+E então basta executar.
+
+Ao final o programa gerará as imagens HDR's no formato PFM.
+Além disso serão gerados arquivos ".FR" que representam a função resposta de cada canal.

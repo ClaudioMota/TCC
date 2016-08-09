@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {2.1}Faixa Din\IeC {\^a}mica}{4}
 \contentsline {section}{\numberline {2.2}Fun\IeC {\c c}\IeC {\~a}o Resposta de uma C\IeC {\^a}mera}{5}
 \contentsline {section}{\numberline {2.3}Eixo Logar\IeC {\'\i }tmico}{6}
-\contentsline {section}{\numberline {2.4}Similaridade Bidirecional}{8}
+\contentsline {section}{\numberline {2.4}Similaridade Bidirecional}{7}
 \contentsline {chapter}{\numberline {3}Obten\IeC {\c c}\IeC {\~a}o de Imagens HDR a Partir de Imagens LDR}{9}
 \contentsline {section}{\numberline {3.1}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{9}
 \contentsline {section}{\numberline {3.2}M\IeC {\'e}todos HDR Selecionados}{11}
@@ -48,5 +48,5 @@
 \contentsline {subsection}{\numberline {4.5.1}Base Obtida com Trip\IeC {\'e}}{46}
 \contentsline {subsection}{\numberline {4.5.2}Base Capturada Manualmente}{48}
 \contentsline {section}{\numberline {4.6}Resultados e Discuss\IeC {\~o}es}{51}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{63}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{64}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{66}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{67}

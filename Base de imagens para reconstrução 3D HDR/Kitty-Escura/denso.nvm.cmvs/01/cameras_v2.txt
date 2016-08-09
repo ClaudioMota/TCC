@@ -1,0 +1,46 @@
+# Camera parameter file. 
+
+# The format of each camera is as follows:
+# Filename (of the undistorted image in visualize folder)
+# Original filename
+# Focal Length (of the undistorted image)
+# 2-vec Principal Point (image center)
+# 3-vec Translation T (as in P = K[R T])
+# 3-vec Camera Position C (as in P = K[R -RC])
+# 3-vec Axis Angle format of R
+# 4-vec Quaternion format of R
+# 3x3 Matrix format of R
+# [Normalized radial distortion] = [radial distortion] * [focal length]^2
+# 3-vec Lat/Lng/Alt from EXIF
+
+# The nubmer of cameras in this reconstruction
+2
+
+00000000.jpg
+C:\Users\Nanio\Desktop\Organizar\TCC parte 2\Kitty-Escura\2016-03-15 08.41.03.jpg
+766.891357422
+320 240
+-0.0088419476524 0.00106060679536 -0.00388909690082
+0.00883213058114 -0.00105924066156 0.00391170941293
+0 0 0
+0.999999195337 9.39102129321e-005 0.0012681466487 -3.58519261858e-005
+0.999996781349 7.19419767847e-005 0.00253628450446
+-7.14656125638e-005 1 -0.00018791120965
+-0.00253629800864 0.000187729339814 0.999996781349
+0.0124407440026
+0 0 0
+
+00000001.jpg
+C:\Users\Nanio\Desktop\Organizar\TCC parte 2\Kitty-Escura\2016-03-15 08.41.08.jpg
+771.98425293
+320 240
+-0.223817780614 0.930135607719 0.310640484095
+0.150548279285 -0.987234592438 -0.120196685195
+0.195175474686 0.0140182072618 0.0792928802775
+0.994432994667 0.0974065795604 0.00699609222486 0.0395728421501
+0.996770083904 -0.0773421525955 0.0216236002743
+0.0800680071115 0.977891862392 -0.193174913526
+-0.00620497949421 0.194282352924 0.98092597723
+-0.0310676674032
+0 0 0
+

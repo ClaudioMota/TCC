@@ -17,13 +17,13 @@
 	Porém, no mundo real há a presença de ruídos, advindos de diversas fontes, que distorcem os sinais tanto de entrada quanto de saída da câmera. Devido a isso, a equação \ref{eqConceitoFR1} pode ser modificada para a seguinte equação que discrimina os ruídos \cite{bestHDRs}:
 
 \begin{align} \label{eqConceitoFR2}
-						f (x, t, R_a) = p + R_b
+						f (x, t) = p + R
 \end{align}
 
 Onde
 \begin{itemize}
-	\item $R_a$ é a abstração dos ruídos advindos do meio, como ruído térmico.
-	\item $R_b$ é a abstração dos ruídos gerados na conversão do sinal analógico para digital, como corrente de escuro.
+	\item $R$ é a abstração dos ruídos advindos do meio, como ruído térmico, e dos ruídos gerados na conversão do sinal analógico para digital, como corrente de escuro.
+	%\item $R_b$ é a abstração dos ruídos gerados na conversão do sinal analógico para digital, como corrente de %escuro.
 \end{itemize} 
 		
 	Vale atentar que o valor de iluminação $x$ também é influenciado pela abertura do obturador, mas este trabalho considera que a abertura do obturador irá permanecer constante, pois qualquer mudança da abertura do obturador influenciará no foco da câmera. 
@@ -78,11 +78,11 @@ Onde
   \label{figConceitoEixo}
 \end{figure}
 
-	A importância do eixo logarítmico para os métodos de geração de imagens HDR se dá por conta de uma suposição assumida por alguns dos autores. Segundo Mann~\cite{mann} e Robertson~\cite{robertson}, a derivada da função resposta da câmera num eixo logarítmico possui relação direta com a confiabilidade que um pixel possui, i.e., quanto maior o valor de confiabilidade menor o ruído associado ao pixel. O cálculo da derivada do ponto de uma função em relação ao eixo logarítmico é dado pela seguinte equação:
+	A importância do eixo logarítmico para os métodos de geração de imagens HDR se dá por conta de uma suposição assumida por alguns dos autores. Segundo Mann~\cite{mann} e Robertson~\cite{robertson}, a derivada da função resposta da câmera num eixo logarítmico possui relação direta com a confiabilidade que um pixel possui, i.e., quanto maior o valor de confiabilidade menor o ruído associado ao pixel. %O cálculo da derivada do ponto de uma %função em relação ao eixo logarítmico é dado pela seguinte equação:
 	
-\begin{align} \label{eqConceitoLog1}
-          y^,_{log}(x) = \frac{dy}{dx}.\frac{x}{log(e)}
-\end{align}
+%\begin{align} \label{eqConceitoLog1}
+%          y^,_{log}(x) = \frac{dy}{dx}.\frac{x}{log(e)}
+%\end{align}
 
 \section{Similaridade Bidirecional} \label{conceitoSimilaridadeBidirecional}
 	A Similaridade Bidirecional \cite{simakov} é um método de maximização das similaridades entre dois sinais $S$(fonte) e $T$(destino), que se utiliza de um conjunto de trechos de ambos os sinais para definir a similaridade tanto em relação à sua coerência quanto à completude das informações.

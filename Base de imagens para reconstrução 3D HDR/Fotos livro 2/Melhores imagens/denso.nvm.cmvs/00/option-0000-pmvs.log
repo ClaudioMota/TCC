@@ -1,0 +1,77 @@
+
+pmvs2
+C:\Users\Nanio\Desktop\Organizar\TCC parte 2\BasePontos2\Melhores imagens\denso.nvm.cmvs\00\
+option-0000--------------------------------------------------
+--- Summary of specified options ---
+# of timages: 3 (enumeration)
+# of oimages: 0 (enumeration)
+level: 1  csize: 2
+threshold: 0.7  wsize: 7
+minImageNum: 3  CPU: 4
+useVisData: 1  sequence: -1
+--------------------------------------------------
+Reading images: ***
+12  Harris running ...3 Harris running ...Harris running ...9201 harris done
+DoG running...8684 harris done
+DoG running...9372 harris done
+DoG running...11807 dog done
+11815 dog done
+11743 dog done
+done
+adding seeds 
+(2,85)(0,10)(1,21)done
+---- Initial: 0 secs ----
+Total pass fail0 fail1 refinepatch: 70995 148 70458 389 537
+Total pass fail0 fail1 refinepatch: 100 0.208465 99.2436 0.547926 0.756391
+Expanding patches...
+---- EXPANSION: 28 secs ----
+Total pass fail0 fail1 refinepatch: 39212 29134 6399 3679 32813
+Total pass fail0 fail1 refinepatch: 100 74.2987 16.319 9.38233 83.681
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.755456 0.16434
+29250 -> 29228 (99.9248%)	0 secs
+Filter Exact: ***
+29228 -> 28160 (96.346%)	0 secs
+FilterNeighbor:	28160 -> 27228 (96.6903%)	0 secs
+FilterGroups:	20
+27228 -> 26770 (98.3179%)	0 secs
+STATUS: 404 0 32946 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 19 secs ----
+Total pass fail0 fail1 refinepatch: 23780 12619 4794 6367 18986
+Total pass fail0 fail1 refinepatch: 100 53.0656 20.1598 26.7746 79.8402
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.79908 0.26099
+39389 -> 39231 (99.5989%)	0 secs
+Filter Exact: ***
+39231 -> 34256 (87.3187%)	0 secs
+FilterNeighbor:	34256 -> 33351 (97.3581%)	0 secs
+FilterGroups:	20
+33351 -> 32500 (97.4483%)	0 secs
+STATUS: 715 0 51621 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 17 secs ----
+Total pass fail0 fail1 refinepatch: 20563 10891 4307 5365 16256
+Total pass fail0 fail1 refinepatch: 100 52.9641 20.9454 26.0906 79.0546
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.906515 0.296708
+43391 -> 43239 (99.6497%)	0 secs
+Filter Exact: ***
+43239 -> 36573 (84.5834%)	0 secs
+FilterNeighbor:	36573 -> 35621 (97.397%)	0 secs
+FilterGroups:	20
+35621 -> 34644 (97.2572%)	0 secs
+STATUS: 984 0 67608 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+---- Total: 0 secs ----

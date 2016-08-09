@@ -1,0 +1,145 @@
+0: toneMap (2)
+image_size:	2000x1500
+1: toneMap (3)
+image_size:	2000x1500
+2: toneMap (4)
+image_size:	2000x1500
+3: toneMap
+image_size:	2000x1500
+Loading image pixel data ...done in 4s
+
+Compute Missing Pairwise Matching, begin...
+********* WARNING ***********
+More than 274MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0000, 2000x1500, 	3270, 4.80sec
+SIFT: 0001, 2000x1500, 	3753, 0.41sec
+SIFT: 0002, 2000x1500, 	3458, 0.35sec
+SIFT: 0003, 2000x1500, 	3640, 0.39sec
+
+###########-------timing------#########
+4 Feature Detection finished, 6 sec used
+#############################
+
+6 pairs to compute match
+NOTE: using 2 matching workers
+0000 and 0002: 472 matches, 0.11sec, #1
+0000 and 0002: [388/472], H[182], 0.01sec
+0001 and 0002: 486 matches, 0.25sec, #1
+0001 and 0002: [433/486], H[235], 0.01sec
+0000 and 0003: 406 matches, 0.13sec, #1
+0000 and 0003: [328/406], H[244], 0.01sec
+0001 and 0003: 410 matches, 0.13sec, #1
+0001 and 0003: [338/410], H[272], 0.01sec
+0002 and 0003: 515 matches, 0.10sec, #1
+0002 and 0003: [462/515], H[284], 0.01sec
+0000 and 0001: 331 matches, 0.88sec, #0
+0000 and 0001: [261/331], H[199], 0.01sec
+
+###########-------timing------#########
+6 Image Match finished, 1 sec used
+#############################
+
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 7.000 seconds used
+
+
+Compute remaining photos, begin...
+PBA library version = 105
+Initialize with ton..p (2) and ton..p (3)
+261 3D points initialized from two images
+PBA: 261 3D pts, 2 cams and 522 projs...
+PBA: 0.689 -> 0.241 (4 LMs in 0.05sec)
+Focal Length : [2400.000]->[2095.173]
+Focal Length : [2400.000]->[2386.903]
+
+#############################
+#3: [ton..p (4)] sees 344 (+445) 3D points
+Estimated Focal Length [1767][0.88N]
+# 876 projs (333 pts and 0 merges)
+PBA: 594 3D pts, 3 cams and 1398 projs...
+PBA: 7.825 -> 0.558 (52 LMs in 0.47sec)
+
+**************************************
+#3/3:  908 projs and 348 pts added.
+PBA: 601 3D pts, 3 cams and 1414 projs...
+PBA: 0.933 -> 0.720 (44 LMs in 0.44sec)
+PBA: 601 3D pts, 3 cams and 1414 projs...
+PBA: 0.720 -> 0.720 (6 LMs in 0.05sec)
+Focal Length : [1766.705]->[1757.435]
+Radial Distortion : [-0.166 -> -54]
+
+#############################
+#4: [toneMap] sees 793 (+303) 3D points
+Estimated Focal Length [1659][0.83N]
+# 906 projs (265 pts and 2 merges)
+PBA: 852 3D pts, 4 cams and 2296 projs...
+PBA: 5.144 -> 0.830 (46 LMs in 0.67sec)
+#points w/ large errors:	7
+#unstable points removed:	1
+Radial Distortion : [0.043 -> 19]
+# 91 projs (45 pts and 0 merges)
+PBA: 895 3D pts, 4 cams and 2383 projs...
+PBA: 0.883 -> 0.662 (5 LMs in 0.09sec)
+Focal Length : [1659.491]->[1498.982]
+Radial Distortion : [0.017 -> 7]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 2 sec used
+1.8(1.8) seconds on Bundle Adjustment (+)
+1.8(1.8) seconds on Bundle Adjustment (*)
+
+---------------------------------------------------
+4 cams, 900 pts (3+: 396)
+2391 projections (3+: 1385)
+---------------------------------------------------
+1 model(s) reconstructed from 4 images;
+4 modeled; 0 reused; 0 EXIF; 
+0MB(0) used to store feature location.
+---------------------------------------------------
+----------------------------------------------------------------
+Compute remaining photos, finished
+Totally 2.000 seconds used
+
+
+Run dense reconstruction, begin...
+Save to denso.nvm ... done
+
+#############################
+Undistorting 4 images in model #0
+param_undistortion_thread_num = 0
+NOTE: using 4 threads...
+#02: ton..p (4) -> 00000002.jpg, 2.054 sec
+#00: ton..p (2) -> 00000000.jpg, 2.077 sec
+#00: ton..p (3) -> 00000001.jpg, 3.149 sec
+#02: toneMap -> 00000003.jpg, 3.257 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs "Y:\ND\UFS\Trabalho de Conclusao de Curso\Documentos\LateX\Figuras\Base2\ToneMap\denso.nvm.cmvs\00\\" 50 4
+genOption "Y:\ND\UFS\Trabalho de Conclusao de Curso\Documentos\LateX\Figuras\Base2\ToneMap\denso.nvm.cmvs\00\\" 1 2 0.700000 7 3 4
+1 cluster is generated for pmvs reconstruction.
+pmvs2 "Y:\ND\UFS\Trabalho de Conclusao de Curso\Documentos\LateX\Figuras\Base2\ToneMap\denso.nvm.cmvs\00\\" option-0000
+This may take a little more time, waiting...
+118 seconds were used by PMVS
+Loading option-0000.ply, 25456 vertices ...
+Loading patches and estimating point sizes..
+
+#############################
+You can manually remove bad MVS points:
+1. Switch to dense MVS points mode;
+2. Hit F1 key to enter the selection mode;
+3. Select points by dragging a rectangle;
+4. Hit DELETE to delete the selected points.
+
+#############################
+Save to denso.nvm ... done
+Save Y:\ND\UFS\Trabalho de Conclusao de Curso\Documentos\LateX\Figuras\Base2\ToneMap\denso.0.ply ...done
+----------------------------------------------------------------
+Run dense reconstruction, finished
+Totally 125.000 seconds used

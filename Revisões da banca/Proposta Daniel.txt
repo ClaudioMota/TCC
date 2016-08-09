@@ -1,0 +1,18 @@
+Olá pessoal
+
+Segue o pdf com minhas observações.
+
+Se me permitem, vou fazer alguns últimos comentários sobre o trabalho, com base na minha pequena experiência em reconstrução 3d, que não é minha especialidade.
+
+A escolha do método de Sen para gerar as imagens HDR é bem perigosa, pois a reconstrução 3D é muito sensível aos ruídos. Num possível trabalho futuro, talvez seja melhor focar nas imagens obtidas com tripé e não usar o método de Sen, já que ele adiciona "fantasmas" à cena.
+
+Um experimento que vocês poderiam fazer: testar se a imagem HDR realmente agrega comparando
+A - os resultados de uma cena medianamente exposta em LDR, porém processada por tone mapping
+B - os resultados de uma cena com HDR
+
+Outro experimento: avaliar a qualidade dos resultados usando algum objeto com geometria conhecida, como o padrão xadrez.
+
+O uso de imagens JPG adiciona ruído que pode comprometer a geração do modelo 3D. Quando possível, é melhor usar imagens sem compressão ou com o mínimo de compressão possível.
+
+Parabéns a vocês pelo trabalho, e obrigado novamente pelo convite!
+Abraços

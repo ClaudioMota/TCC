@@ -1,0 +1,77 @@
+
+pmvs2
+C:\Users\Nanio\Desktop\Organizar\TCC parte 2\Melhores imagens\denso.nvm.cmvs\00\
+option-0000--------------------------------------------------
+--- Summary of specified options ---
+# of timages: 3 (enumeration)
+# of oimages: 0 (enumeration)
+level: 1  csize: 2
+threshold: 0.7  wsize: 7
+minImageNum: 3  CPU: 4
+useVisData: 1  sequence: -1
+--------------------------------------------------
+Reading images: ***
+0 2 Harris running ...Harris running ...4 Harris running ...9426 harris done
+DoG running...8910 harris done
+DoG running...9063 harris done
+DoG running...11735 dog done
+11723 dog done
+11185 dog done
+done
+adding seeds 
+(2,15)(1,29)(0,18)done
+---- Initial: 0 secs ----
+Total pass fail0 fail1 refinepatch: 93478 68 93229 181 249
+Total pass fail0 fail1 refinepatch: 100 0.0727444 99.7336 0.193628 0.266373
+Expanding patches...
+---- EXPANSION: 28 secs ----
+Total pass fail0 fail1 refinepatch: 35210 26143 5678 3389 29532
+Total pass fail0 fail1 refinepatch: 100 74.2488 16.1261 9.62511 83.8739
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.685052 0.144311
+26205 -> 26186 (99.9275%)	0 secs
+Filter Exact: ***
+26186 -> 25506 (97.4032%)	0 secs
+FilterNeighbor:	25506 -> 24797 (97.2203%)	0 secs
+FilterGroups:	20
+24797 -> 24126 (97.294%)	0 secs
+STATUS: 809 0 28972 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 4 secs ----
+Total pass fail0 fail1 refinepatch: 5490 2684 1372 1434 4118
+Total pass fail0 fail1 refinepatch: 100 48.8889 24.9909 26.1202 75.0091
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.83231 0.152545
+26810 -> 26801 (99.9664%)	0 secs
+Filter Exact: ***
+26801 -> 26184 (97.6978%)	0 secs
+FilterNeighbor:	26184 -> 25993 (99.2705%)	0 secs
+FilterGroups:	20
+25993 -> 25808 (99.2883%)	0 secs
+STATUS: 965 0 32934 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 5 secs ----
+Total pass fail0 fail1 refinepatch: 5853 2971 1489 1393 4364
+Total pass fail0 fail1 refinepatch: 100 50.7603 25.4399 23.7998 74.5601
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.970136 0.171247
+28779 -> 28761 (99.9375%)	0 secs
+Filter Exact: ***
+28761 -> 27894 (96.9855%)	0 secs
+FilterNeighbor:	27894 -> 27611 (98.9854%)	0 secs
+FilterGroups:	20
+27611 -> 27179 (98.4354%)	0 secs
+STATUS: 1093 0 37170 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+---- Total: 0 secs ----

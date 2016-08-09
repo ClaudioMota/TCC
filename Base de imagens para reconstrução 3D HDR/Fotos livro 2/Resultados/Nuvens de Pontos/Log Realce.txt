@@ -1,0 +1,143 @@
+0: CimaRealce
+image_size:	2000x1500
+1: DireitaRealcado
+image_size:	2000x1500
+2: EsquerdaRealcado
+image_size:	2000x1500
+3: FrenteRealce
+image_size:	2000x1500
+Loading image pixel data ...done in 0s
+
+Compute Missing Pairwise Matching, begin...
+********* WARNING ***********
+More than 274MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0000, 2000x1500, 	4773, 5.90sec
+SIFT: 0001, 2000x1500, 	2372, 0.46sec
+SIFT: 0002, 2000x1500, 	5571, 0.47sec
+SIFT: 0003, 2000x1500, 	4759, 0.39sec
+
+###########-------timing------#########
+4 Feature Detection finished, 7 sec used
+#############################
+
+6 pairs to compute match
+NOTE: using 2 matching workers
+0000 and 0003: 341 matches, 0.27sec, #1
+0000 and 0003: [237/341], H[180], 0.01sec
+0001 and 0003: 410 matches, 0.09sec, #1
+0001 and 0003: [357/410], H[302], 0.01sec
+0000 and 0001: 256 matches, 0.59sec, #0
+0002 and 0003: 341 matches, 0.22sec, #1
+0000 and 0001: [198/256], H[135], 0.00sec
+0002 and 0003: [274/341], H[192], 0.01sec
+0000 and 0002: 155 matches, 0.79sec, #0
+0000 and 0002: [72/155], H[45], 0.03sec
+0001 and 0002: 309 matches, 0.37sec, #0
+0001 and 0002: [257/309], H[133], 0.01sec
+
+###########-------timing------#########
+6 Image Match finished, 2 sec used
+#############################
+
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 9.000 seconds used
+
+
+Compute remaining photos, begin...
+PBA library version = 105
+Initialize with CimaRealce and Fre..ealce
+237 3D points initialized from two images
+PBA: 237 3D pts, 2 cams and 474 projs...
+PBA: 0.432 -> 0.250 (31 LMs in 0.28sec)
+Focal Length : [2400.000]->[1563.491]
+Focal Length : [2400.000]->[1106.522]
+
+#############################
+#3: [Dir..lcado] sees 317 (+222) 3D points
+Estimated Focal Length [1669][0.83N]
+# 626 projs (217 pts and 0 merges)
+PBA: 453 3D pts, 3 cams and 1098 projs...
+PBA: 6.598 -> 0.430 (35 LMs in 0.30sec)
+
+**************************************
+#3/3:  644 projs and 223 pts added.
+PBA: 459 3D pts, 3 cams and 1116 projs...
+PBA: 0.470 -> 0.451 (26 LMs in 0.24sec)
+PBA: 459 3D pts, 3 cams and 1116 projs...
+PBA: 0.451 -> 0.451 (5 LMs in 0.04sec)
+Focal Length : [1668.959]->[1539.047]
+Radial Distortion : [0.004 -> 1]
+
+#############################
+#4: [Esq..lcado] sees 418 (+188) 3D points
+Estimated Focal Length [1498][0.75N]
+# 552 projs (159 pts and 1 merges)
+PBA: 616 3D pts, 4 cams and 1666 projs...
+PBA: 1.945 -> 0.626 (21 LMs in 0.24sec)
+#points w/ large errors:	3
+Radial Distortion : [0.044 -> 18]
+# 0 projs (0 pts and 0 merges)
+Focal Length : [1498.165]->[1550.386]
+Radial Distortion : [0.044 -> 18]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 2 sec used
+1.1(1.1) seconds on Bundle Adjustment (+)
+1.1(1.1) seconds on Bundle Adjustment (*)
+
+---------------------------------------------------
+4 cams, 617 pts (3+: 327)
+1666 projections (3+: 1087)
+---------------------------------------------------
+1 model(s) reconstructed from 4 images;
+4 modeled; 0 reused; 0 EXIF; 
+0MB(0) used to store feature location.
+---------------------------------------------------
+----------------------------------------------------------------
+Compute remaining photos, finished
+Totally 2.000 seconds used
+
+
+Run dense reconstruction, begin...
+Save to Denso.nvm ... done
+
+#############################
+Undistorting 4 images in model #0
+param_undistortion_thread_num = 0
+NOTE: using 4 threads...
+#02: Dir..lcado -> 00000002.jpg, 1.059 sec
+#03: Esq..lcado -> 00000003.jpg, 1.097 sec
+#00: CimaRealce -> 00000000.jpg, 1.126 sec
+#00: Fre..ealce -> 00000001.jpg, 0.898 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs "C:\Users\Nanio\Desktop\Organizar\TCC parte 2\BasePontos2\Resultados\Realcado\Denso.nvm.cmvs\00\\" 50 4
+genOption "C:\Users\Nanio\Desktop\Organizar\TCC parte 2\BasePontos2\Resultados\Realcado\Denso.nvm.cmvs\00\\" 1 2 0.700000 7 3 4
+1 cluster is generated for pmvs reconstruction.
+pmvs2 "C:\Users\Nanio\Desktop\Organizar\TCC parte 2\BasePontos2\Resultados\Realcado\Denso.nvm.cmvs\00\\" option-0000
+This may take a little more time, waiting...
+26 seconds were used by PMVS
+Loading option-0000.ply, 12998 vertices ...
+Loading patches and estimating point sizes..
+
+#############################
+You can manually remove bad MVS points:
+1. Switch to dense MVS points mode;
+2. Hit F1 key to enter the selection mode;
+3. Select points by dragging a rectangle;
+4. Hit DELETE to delete the selected points.
+
+#############################
+Save to Denso.nvm ... done
+Save C:\Users\Nanio\Desktop\Organizar\TCC parte 2\BasePontos2\Resultados\Realcado\Denso.0.ply ...done
+----------------------------------------------------------------
+Run dense reconstruction, finished
+Totally 28.000 seconds used
+

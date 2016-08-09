@@ -1,6 +1,6 @@
 \subsection{Método Robertson} \label{metodoRobertson}
 
-O método proposto por Robertson \etal~\cite{robertson} aborda a geração de imagens HDR de maneira similar ao método proposto por Mann e Picard (Subseção \ref{metodoMann}). Esse método utiliza a derivada da função resposta em um eixo logarítmico como peso e assume que as imagens são estáticas entre si, variando apenas o tempo de exposição. As principais diferenças entre os dois métodos são a postura adotada em relação ao tratamento do ruído e a forma como a função resposta da câmera é inferida. Neste caso a função resposta é inferida por meio de um método iterativo que supõe uma função inicial padrão e então, com uso da relaxação de Gauss-Seidel, aproxima a função resposta de forma a obter um erro abaixo de um limiar estabelecido.
+O método proposto por Robertson \etal~\cite{robertson} aborda a geração de imagens HDR de maneira similar ao método proposto por Mann e Picard (Subseção \ref{metodoMann}). Esse método utiliza a derivada da função resposta em um eixo logarítmico como peso e assume que as imagens são estáticas entre si, variando apenas o tempo de exposição. As principais diferenças entre os dois métodos são a postura adotada em relação ao tratamento do ruído e a forma como a função resposta da câmera é inferida. Neste caso a função resposta é inferida por meio de um método iterativo que supõe uma função inicial padrão e então, com uso da relaxação de Gauss-Seidel (vide livro de Ruggiero e Lopes~\cite{livroCalculoNumerico}), aproxima a função resposta de forma a obter um erro abaixo de um limiar estabelecido.
 
 \subsubsection{Geração da Imagem HDR} \label{metodoRobertsonGeracao}
 
@@ -28,7 +28,7 @@ Utilizando-se de operações algébricas para calcular o erro de um valor de ilu
 Essa equação representa o erro quadrático entre o valor inferido e o valor obtido pela inversa. Fazendo o gradiente de $O(x)$ tender a zero, Robertson chegou à seguinte equação para inferência do valor de irradiação de luz:
 
 \begin{align} \label{eqRobertsonGeracao}
-	x^{*}_j = \frac{\sum\limits_i{w_{ij}t_{i}I_{p_{ij}}}}{\sum\limits_i{w_{ij}t_{ij}^{2}}}
+	x^{*}_j = \frac{\sum\limits_{i \in N}{w_{ij}t_{i}I_{p_{ij}}}}{\sum\limits_{i \in N}{w_{ij}t_{ij}^{2}}}
 \end{align}
 Onde
 \begin{itemize}
@@ -75,7 +75,7 @@ Para cada iteração $l$ são feitos os seguintes passos:
 
 Dessa forma, a função resposta e a imagem HDR vão sendo inferidas simultaneamente, e quando as modificações feitas no passo iterativo da Equação \ref{eqRobertsonIteracaoFR} forem menores que um limiar predefinido, o passo iterativo é terminado.
 
-Ao final do método, possui-se um conjunto de valores $\{I_{p_{ij}}\}$ que representam informações da função resposta da câmera. Como este conjunto é discreto, há a necessidade de efetuar uma interpolação utilizando a técnica da Spline cúbica (vide Seção \ref{conceitoSpline}) para obtenção da função resposta final como ilustrado na Figura \ref{figRobertsonPontos}. 
+Ao final do método, possui-se um conjunto de valores $\{I_{p_{ij}}\}$ que representam informações da função resposta da câmera. Como este conjunto é discreto, há a necessidade de efetuar uma interpolação utilizando a técnica da Spline cúbica (vide livro de Ruggiero e Lopes~\cite{livroCalculoNumerico}) para obtenção da função resposta final como ilustrado na Figura \ref{figRobertsonPontos}. 
 
 \begin{figure}[H]
   \centering
